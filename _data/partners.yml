@@ -1,3 +1,7 @@
+- name: Zibtek
+  description: Zibtek LLC is a US-based full service software development firm that specializes in high performance engineering, design and advisory services.
+  website: //www.zibtek.com/
+  logo: /images/partners/Zibteklogo.png
   type: technology
 
 - name: Source Forte

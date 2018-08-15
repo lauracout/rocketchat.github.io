@@ -1,12 +1,11 @@
 .hero {
   text-align: center;
   padding: 2em;
-  min-height: 30em;
-  position: relative;
+	min-height: 30em;
+	position: relative;
 
   @media screen and (min-width: $tablet) {
-    padding-top: 5em;
-    height: 75vh;
+    padding-top: 2em;
     max-height: 39em;
   }
 

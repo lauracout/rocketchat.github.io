@@ -35,7 +35,6 @@ body.partners {
     padding-bottom: 0;
     background-size: auto 90%;
     background-position: right bottom;
-    margin-bottom: 10em;
 
     .wrap {
       padding: 2em;
@@ -55,5 +54,11 @@ body.partners {
   img {
     width: 9em;
     margin-right: 1em;
+  }
+}
+
+body.partner .partner-box {
+  @media (min-width: $tablet) {
+    margin-bottom: 10em;
   }
 }

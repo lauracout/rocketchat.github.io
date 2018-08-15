@@ -4,24 +4,24 @@
  */
 
 * {
-	margin: 0; /* 1 */
-	padding: 0; /* 1 */
-	background-repeat: no-repeat; /* 1 */
-	box-sizing: inherit; /* 2 */
-	border: 0;
+  margin: 0; /* 1 */
+  padding: 0; /* 1 */
+  background-repeat: no-repeat; /* 1 */
+  box-sizing: inherit; /* 2 */
+  border: 0;
 }
 
 /**
  * 1. Prevent certain mobile browsers from automatically zooming fonts.
- * 2. Border box sizing 
- * 3. Smooth scroll  
+ * 2. Border box sizing
+ * 3. Smooth scroll
  */
 
 html {
-	-ms-text-size-adjust: 100%; /* 1 */
-	-webkit-text-size-adjust: 100%; /* 1 */
-	box-sizing: border-box; /* 2 */
-	scroll-behavior: smooth; /* 3 */
+  -ms-text-size-adjust: 100%; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 1 */
+  box-sizing: border-box; /* 2 */
+  scroll-behavior: smooth; /* 3 */
 }
 
 /**
@@ -31,10 +31,10 @@ html {
  */
 
 body {
-	font: 16px/1.6 sans-serif; /* 1 */
-	-moz-osx-font-smoothing: grayscale; /* 2 */
-	-webkit-font-smoothing: antialiased; /* 2 */
-	overflow-x: hidden; /* 3 */
+  font: 16px/1.6 sans-serif; /* 1 */
+  -moz-osx-font-smoothing: grayscale; /* 2 */
+  -webkit-font-smoothing: antialiased; /* 2 */
+  overflow-x: hidden; /* 3 */
 }
 
 /**
@@ -46,21 +46,21 @@ h2,
 h3,
 h4,
 h5 {
-	font-size: 1em;
-	font-weight: normal;
+  font-size: 1em;
+  font-weight: normal;
 }
 
 /**
- * 1. Reset link styles 
+ * 1. Reset link styles
  * 2. Links are more dynamic now
  * 3. Remove the gray background on active links in IE 10.
  */
 
 a {
-	text-decoration: none; /* 1 */
-	color: inherit; /* 1 */
-	display: inline-block; /* 2 */
-	background-color: transparent; /* 3 */
+  text-decoration: none; /* 1 */
+  color: inherit; /* 1 */
+  display: inline-block; /* 2 */
+  background-color: transparent; /* 3 */
 }
 
 /**
@@ -69,11 +69,11 @@ a {
 
 ol,
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 /**
- * Remove all default styles and all elements looks the same 
+ * Remove all default styles and all elements looks the same
  */
 
 button,
@@ -81,17 +81,17 @@ input,
 optgroup,
 select,
 textarea {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
-	overflow: visible;
-	border: 0;
-	outline: 0;
-	font: inherit;
-	-webkit-font-smoothing: inherit;
-	letter-spacing: inherit;
-	background: none;
-	vertical-align: top;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  overflow: visible;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  -webkit-font-smoothing: inherit;
+  letter-spacing: inherit;
+  background: none;
+  vertical-align: top;
 }
 
 /**
@@ -99,7 +99,7 @@ textarea {
  */
 
 textarea {
-	resize: none;
+  resize: none;
 }
 
 /**
@@ -108,7 +108,7 @@ textarea {
 
 input[type='button'],
 button {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 /**
@@ -117,7 +117,7 @@ button {
 
 button[disabled],
 html input[disabled] {
-	cursor: default;
+  cursor: default;
 }
 
 /**
@@ -127,10 +127,10 @@ html input[disabled] {
  */
 
 img {
-	display: block; /* 1 */
-	max-width: 100%; /* 2 */
-	height: auto; /* 2 */
-	border-style: none; /* 3 */
+  display: block; /* 1 */
+  max-width: 100%; /* 2 */
+  height: auto; /* 2 */
+  border-style: none; /* 3 */
 }
 
 /**
@@ -138,7 +138,7 @@ img {
  */
 
 svg {
-	fill: currentColor;
+  fill: currentColor;
 }
 
 /**
@@ -146,15 +146,15 @@ svg {
  */
 
 table {
-	border-spacing: 0;
+  border-spacing: 0;
 }
 
 ::-moz-selection {
-	color: $grey-smoke;
-	background: $brand;
+  color: $grey-smoke;
+  background: $brand;
 }
 
 ::selection {
-	color: $grey-smoke;
-	background: $brand;
+  color: $grey-smoke;
+  background: $brand;
 }

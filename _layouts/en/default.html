@@ -32,15 +32,6 @@ layout: default
   </header>
 </div>
 
-<section class="banner container">
-  <div class="col">
-    <div class="banner_wrap {% if page.theme == 'light' %}card theme_box--light{% else %}card theme_box--dark-strong{% endif %}">
-      <p class="{% if page.theme == 'dark' %}theme_type--grey{% endif %}"><a target="_blank" href="http://altconf.com/schedule/" rel="noopener noreferrer"><strong>Rocket.Chat will be at AltConf 2018 (June 4-7)! 🚀</strong> Join our iOS expert Matheus Cardoso for his talk on 'Going Open Source: Advantages & Lessons Learned',
-      Thursday June 7 at 2pm (Room 1, San Jose Marriott, San Jose, CA)!</a></p>
-    </div>
-  </div>
-</section>
-
 {{ content }}
 
 <footer class="app-footer {% if page.theme == 'light' %}app-footer--light{% else %}app-footer--black{% endif %}">
@@ -55,7 +46,7 @@ layout: default
         <li><a href="/cloud">Cloud</a></li>
         <li><a href="/bots">Bots</a></li>
         <li><a href="/community">Community</a></li>
-        <li><a href="/pt/webinars/">Webinars</a></li>
+        <li><a href="/webinars/">Webinars</a></li>
         <li><a href="/docs/">Documentation</a></li>
       </ul>
     </div>
@@ -81,6 +72,7 @@ layout: default
         <li><a href="/terms">Terms of Service</a></li>
         <li><a href="/privacy">Privacy</a></li>
         <li><a href="/dmca">DMCA Policy</a></li>
+        <li><a href="/gdpr">GDPR</a></li>
       </ul>
     </div>
 
@@ -104,7 +96,7 @@ layout: default
         </a>
       </h1>
 
-      <a class="app-footer_github" target="_blank" href="//github.com/RocketChat/Rocket.Chat" rel="noopener noreferrer">
+      <a class="app-footer_github" target="_blank" href="//github.com/RocketChat/Rocket.Chat/stargazers" rel="noopener noreferrer">
         {% if page.theme == 'light' %}
           <span><img src="/images/default/star--dark.svg" alt="GitHub Stars" /></span>
         {% else %}
@@ -139,6 +131,3 @@ layout: default
     </div>
   </div>
 </footer>
-
-{% include livechat.html %}
-{% include webrules.html %}

@@ -19,34 +19,29 @@ theme: dark
         <div class="space--2"></div>
 
         <h1 class="display theme_type--dark">Become a Partner</h1>
-        <p class="theme_type--grey">Authorized partners can take advantage of a direct contact with the Rocket.Chat team in order to boost their sales. From tech support to sales and marketing support, the Official Partner Program has five types of partnerships:</p>
+        <p class="theme_type--grey">Authorized partners can take advantage of a direct contact with the Rocket.Chat team in order to boost their sales. </br>From tech support to sales and marketing support, the Official Partner Program has three types of partnerships:</p>
 
-        <h2 class="text theme_type--dark type--nomargin">Installation Partner</h2>
-        <p class="theme_type--grey">Help Rocket.Chat clients to install and configure their servers to fit their company needs. This service includes brand theming of web, desktop and mobile apps; admin panel configuration; and cloud architecture set-up for scalability of on premise.</p>
+        <h2 class="text theme_type--dark type--nomargin">Technology Partner</h2>
+        <p class="theme_type--grey">Technology partners have advanced knowledge of how to customize Rocket.Chat’s code in order to be able to help Rocket.Chat clients to install and configure their servers to make Rocket.Chat scalable; perform brand theming of web, desktop and mobile apps;configure the admin panel; develop new features, integrations, bots as well as new applications for the marketplace and enterprise versions of Rocket.Chat’s code.</p>
 
-        <h2 class="text theme_type--dark type--nomargin">Hands-on Partner</h2>
-        <p class="theme_type--grey">This involves everything that requires coding Rocket.Chat. Its requires advanced knowledge on how to customize RC’s code. This means: the development of new features; integrations; bots; new applications for the marketplace; enterprise versions of Rocket.Chat’s code</p>
+        <h2 class="text theme_type--dark type--nomargin">Value Added Partner</h2>
+        <p class="theme_type--grey">Value Added partners act as an intermediary between the client and Rocket.Chat by offering Rocket.Chat’s premium features (enterprise licenses or support plans). The partner will add consultation and training, as well as basic configurations and customizations,
+          first and second level support.</p>
 
-        <h2 class="text theme_type--dark type--nomargin">Referral Partner</h2>
-        <p class="theme_type--grey">Partners with sales knowledge to sell Rocket.Chat’s Cloud or Support services, as well as enterprise features.</p>
-
-        <h2 class="text theme_type--dark type--nomargin">Self-Service Partner</h2>
-        <p class="theme_type--grey">Partners that offer their own hosting environment to deploy Rocket.Chat or personal support services.</p>
-
-        <h2 class="text theme_type--dark type--nomargin">Consultation Partner</h2>
-        <p class="theme_type--grey">Experts on Rocket.Chat’s code that are able to teach other companies to successfully design, build, and deploy the Rocket.Chat platform. This type of partner is certified by Rocket.Chat to provide education courses to end users.</p>
+        <h2 class="text theme_type--dark type--nomargin">Hosting Partner</h2>
+        <p class="theme_type--grey">Hosting partners offer their own infrastructure for Rocket.Chat deployment and must be able to offer basic support and handle first &amp; second level support. </br> Rocket.Chat is responsible for the third level of support.</p>
 
         <div class="card theme_box--dark">
           <p class="label theme_type--grey">Want to know more?</p>
-          <p class="theme_type--dark">Get in touch to find out more!</p>
-          {% comment %} <a href="" target="_blank" class="button">Download Brochure</a> {% endcomment %}
+          <p class="theme_type--dark">Get in touch or download our brochure to find out more</p>
+          <a href="/Rocket-Chat-Partnership-Program.pdf" download="/Rocket-Chat-Partnership-Program.pdf" target="_blank" class="button" style="margin-right: .5em">Download Brochure</a>
           <a href="/contact" target="_blank" class="button button--ghost">Contact us</a>
         </div>
 
         <div class="space--3"></div>
       </div>
     </div>
-    
+
     <div class="col no-gutter no-gutter">
       <div class="space--3"></div>
 
@@ -125,18 +120,18 @@ theme: dark
               </fieldset>
 
               <fieldset>
-                <label class="label--small theme_type--grey" for="name">First Name</label>
-                <input class="input input--dark" type="text" id="name" name="name" placeholder="Type first name" />
+                <label class="label--small theme_type--grey" for="firstName">First Name</label>
+                <input class="input input--dark" type="text" id="firstName" name="firstName" placeholder="Type first name" />
               </fieldset>
 
               <fieldset>
-                <label class="label--small theme_type--grey" for="lastname">Last Name</label>
-                <input required minlength="3" class="input input--dark" type="text" id="lastname" name="lastname" placeholder="Type Last name" />
+                <label class="label--small theme_type--grey" for="lastName">Last Name</label>
+                <input required minlength="3" class="input input--dark" type="text" id="lastName" name="lastName" placeholder="Type last name" />
               </fieldset>
 
               <fieldset>
-                <label class="label--small theme_type--grey" for="jobtitle">Job title</label>
-                <input required minlength="3" class="input input--dark" type="text" id="jobtitle" name="jobtitle" placeholder="Type job title" />
+                <label class="label--small theme_type--grey" for="title">Job title</label>
+                <input required minlength="3" class="input input--dark" type="text" id="title" name="title" placeholder="Type job title" />
               </fieldset>
 
               <fieldset>
@@ -145,23 +140,21 @@ theme: dark
               </fieldset>
 
               <fieldset>
-                <label class="label--small theme_type--grey" for="interest">Partnership interest</label>
+                <label class="label--small theme_type--grey" for="partnershipInterest">Partnership interest</label>
                 <div class="select select--theme-dark">
-                  <select required id="interest" name="interest">
+                  <select required id="partnershipInterest" name="partnershipInterest">
                     <option value="">Select partnership type</option>
-                    <option value="Consultation">Consultation</option>
-                    <option value="Installation">Installation</option>
-                    <option value="Hands-on">Hands-on</option>
-                    <option value="Referral">Referral</option>
-                    <option value="Self-Services">Self-Services</option>
+                    <option value="Hosting">Hosting</option>
+                    <option value="Technology">Technology</option>
+                    <option value="Value Added">Value Added</option>
                   </select>
                 </div>
               </fieldset>
 
               <fieldset>
-                <label class="label--small theme_type--grey" for="usedRocketChat">Have you already used Rocket.Chat for a project?</label>
+                <label class="label--small theme_type--grey" for="relationshipDescription">Have you already used Rocket.Chat for a project?</label>
                 <div class="select select--theme-dark">
-                  <select required id="usedRocketChat" name="usedRocketChat">
+                  <select required id="relationshipDescription" name="relationshipDescription">
                     <option value="">Select an option</option>
                     <option value="Yes">Yes</option>
                     <option value="No">No</option>
@@ -173,7 +166,7 @@ theme: dark
 
               <div class="flex-grid grid--justify-end">
                 <div class="col--free no-gutter">
-                  <button class="button button--nobreak" type="submit">Become Partner</button>
+                  <button class="button button--nobreak" type="submit">Become a Partner</button>
                 </div>
               </div>
             </form>
@@ -192,7 +185,7 @@ theme: dark
         <div class="space--2"></div>
         <p class="label theme_type--grey">Become a partner</p>
         <h2 class="display--small theme_type--dark"><strong>Application Successful!</strong></h2>
-        <p class="theme_type--dark">Thank your for applying! We will review your applicantion and will be in touch with you very shortly.</p>
+        <p class="theme_type--dark">Thank you for applying! We will review your application and will be in touch with you very shortly.</p>
         <button class="button js-become-partner-close">Got it</button>
         <div class="space--1"></div>
       </div>

@@ -24,7 +24,7 @@ redirect_from:
     <section class="container">
       <div class="home-hero_wrap home-landingpage">
         <h1 class="display--big theme_type--dark">Open Source Team Communication</h1>
-        <p class="display--small theme_type--grey">Rocket.Chat is free, unlimited and open source. Replace email &amp; Slack with the ultimate team chat software solution.</p>
+        <p class="display--small theme_type--grey">Rocket.Chat is free, unlimited and open source. Replace email, HipChat &amp; Slack with the ultimate team chat software solution.</p>
         <div class="install">
           <a href="/cloud" rel="noopener noreferrer" class="button">Start cloud trial</a>
           <a href="/install" class="button button--ghost">Install own server</a>
@@ -80,7 +80,7 @@ redirect_from:
         <h2 class="display theme_type--dark">A Universe of Possibilities</h2>
         <p class="theme_type--grey">With complete access to the source code, you can fully customize, extend or add new functionality to meet your requirements.</p>
         <p class="theme_type--grey">Join the thousands of developers who are creating the best chat platform on <a class="button--link" href="//open.rocket.chat/" target="_blank" rel="noopener noreferrer">open.rocket.chat</a></p>
-        <a class="home-community_github" target="_blank" rel="noopener noreferrer" href="//github.com/RocketChat/Rocket.Chat">
+        <a class="home-community_github" target="_blank" rel="noopener noreferrer" href="//github.com/RocketChat/Rocket.Chat/stargazers">
           <span><img style="top: 0.1em;"src="/images/default/star.svg" alt="GitHub Stars">Star</span>
           <span class="star-count">{{site.stars}}K</span>
         </a>
@@ -99,15 +99,16 @@ redirect_from:
 
     <div class="flex-grid grid--justify-around">
       <div class="col--third">
-        <h3 class="theme_type--dark display--small"><strong>Blockchain</strong></h3>
-        <p class="theme_type--grey">Join leading blockchain projects such as Aragon, Hyperledger, Golem and others in migrating from Slack. Do so with ease thanks to Slack Import and Slack Bridge. </p>
+        <h3 class="theme_type--dark display--small"><strong>Secure Conversations</strong></h3>
+        <p class="theme_type--grey">A safe workspace with username restriction and admin transparency. Remove bad actors by adding moderators and provide admins with additional controls.</p>
         {% comment %}  <p><a href="" class="button--link button--with-arrow">Learn more</a> {% endcomment %}
       </div>
 
       <div class="col--third">
-        <h3 class="theme_type--dark display--small"><strong>Security</strong></h3>
-        <p class="theme_type--grey">A safe workspace with username restriction and admin transparency. Remove bad actors by adding moderators and provide admins with additional controls.</p>
-        {% comment %} <p><a href="" class="button--link button--with-arrow">Learn more</a> {% endcomment %}
+        <h3 class="theme_type--dark display--small"><strong>Trusted by blockchain innovators</strong></h3>
+        <p class="theme_type--grey">Join leading blockchain projects such as Aragon, Hyperledger, Golem and others in migrating from Slack. Do so easily thanks to <a class="button--link" href="//rocket.chat/docs/administrator-guides/import/slack//" target="_blank" rel="noopener noreferrer">Slack Importer</a> and <a class="button--link" href="//rocket.chat/docs/administrator-guides/import/slack/slackbridge/" target="_blank" rel="noopener noreferrer">Slack Bridge</a>.</p>
+        <p class="theme_type--grey">Migrating from HipChat? Choose from our two <a class="button--link" href="//rocket.chat/docs/administrator-guides/import/hipchat/" target="_blank" rel="noopener noreferrer">HipChat Importers</a>.</p>
+        <p><a href="//rocket.chat/docs/administrator-guides/import/" class="button--link button--with-arrow">Learn more about importing to Rocket.Chat</a></p>
       </div>
     </div>
   </section>
@@ -206,11 +207,11 @@ redirect_from:
   <div class="space--4"></div>
 
   <div class="container">
-    <div class="card theme_box--dark-strong home-install">
+    <div class="card theme_box--brand home-install">
       <div class="wrap">
-        <p class="label theme_type--grey">Web, Desktop &amp; Mobile</p>
+        <p class="label theme_type--kinda-white">Web, Desktop &amp; Mobile</p>
         <h2 class="display theme_type--dark">For all platforms</h2>
-        <p class="theme_type--grey">You can take Rocket.Chat anywhere with our web, desktop &amp; mobile apps, LiveChat clients and SDK.</p>
+        <p class="theme_type--kinda-white">You can take Rocket.Chat anywhere with our web, desktop &amp; mobile apps, LiveChat clients and SDK.</p>
 
         <div class="home-install__icons">
           <img src="/images/install/windows.svg" alt="Rocket.Chat for Windows" />
@@ -223,8 +224,8 @@ redirect_from:
         <div class="space--2"></div>
 
         <div class="home-install__button">
-          <a href="/install" class="button" title="install">
-            <span class="button--icon"><img src="/images/default/install--white.svg" alt="Install"></span>
+          <a href="/install" class="button--blank theme_type--brand" title="install">
+            <span class="button--icon"><img src="/images/default/install.svg" alt="Install"></span>
             <span>Install</span>
           </a>
         </div>
@@ -233,8 +234,6 @@ redirect_from:
   </div>
 
   <div class="space--4"></div>
-
-  {% comment %} <div class="container divider divider--light"></div> {% endcomment %}
 
   <div class="container">
     <div class="flex-grid grid--justify-around align--center">
@@ -248,9 +247,9 @@ redirect_from:
 
   <div class="space--4"></div>
 
-  <div class="container">
+  <div class="container home-endless">
     <div class="flex-grid grid--justify-around">
-      <div class="col--three-quarter">
+      <div class="col--three-quarter align--center">
         <div class="flex-grid">
           <div class="col">
             <img width="70px" src="/images/index/icon__integrations.png" alt="Integrations" />
@@ -309,12 +308,22 @@ redirect_from:
 
 <section class="container">
 
-  <div class="space--2"></div>
+  <div class="space--6"></div>
+
+  <section class="container">
+    <div class="card theme_box--dark-strong partner-box">
+      <div class="wrap">
+        <p class="label theme_type--grey">Become a partner</p>
+        <h2 class="display theme_type--dark">Join the Rocket.Chat ecosystem and become a partner</h2>
+        <p class="theme_type--grey">Contact us to find out  how you could become an approved Rocket.Chat partner</p>
+        <a class="button" href="/become-partner">Become Partner</a>
+      </div>
+    </div>
+  </section>
 
   <div class="flex-grid grid--justify-around align--center">
     <div class="col--haft no-gutter">
-      <p class="label theme_type--grey">Clients</p>
-      <h2 class="display theme_type--dark">Rocket.Chat for all industries</h2>
+      <p class="label theme_type--grey">Rocket.Chat for all industries</p>
     </div>
   </div>
 

@@ -1,23 +1,15 @@
 title: "Free, Open Source, Enterprise Team Chat"
-description:  |
-  Rocket.Chat is the leading open source team chat software solution.
-  Free, unlimited and completely customizable with on-premises and SaaS cloud hosting.
-
+description:  "Rocket.Chat is the leading open source team chat software solution. Free, unlimited and completely customizable with on-premises and SaaS cloud hosting."
 url: https://rocket.chat
 permalink: /:year/:month/:day/:title/
 paginate_path: /blog/page/:num/
 paginate: 8
 
-
 # bump if alterting styles
-version: 37
+version: 41
 
 # read speed
 wpm: 160
-
-# on GitHub project
-stars: 17.8
-forks: 3.8
 
 # set default template for posts
 defaults:

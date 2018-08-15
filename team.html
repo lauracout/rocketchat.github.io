@@ -14,7 +14,6 @@ theme: dark
 
 {% assign BrazilTeam = "" | split: "" %}
 {% assign CanadaTeam = "" | split: "" %}
-{% assign PeruTeam = "" | split: "" %}
 {% assign UnitedkingdomTeam = "" | split: "" %}
 {% assign USATeam = "" | split: "" %}
 {% assign IndiaTeam = "" | split: "" %}
@@ -26,9 +25,6 @@ theme: dark
 
   {% elsif member.country == "Canada" %}
     {% assign CanadaTeam = CanadaTeam | push: member %}
-
-  {% elsif member.country == "Peru" %}
-    {% assign PeruTeam = PeruTeam | push: member %}
 
   {% elsif member.country == "United Kingdom" %}
     {% assign UnitedkingdomTeam = UnitedkingdomTeam | push: member %}
@@ -97,30 +93,6 @@ theme: dark
         <p>
           <strong>Brazil</strong>
           <span><img src="/images/flags/Brazil.png" alt="Brazil" /></span>
-        </p>
-      </div>
-    </div>
-
-    <div class="team-map__pin peru">
-      <div class="team-map__profile">
-        <div class="flags">
-          {% for member in PeruTeam %}
-            {% if forloop.index <= 5 %}
-              {% if member.photo %}
-                <span><img src="/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg" alt=""></span>
-              {% else %}
-                <span><img src="/images/team/placeholder.png" alt=""></span>
-              {% endif %}
-            {% endif %}
-
-            {% if forloop.length > 5 and forloop.last %}
-              <span class="count">+{{ forloop.length | minus:5 }}</span>
-            {% endif %}
-          {% endfor %}
-        </div>
-        <p>
-          <strong>Peru</strong>
-          <span><img src="/images/flags/Peru.png" alt="Peru" /></span>
         </p>
       </div>
     </div>
@@ -228,7 +200,7 @@ theme: dark
     {% for member in teamList %}
     <li class="team-item">
 
-      <div 
+      <div
         class="team-item__image"
         {% if member.photo %}
           style="background-image: url(/images/team/member/{{ member.username | replace: '.', '-' }}-01.jpg)"
@@ -273,9 +245,18 @@ theme: dark
               <img src="/images/team/email.svg" alt="{{ member.email }}" />
             </a>
           {% endif %}
+          {% if member.username %}
+            <a target="_blank" href="https://open.rocket.chat/direct/{{member.username}}">
+              <img src="/images/team/rocketchat.svg" alt="{{ member.username }}" />
+            </a>
+          {% endif %}
         </div>
       </div>
     </li>
     {% endfor %}
+    {% capture modulo %}{{ teamList.size | modulo:3 }}{% endcapture %}
+    {% if modulo != '0' %}
+       <li class="team-item empty"></li>
+    {% endif %}
   </ul>
 <section>

@@ -1,0 +1,66 @@
+---
+layout: landing
+class: landing
+theme: light
+---
+
+<section class="hero">
+  <h1>Connect your favorite Apps</h1>
+  <h2>Short description about the value proposition of apps</h2>
+  <div class="">
+    <input class="search input input--icon-search" type="text" name="" placeholder="Search apps" />
+    <ul class="search-results-list"></ul>
+  </div>
+</section>
+
+<div class="container apps-list-container">
+  <div class="flex-grid">
+    <ul class="links-list col col--fourth">
+      <li class="links-list-item">
+        <button data-category="" class="app-category-button highlight">All Apps</button>
+      </li>
+    </ul>
+    <section class="col">
+      <ul class="apps-list"></ul>
+    </section>
+  </div>
+</div>
+
+<div class="add-app-modal-wrapper display-none"></div>
+
+<script id="app-card-template" type="html/template">
+  <div class="app-card col--haft">
+    <div class="icon-wrapper">
+      <div class="icon"></div>
+    </div>
+    <div class="content-wrapper">
+      <span class="name"></span>
+      <span class="description"></span>
+      <ul class="categories-list"></ul>
+    </div>
+  </div>
+</script>
+
+<script id="search-result-template" type="html/template">
+  <div class="search-result">
+    <div class="icon-wrapper">
+      <div class="icon"></div>
+    </div>
+    <div class="content-wrapper">
+      <span class="name"></span>
+      <span class="description"></span>
+    </div>
+  </div>
+</script>
+
+<script id="add-app-modal-template" type="html/template">
+  <div class="modal-wrapper-background"></div>
+  <div class="modal-content">
+    <div class="app-card-wrapper"></div>
+    <div class="close-button"></div>
+  </div>
+</script>
+
+<script src="/jquery.js"></script>
+<script src="/polyfill/clipboard.min.js"></script>
+<script src="/marketplace.js"></script>

@@ -19,8 +19,6 @@ Rocket.Chat Marketplace will be a central space for all Rocket.Chat apps to be b
 
 The goal for Marketplace is to make the most comprehensive app framework for the most powerful collaboration platform, which in turn ties into the wider aim underpinning the launch of Marketplace which is a move towards Rocket.Chat’s aim of becoming a fully-fledged platform rather than just a communication app.
 
-**How does the community fit into this project?**
-
 Marketplace will be a way to offer recognition to those who continue to help build Rocket.Chat and will eventually build an economy around the community with paid-for apps.
 
 It will help to prevent bottlenecks that clog up the GitHub repo with feature requests for the main product, limit the number of issues and merging by turning them into app suggestions instead. This will allow us to avoid bloating the main product with more features and offer users the choice to add them as needed, resulting in a leaner product which can then be boosted on demand with more features.

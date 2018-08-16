@@ -99,14 +99,6 @@
   photo: yes
   country: Brazil
 
-- name: Gabriel Delavald
-  role: Senior Front End Engineer
-  github_username: gdelavald
-  department: Technology
-  username: gabriel.delavald
-  photo: yes
-  country: Brazil
-
 - name: Manish Kakoti
   role: Federation Engineer
   github_username: madguy02

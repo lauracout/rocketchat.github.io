@@ -1,11 +1,23 @@
+- name: Zibtek
+  description: Zibtek LLC is a US-based full service software development firm that specializes in high performance engineering, design and advisory services.
+  website: //www.zibtek.com/
+  logo: /images/partners/Zibteklogo.png
+  type: technology
+
 - name: Source Forte
   description: Certified implementers & experts in several of the most popular and well respected open source platforms.
   website: //sourceforte.com/our-global-collaborations/
   logo: /images/partners/sourceforte.png
   type: technology
 
+- name: Vortigo
+  description: Vortigo is a software factory support companies with digital transformation initiatives through software development, consultancy, professional services and products in the SAAS model.
+  website: //vortigo.com.br/en/
+  logo: /images/partners/Vortigologo.png
+  type: technology
+
 - name: Curve Stone
-  description: Hand-on partner with expertise on configuration, customization and development of Rocket.Chat’s code.
+  description: Hands-on partner with expertise on the configuration, customization and development of Rocket.Chat.
   website: //www.curvestone.io/rocket-chat
   logo: /images/partners/curvestone.png
   type: technology

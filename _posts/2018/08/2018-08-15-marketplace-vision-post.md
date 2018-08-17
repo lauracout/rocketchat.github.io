@@ -47,7 +47,8 @@ The apps themselves will help improve the UI of Rocket.Chat. As mentioned above,
 
 **How will Marketplace be run once it launches? How will you distribute apps?**
 
-Marketplace will emerge to the public in a phased approach, with a simpler version released first that will be open to community feedback, as ever.
+Marketplace will emerge to the public in a phased approach, with a simpler version released first that will be open to community feedback.
+
 The day to day running of Marketplace will be done by its dedicated in-house team who will initially review apps, and our support team will receive training to incorporate marketplace into their remit. All apps will, however, be uploaded with the contact details of their publisher made publicly available, so any app-related support will fall to the app publisher, not Rocket.Chat who will be responsible for support related to the correct functioning of Marketplace as a platform.
 
 Access to apps will be enabled by becoming an admin on a Rocket.Chat server or by creating a developer account directly on Marketplace.

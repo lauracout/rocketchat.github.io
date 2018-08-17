@@ -52,7 +52,7 @@ The day to day running of Marketplace will be done by its dedicated in-house tea
 
 Access to apps will be enabled by becoming an admin on a Rocket.Chat server or by creating a developer account directly on Marketplace.
 Upload of apps to the store will be done by distribution from a central Marketplace server.
-Marketplace will be available at www.rocket.chat/apps and we plan to eventually have a dedicated apps.rocket.cha url.
+Marketplace will be available at rocket.chat/marketplace and we plan to eventually have a dedicated apps.rocket.chat url.
 
 **How will the RC marketplace compare to competitors’ similar iterations?**
 

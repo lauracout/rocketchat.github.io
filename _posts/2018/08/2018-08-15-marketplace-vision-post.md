@@ -58,3 +58,5 @@ Marketplace will be available at rocket.chat/marketplace and we plan to eventual
 **How will the RC marketplace compare to competitors’ similar iterations?**
 
 Rocket.Chat Marketplace will go beyond Slack’s App Directory as devs will be able to create new UI elements for the platform, and continue to improve it, in a similar fashion to Wordpress and its constant evolution.
+
+All of our on-premise, cloud, or third-party hosted users will be able to take advantage of the rich extension and customization possibilities offered by apps on the Marketplace.

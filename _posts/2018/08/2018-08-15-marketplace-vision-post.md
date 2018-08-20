@@ -47,7 +47,7 @@ The apps themselves will help improve the UI of Rocket.Chat. As mentioned above,
 
 **How will Marketplace be run once it launches? How will you distribute apps?**
 
-Marketplace will emerge to the public in a phased approach, with a simpler version released first that will be open to community feedback.
+Marketplace will emerge to the public in a phased approach, with a simpler version released first that will be open to community feedback. The best place to offer feedback is on our dedicated [Forum](https://forums.rocket.chat/c/rocket-chat-apps).
 
 The day to day running of Marketplace will be done by its dedicated in-house team who will initially review apps, and our support team will receive training to incorporate marketplace into their remit. All apps will, however, be uploaded with the contact details of their publisher made publicly available, so any app-related support will fall to the app publisher, not Rocket.Chat who will be responsible for support related to the correct functioning of Marketplace as a platform.
 
@@ -59,4 +59,4 @@ Marketplace will be available at rocket.chat/marketplace and we plan to eventual
 
 Rocket.Chat Marketplace will go beyond Slack’s App Directory as devs will be able to create new UI elements for the platform, and continue to improve it, in a similar fashion to Wordpress and its constant evolution.
 
-All of our on-premise, cloud, or third-party hosted users will be able to take advantage of the rich extension and customization possibilities offered by apps on the Marketplace.
+All of our on-premise, Cloud, or third-party hosted users will be able to take advantage of the rich extension and customization possibilities offered by apps on the Marketplace.

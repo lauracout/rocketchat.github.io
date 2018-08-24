@@ -7,7 +7,7 @@
           {% for category in categories_list %}
             <a 
               class="label theme_type--dark {% if category == page.category %}blog__list-current{% endif %}"
-              href="/category/{{ category | slugify }}"
+              href="/category/{{ category | slugify }}/"
             >
               {{ category }}
             </a>
@@ -16,7 +16,7 @@
           {% for category in categories_list %}
             <a 
               class="label theme_type--dark {% if category[0] == page.category %}blog__list-current{% endif %}"
-              href="/category/{{ category[0] | slugify }}"
+              href="/category/{{ category[0] | slugify }}/"
             >
               {{ category[0] }}
             </a>

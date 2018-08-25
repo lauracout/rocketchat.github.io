@@ -16,13 +16,18 @@ redirect_from:
       <p class="label theme_type--grey">Community</p>
       <h2 class="display--big theme_type--dark">Join the Rocket.Chat community </h2>
       <p class="theme_type--grey">Hundreds of people contribute to Rocket.Chat projects by coding JavaScript, TypeScript, Java, Swift, HTML, CSS and writing documentation.</p>
-      <p class="theme_type--grey">Join our open community server to chat with the Rocket.Chat team and community.</p>
+      <p class="theme_type--grey">Join our <a class="button--link" href="//open.rocket.chat/" target="_blank" rel="noopener noreferrer">open server</a> to chat with the Rocket.Chat team and community.</p>
 
       <div class="flex-grid--nobreak">
-        <div class="col--free">
-          <a class="button" target="_blank" rel="noopener noreferrer" href="//open.rocket.chat/">open.rocket.chat</a>
-        </div>
         <div class="col">
+          <a class="home-community_github" target="_blank" rel="noopener noreferrer" href="//github.com/RocketChat/Rocket.Chat/stargazers">
+            <span><img style="top: 0.1em;"src="/images/default/star.svg" alt="GitHub Stars">Star</span>
+            <span class="star-count">{{site.stars}}K</span>
+          </a>
+          <a class="home-community_github" target="_blank" rel="noopener noreferrer" href="//github.com/RocketChat/Rocket.Chat/fork">
+            <span><img src="/images/default/fork.svg" alt="GitHub forks">Fork</span>
+            <span class="fork-count">{{site.forks}}K</span>
+          </a>
           <a class="community__hero_github-link" target="_blank" rel="noopener noreferrer" href="//github.com/RocketChat/Rocket.Chat">
             <span><img src="/images/default/github.svg" alt="GitHub"></span>
             Open on GitHub
@@ -33,67 +38,135 @@ redirect_from:
   </div>
 </section>
 
-<div class="space--8"></div>
-
-<section class="container">
-  <div class="flex-grid grid--justify-around">
-    <div class="col--third">
-      <h3 class="display--small theme_type--dark"><strong>Star on GitHub</strong></h3>
-      <p class="theme_type--grey type--nomargin">The open source team chat application with over 600 contributors across our projects. Star Rocket.Chat on GitHub and help others discover the platform. </p>
-      <div class="space--2"></div>
-      <a href="//github.com/RocketChat/Rocket.Chat/stargazers" target="_blank" rel="noopener noreferrer" class="button--link button--with-arrow">View Stargazers on Github</a>
-      <div class="space--4"></div>
-    </div>
-
-    <div class="col--third">
-      <h3 class="display--small theme_type--dark"><strong>Use and Share</strong></h3>
-      <p class="theme_type--grey type--nomargin">Install your own server and share Rocket.Chat with your friends and colleagues who haven't experienced the power of an open source team chat platform.</p>
-      <div class="space--2"></div>
-      <a href="/install/" class="button--link community__hero-install-btn">
-        <span><img src="/images/default/install.svg" alt="Install"></span> 
-        Install
-      </a>
+<section class="container" id="free-resources">
+  <div class="flex-grid grid--justify-around align--center">
+    <div class="col--haft">
+      <p class="label">Community Resources</p>
+      <h2 class="display theme_type--dark">Get help and help others</h2>
+      <p class="display--small theme_type--grey">Get support from a passionate, global and active open source community</p>
     </div>
   </div>
 
   <div class="space--4"></div>
 
-  <div class="flex-grid grid--justify-around">
-    <div class="col--third">
-      <h3 class="display--small theme_type--dark"><strong>Squash Bugs</strong></h3>
-      <p class="theme_type--grey type--nomargin">Join Rocket.Chat's passionate community to help us manage issues and squash bugs for Rocket.Chat Server, Electron, iOS and Android clients.</p>
-      <div class="space--2"></div>
-      <a href="//github.com/RocketChat/Rocket.Chat/issues" target="_blank" rel="noopener noreferrer" class="button--link button--with-arrow">View Github</a>
-      <div class="space--4"></div>
+  <div class="flex-grid">
+
+    <div class="col">
+      <div class="card card--full-height theme_box--dark-strong theme_type--dark">
+        <div class="flex-grid">
+          <div class="col--fourth no-gutter"><img class="card_icon" src="/images/support/githubissues.png" alt="Github Issues" /></div>
+          <div class="col no-gutter">
+            <h3 class="display--small theme_type--dark"><strong>Star on GitHub</strong></h3>
+            <p class="theme_type--grey">The open source team chat application with over 600 contributors across our projects. Star Rocket.Chat on GitHub and help others discover the platform.</p>
+            <a href="//github.com/RocketChat/Rocket.Chat/stargazers" target="_blank" rel="noopener noreferrer" class="button--link button--with-arrow">View Stargazers</a>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="col--third">
-      <h3 class="display--small theme_type--dark"><strong>Document</strong></h3>
-      <p class="theme_type--grey type--nomargin">You don't have to be a developer to contribute to Rocket.Chat. You can create new or update old Rocket.Chat.Docs articles or tutorials directly through GitHub.</p>
-      <div class="space--2"></div>
-      <a href="/docs/" class="button--link button--with-arrow">View Documents</a>
+    <div class="col">
+      <div class="card card--full-height theme_box--dark-strong theme_type--dark">
+        <div class="flex-grid">
+          <div class="col--fourth no-gutter"><img class="card_icon" src="/images/support/doc.png" alt="Documentation & Tutorials" /></div>
+          <div class="col no-gutter">
+            <h3 class="display--small theme_type--dark"><strong>Writte Documentation</strong></h3>
+            <p class="theme_type--grey">You don't have to be a developer to contribute to Rocket.Chat. You can create new or update old Rocket.Chat.Docs articles or tutorials directly through GitHub.</p>
+            <a href="/docs" target="_blank" rel="noopener noreferrer" class="button--link button--with-arrow" href="">View Documentation</a>
+          </div>
+        </div>
+      </div>
     </div>
+
   </div>
+  <div class="flex-grid">
 
-  <div class="space--4"></div>
-
-  <div class="flex-grid grid--justify-around">
-    <div class="col--third">
-      <h3 class="display--small theme_type--dark"><strong>Write a blog post</strong></h3>
-      <p class="theme_type--grey type--nomargin">Write a blog post on your Rocket.Chat story, tell us about how it improved your team’s communication and we'll share it with the community.</p>
-      <div class="space--2"></div>
-      <a href="/blog/index.html" class="button--link button--with-arrow">Visit Blog</a>
-      <div class="space--4"></div>
+    <div class="col">
+      <div class="card card--full-height theme_box--dark-strong theme_type--dark">
+        <div class="flex-grid">
+          <div class="col--fourth no-gutter"><img class="card_icon" src="/images/support/githubissues.png" alt="Github Issues" /></div>
+          <div class="col no-gutter">
+            <h3 class="display--small theme_type--dark"><strong>Squash Bugs</strong></h3>
+            <p class="theme_type--grey">Join Rocket.Chat's passionate community to help us manage issues and squash bugs for Rocket.Chat Server, Electron, iOS and Android clients.</p>
+            <a href="//github.com/RocketChat/Rocket.Chat/issues" target="_blank" rel="noopener noreferrer" class="button--link button--with-arrow" href="">View Issues</a>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="col--third">
-      <h3 class="display--small theme_type--dark"><strong>Give a Talk</strong></h3>
-      <p class="theme_type--grey type--nomargin">Give a talk at a local meetup or conference sharing how you use Rocket.Chat, how you customized it to suit your needs and improved your team’s communication.</p>
-      <div class="space--2"></div>
-      <a href="/category/events/" class="button--link button--with-arrow">View Events</a>
+    <div class="col">
+      <div class="card card--full-height theme_box--dark-strong theme_type--dark">
+        <div class="flex-grid">
+          <div class="col--fourth no-gutter"><img class="card_icon" src="/images/support/doc.png" alt="Documentation & Tutorials" /></div>
+          <div class="col no-gutter">
+            <h3 class="display--small theme_type--dark"><strong>Suggest a Blog Post</strong></h3>
+            <p class="theme_type--grey">Write or suggest a blog post on your Rocket.Chat story, tell us about how it improved your team’s communication and we'll share it with the community.</p>
+            <a href="//github.com/RocketChat/rocketchat.github.io/issues" target="_blank" rel="noopener noreferrer" class="button--link button--with-arrow" href="">View Website Repository</a>
+          </div>
+        </div>
+      </div>
     </div>
+
   </div>
+  <div class="flex-grid">
 
-</seciton>
+    <div class="col">
+      <div class="card card--full-height theme_box--dark-strong theme_type--dark">
+        <div class="flex-grid">
+          <div class="col--fourth no-gutter"><img class="card_icon" src="/images/support/forum.png" alt="Rocket.Chat Forums" /></div>
+          <div class="col no-gutter">
+            <h3 class="display--small theme_type--dark"><strong>Participate on the Forums</strong></h3>
+            <p class="theme_type--grey">To discuss Rocket.Chat development with the Rocket.Chat team and community join our Discourse forum.</p>
+            <br />
+            <a href="//forums.rocket.chat/" target="_blank" rel="noopener noreferrer" class="button--link button--with-arrow" href="">Visit Forum</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card card--full-height theme_box--dark-strong theme_type--dark">
+        <div class="flex-grid">
+          <div class="col--fourth no-gutter"><img class="card_icon" src="/images/support/video.png" alt="Tutorial Videos" /></div>
+          <div class="col no-gutter">
+            <h3 class="display--small theme_type--dark"><strong>Create Tutorial Videos</strong></h3>
+            <p class="theme_type--grey">Rocket.Chat has a passionate community of content creators on YouTube sharing tutorials on configuring, installing, customizing and developing for Rocket.Chat.</p>
+            <a href="//www.youtube.com/channel/UCin9nv7mUjoqrRiwrzS5UVQ" target="_blank" rel="noopener noreferrer" class="button--link button--with-arrow" href="">View Videos</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="flex-grid">
+
+    <div class="col">
+      <div class="card card--full-height theme_box--dark-strong theme_type--dark">
+        <div class="flex-grid">
+          <div class="col--fourth no-gutter"><img class="card_icon" src="/images/support/forum.png" alt="Rocket.Chat Forums" /></div>
+          <div class="col no-gutter">
+            <h3 class="display--small theme_type--dark"><strong>Join our Open Server</strong></h3>
+            <p class="theme_type--grey">Chat to thousands of developers who are creating the best chat platform on the Rocket.Chat open server.</p>
+            <br />
+            <a href="//open.rocket.chat/" target="_blank" rel="noopener noreferrer" class="button--link button--with-arrow" href="">Join Open Server</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card card--full-height theme_box--dark-strong theme_type--dark">
+        <div class="flex-grid">
+          <div class="col--fourth no-gutter"><img class="card_icon" src="/images/support/video.png" alt="Tutorial Videos" /></div>
+          <div class="col no-gutter">
+            <h3 class="display--small theme_type--dark"><strong>Come Meet Us</strong></h3>
+            <p class="theme_type--grey">Give a talk at a local meetup or conference sharing how you use Rocket.Chat, how you customized it to suit your needs and improved your team’s communication.</p>
+            <a href="/category/events/" class="button--link button--with-arrow">View Events</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
 
 <div class="space--6"></div>

@@ -3,9 +3,9 @@ title: "Introducing Rocket.Chat Marketplace"
 categories:
   - News
   - Product
-date: 2018-08-01 8:00:00
+date: 2018-08-31 8:00:00
 author: Isabella Russell
-cover:
+cover: /images/posts/2018/08/marketplace-post/Marketplace-cover.png
 featured: true
 ios_release: true
 ---

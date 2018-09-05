@@ -8,14 +8,14 @@ cover: /images/press/logos/512x512.jpg
 featured: true
 ---
 
-After Slack announced its acquisition and discontinuation of Atlassian HipChat and Stride, HipChat users have voiced  their concerns regarding the lack of self-hosted options for team chat and collaboration, as well as some security concerns linked to Cloud versus on-prem options.
+After Slack announced its acquisition and discontinuation of Atlassian HipChat and Stride, HipChat users have voiced their concerns regarding the lack of self-hosted options for team chat and collaboration, as well as some security concerns linked to Cloud versus on-prem options.
 
 ![rocket.chat team chat platform](/images/posts/2018/08/2018-08-07-welcome-to-rocketchat/rc_descktop_app.png)
 
 There is strong demand from our user community to accommodate the migration of Atlassian HipChat users to Rocket.Chat.  In light of this, Rocket.Chat is offering  a special Migration Bundle for HipChat Data Center users looking to migrate to its platform.
 <br/>
 This Migration Bundle includes:
-- Import assistance for HipChat Data Center users (a built-in feature in Rocket.Chat)
+- [Import](https://rocket.chat/docs/administrator-guides/import/hipchat/) assistance for HipChat Data Center users (a built-in feature in Rocket.Chat)
 - Discount on Rocket.Chat for early adopters of our Enterprise Bundle offer (includes Enterprise and Tech Support)
 
 [Contact us](https://rocket.chat/contact) to learn more about the Migration Bundle and how it could work for your team as an alternative to HipChat or a move to Slack.

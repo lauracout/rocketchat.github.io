@@ -29,6 +29,37 @@ This release brings Rocket.Chat for iPad to new levels of productivity for keybo
 
 (TODO: insert image here)
 
+### Swipe actions
+
+We are introducing Swipe Actions. It is a long awaited feature for some of our users and we are really happy that we could make it for this release. 
+Now you swiping right a conversation on the conversations list, you'll be able to mark it as read or unread and swiping left you'll be able to hide (close) 
+it or add it to your favorite conversations section.
+
+Although it looks like a simple feature it winded up being such a challenge for us. Firstly because the conversation list can be huge for some users
+and as the list grows it becomes harder to keep everything syncronyzed, from user status to last message previews and any other information that might change on another client
+and must be reflected seamlessly on the iOS app. Still on the conversations list complexity, supporting grouping and sorting changes without impacting on scrolling performance or 
+crowding the main thread can be challeging as well. Besides those issues, we found out that Apple's swipe actions API is broken, we've experienced a lot of bugs such as not handling the swipe
+animation right and even not supporting images on the actions for cells with a height lesser than 91 pt. 
+
+// Suggestion: Image (meme? :P) referecing open source software
+
+### In OSS we trust!
+
+In order to solve our issues dealing with our huge converstions list and supporting swipe actions decently we carefully decided to add two new open source dependencies
+to our project, they're DifferenceKit and SwipeCellKit.
+
+DifferenceKit is an awesome diffing algorithm library for iOS development developed and maintened by Ryo Aoyama (@ra1028 on GitHub). 
+The algorithm is based on the Paul Heckel's algorithm, and the implementation of @ra1028 seems to be the most performatic out there! 
+Altough it is a young project it quickly has become a popular one and @ra1028 is being very agile on supporting fixing the issues when they come up, you should defintely check it out.
+
+SwipeCellKit is another great open source library, it was created by Jeremy Koch (@jerkoch on GitHub) and is currently maintened by Mohammad Kurabi (@kurabi on GitHub).
+This library was conceived due to the frustration of @jerkoch with the limitations of the Apple's swipe actions API, here you can read the backstory: https://jerkoch.com/2017/02/07/swiper-no-swiping.html. 
+We decided to choose for a very simple (and good) reason: it just works (better than the Apple's API). 
+
+This is why we love open source. A huge thanks for the creators and maintainers of there awesome libraries and a special thanks to our illustrious contributor Samar Sunkaaria (@Sameesunkaria) that handled the implementation of these libraries for us! 
+
+That being said you must update your app to the 3.1 version right now and experience the new conversations list experience. 
+
 ### Contributors
 
 _Thank you all for helping us on this release!_

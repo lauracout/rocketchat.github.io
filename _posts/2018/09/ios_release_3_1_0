@@ -2,7 +2,7 @@
 title: "Rocket.Chat iOS 3.1 Released"
 categories:
 - News
-date: 2018-09-07 08:00:00
+date: 2018-09-05 08:00:00
 author: Rocket.Chat Team
 cover: /images/posts/2018/07/2018-07-17-ios_3_0_0_released/cover-ios-3.jpg
 featured: true
@@ -33,11 +33,19 @@ This release brings Rocket.Chat for iPad to new levels of productivity for keybo
 
 _Thank you all for helping us on this release!_
 
-(TODO: update list of contributors)
+* [@artrmz](https://github.com/artrmz)
+* [@cardoso](https://github.com/cardoso)
+* [@cmassi](https://github.com/cmassi)
+* [@filipealva](https://github.com/filipealva)
+* [@kaiiiiiiiii](https://github.com/kaiiiiiiiii)
+* [@rafaelks](https://github.com/rafaelks)
+* [@Sameesunkaria](https://github.com/Sameesunkaria)
+* [@soundstorm](https://github.com/soundstorm)
+* [@YuuTakahara](https://github.com/YuuTakahara)
 
 ## Release changelog
 
-For a full list of features added and bugs fixed, please see the [Rocket.Chat iOS 3.0.0 release changelog on GitHub](https://github.com/RocketChat/Rocket.Chat.iOS/releases/tag/v3.0.0).
+For a full list of features added and bugs fixed, please see the [Rocket.Chat iOS 3.1.0 release changelog on GitHub](https://github.com/RocketChat/Rocket.Chat.iOS/releases/tag/v3.1.0).
 
 <br/>
 <br/>

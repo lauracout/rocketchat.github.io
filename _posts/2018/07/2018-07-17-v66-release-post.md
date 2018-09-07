@@ -235,7 +235,7 @@ These versions require the following engine versions:
 
 ## Release changelogs
 
-[Download](/download) Rocket.Chat 0.66 and install it via a
+[Download](/install) Rocket.Chat 0.66 and install it via a
 [Snap](https://rocket.chat/docs/installation/manual-installation/ubuntu/),
 [Docker](https://rocket.chat/docs/installation/docker-containers/) or
 [from scratch on your server](https://rocket.chat/docs/installation/manual-installation/).

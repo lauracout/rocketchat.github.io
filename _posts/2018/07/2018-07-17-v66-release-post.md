@@ -157,7 +157,7 @@ The rendering performance of the rooms list was improved and the sorting is now 
 - Notification preferences being lost when switching view mode ([#11295](https://github.com/RocketChat/Rocket.Chat/pull/11295))
 - Livestream muted when audio only option was enabled ([#11267](https://github.com/RocketChat/Rocket.Chat/pull/11267))
 
-### Minor change
+### Minor changes
 
 Setup Wizard username validation, step progress and optin/optout ([#11254](https://github.com/RocketChat/Rocket.Chat/pull/11254))
 

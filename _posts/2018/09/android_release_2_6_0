@@ -24,11 +24,25 @@ Highlights include:
 
 ### Admin Panel
 
+If you've access to the admin panel in the server you're logged in, you can now access it directly from your Android device by going to the left-side panel and opening the "Admin panel" item. We're releasing a new version of our core (0.69.2) that fixes some bugs related to the mobile usage on it, please make sure you're up to date with that before trying the admin in mobile 🙈.
+
+(IMAGE ABOUT ADMIN IN THE ISSUE)
+
 ### Update your avatar
+
+It's possible now to update your avatar by taking a new photo, choosing a picture from the photo library or even clearing your avatar if you want to.
+
+(IMAGE ABOUT UPDATING AVATAR IN THE ISSUE)
 
 ### Custom Emojis
 
+Now you have access to all your custom emojis directly from the emoji keyboard and soon to also react to a message!
+
+(IMAGE ABOUT CUSTOM EMOJIS IN THE ISSUE)
+
 ### FOSS
+
+This is a long time feature request to our Android app ([issue number 26!!!](https://github.com/RocketChat/Rocket.Chat.Android/issues/26)) and was finally accomplished with a huge help from [@Bubu](https://github.com/RocketChat/Rocket.Chat.Android/pull/1232) and [@luciofm](https://github.com/RocketChat/Rocket.Chat.Android/pull/1585). Bubu is now working to send the FOSS release to the F-Droid store and soon you'll be able to install directly from there. Until then, you can download the APK file and install directly on your device by looking into the assets of [our releases](https://github.com/RocketChat/Rocket.Chat.Android/releases/tag/v2.6.0).
 
 ### Contributors
 

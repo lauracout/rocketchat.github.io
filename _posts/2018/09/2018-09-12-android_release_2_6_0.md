@@ -11,17 +11,6 @@ android_release: true
 
 Rocket.Chat is proud to announce a new release of its Android native application, version 2.6 now.
 
-<<<<<<< HEAD
-- Added support to Admin panel for admins (see in left sidebar menu);
-- Added support to custom emojis;
-- Added support to German, Ukranian and Japanese languages and improvements to Hindi and Russian translations;
-- Added support to Rich Messaging;
-- Upload/Reset your avatar;
-- Now you can use the app without Google Play Services (check our forum)
-- Updated app icon;
-- Fixed tons of bugs and crashes
-
-=======
 Highlights include:
 
 - Added support to Admin panel if you’re admin (see in left sidebar menu);
@@ -54,7 +43,6 @@ Now you have access to all your custom emojis directly from the emoji keyboard a
 ### FOSS
 
 This is a long time feature request to our Android app ([issue number 26!!!](https://github.com/RocketChat/Rocket.Chat.Android/issues/26)) and was finally accomplished with a huge help from [@Bubu](https://github.com/RocketChat/Rocket.Chat.Android/pull/1232) and [@luciofm](https://github.com/RocketChat/Rocket.Chat.Android/pull/1585). Bubu is now working to send the FOSS release to the F-Droid store and soon you'll be able to install directly from there. Until then, you can download the APK file and install directly on your device by looking into the assets of [our releases](https://github.com/RocketChat/Rocket.Chat.Android/releases/tag/v2.6.0).
->>>>>>> 63ba2050951891fbead99a3ffd18a7cc9e65c52f
 
 ### Contributors
 
@@ -70,7 +58,7 @@ _Thank you all for helping us on this release!_
 * [@Pitstopper](https://github.com/Pitstopper)
 * [@Shailesh351](https://github.com/Shailesh351)
 * [@TacoTheDank](https://github.com/TacoTheDank)
-* [@twi123](https://github.com/twi123) 
+* [@twi123](https://github.com/twi123)
 
 ## Release changelog
 

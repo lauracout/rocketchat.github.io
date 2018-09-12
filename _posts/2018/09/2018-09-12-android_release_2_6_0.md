@@ -26,19 +26,19 @@ Highlights include:
 
 If you've access to the admin panel in the server you're logged in, you can now access it directly from your Android device by going to the left-side panel and opening the "Admin panel" item. We're releasing a new version of our core (0.69.2) that fixes some bugs related to the mobile usage on it, please make sure you're up to date with that before trying the admin in mobile 🙈.
 
-(IMAGE ABOUT ADMIN IN THE ISSUE)
+![Admin Panel](https://user-images.githubusercontent.com/551004/45422705-63f9c480-b667-11e8-808a-c5c20d772950.png)
 
 ### Update your avatar
 
 It's possible now to update your avatar by taking a new photo, choosing a picture from the photo library or even clearing your avatar if you want to.
 
-(IMAGE ABOUT UPDATING AVATAR IN THE ISSUE)
+![Update your avatar](https://user-images.githubusercontent.com/551004/45422698-5e9c7a00-b667-11e8-9360-e2add724f7b6.png)
 
 ### Custom Emojis
 
 Now you have access to all your custom emojis directly from the emoji keyboard and soon to also react to a message!
 
-(IMAGE ABOUT CUSTOM EMOJIS IN THE ISSUE)
+![Custom Emojis](https://user-images.githubusercontent.com/551004/45422706-652af180-b667-11e8-9c9c-06d38df300c4.png)
 
 ### FOSS
 

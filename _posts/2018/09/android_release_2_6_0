@@ -13,17 +13,42 @@ Rocket.Chat is proud to announce a new release of its Android native application
 
 Highlights include:
 
-- 
+- Added support to Admin panel if you’re admin (see in left sidebar menu);
+- Added support to custom emojis;
+- Added support to German, Ukranian and Japanese languages;
+- Added support to Rich Messaging;
+- Upload/Reset your avatar;
+- Updated app icon;
+- Fixed tons of bugs and crashes;
+- Now you can use the app without Google Play Services (FOSS);
+
+### Admin Panel
+
+### Update your avatar
+
+### Custom Emojis
+
+### FOSS
 
 ### Contributors
 
 _Thank you all for helping us on this release!_
 
-(TODO: update list of contributors)
+* [@Bubu](https://github.com/Bubu)
+* [@divyanshub024](https://github.com/divyanshub024)
+* [@filipedelimabrito](https://github.com/filipedelimabrito)
+* [@leonardoaramaki](https://github.com/leonardoaramaki)
+* [@luciofm](https://github.com/luciofm)
+* [@luckcoolla](https://github.com/luckcoolla)
+* [@MasterMNB](https://github.com/MasterMNB)
+* [@Pitstopper](https://github.com/Pitstopper)
+* [@Shailesh351](https://github.com/Shailesh351)
+* [@TacoTheDank](https://github.com/TacoTheDank)
+* [@twi123](https://github.com/twi123) 
 
 ## Release changelog
 
-For a full list of features added and bugs fixed, please see the [Rocket.Chat iOS 2.6 release changelog on GitHub](https://github.com/RocketChat/Rocket.Chat.Android/releases/tag/v2.6.0).
+For a full list of features added and bugs fixed, please see the [Rocket.Chat Android 2.6 release changelog on GitHub](https://github.com/RocketChat/Rocket.Chat.Android/releases/tag/v2.6.0).
 
 <br/>
 <br/>

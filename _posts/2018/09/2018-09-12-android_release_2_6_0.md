@@ -2,7 +2,7 @@
 title: "Rocket.Chat Android 2.6 Released"
 categories:
 - News
-date: 2018-09-07 08:00:00
+date: 2018-09-12 08:00:00
 author: Rocket.Chat Team
 cover: /images/posts/2018/09/2018-09-12-android_release_2_6_0/android-2-6-test-cover.jpg
 featured: true

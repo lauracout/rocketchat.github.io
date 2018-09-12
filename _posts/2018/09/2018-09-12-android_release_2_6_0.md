@@ -11,9 +11,15 @@ android_release: true
 
 Rocket.Chat is proud to announce a new release of its native Android application, version 2.6. Highlights include:
 
--
--
--
+- Added support to Admin panel for admins (see in left sidebar menu);
+- Added support to custom emojis;
+- Added support to German, Ukranian and Japanese languages and improvements to Hindi and Russian translations;
+- Added support to Rich Messaging;
+- Upload/Reset your avatar;
+- Now you can use the app without Google Play Services (check our forum)
+- Updated app icon;
+- Fixed tons of bugs and crashes
+
 
 ### Contributors
 

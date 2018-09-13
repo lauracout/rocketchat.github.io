@@ -4,49 +4,48 @@ categories:
 - News
 date: 2018-09-12 08:00:00
 author: Rocket.Chat Team
-cover: /images/posts/2018/09/2018-09-12-android_release_2_6_0/android-2-6-test-cover.jpg
+cover: /images/posts/2018/09/2018-09-12-android_release_2_6_0/android-2-6-cover.jpg
 featured: true
 android_release: true
 ---
 
-Rocket.Chat is proud to announce a new release of its Android native application, version 2.6 now.
-
-Highlights include:
+Rocket.Chat is proud to announce a new release of its native Android application, version 2.6. Highlights include:
 
 - Added support to Admin panel if you’re admin (see in left sidebar menu);
 - Added support to custom emojis;
-- Added support to German, Ukranian and Japanese languages;
+- Added support to German, Ukranian and Japanese languages and improvements to Hindi and Russian translations;
 - Added support to Rich Messaging;
 - Upload/Reset your avatar;
 - Updated app icon;
-- Fixed tons of bugs and crashes;
 - Now you can use the app without Google Play Services (FOSS);
+- Fixed tons of bugs and crashes
 
-### Admin Panel
 
-If you've access to the admin panel in the server you're logged in, you can now access it directly from your Android device by going to the left-side panel and opening the "Admin panel" item. We're releasing a new version of our core (0.69.2) that fixes some bugs related to the mobile usage on it, please make sure you're up to date with that before trying the admin in mobile 🙈.
+## Admin Panel
+
+If you have access to the admin panel in the server you're logged into, you can now access it directly from your Android device by going to the left side panel and opening the "Admin panel" item. <br/> We're releasing a new version of our core (0.69.2) that fixes some bugs related to the mobile usage on it, so please make sure you're up to date with that before trying the admin on mobile 🙈.
 
 ![Admin Panel](https://user-images.githubusercontent.com/551004/45422705-63f9c480-b667-11e8-808a-c5c20d772950.png)
 
-### Update your avatar
+## Update your avatar
 
-It's possible now to update your avatar by taking a new photo, choosing a picture from the photo library or even clearing your avatar if you want to.
+It's now possible to update your avatar by taking a new photo, choosing a picture from the photo library or even clearing your avatar if you want to.
 
 ![Update your avatar](https://user-images.githubusercontent.com/551004/45422698-5e9c7a00-b667-11e8-9360-e2add724f7b6.png)
 
-### Custom Emojis
+## Custom Emojis
 
-Now you have access to all your custom emojis directly from the emoji keyboard and soon to also react to a message!
+Now you have access to all your custom emojis directly from the emoji keyboard! You'll soon be able to also react to a message!
 
 ![Custom Emojis](https://user-images.githubusercontent.com/551004/45422706-652af180-b667-11e8-9c9c-06d38df300c4.png)
 
-### FOSS
+## FOSS
 
-This is a long time feature request to our Android app ([issue number 26!!!](https://github.com/RocketChat/Rocket.Chat.Android/issues/26)) and was finally accomplished with a huge help from [@Bubu](https://github.com/RocketChat/Rocket.Chat.Android/pull/1232) and [@luciofm](https://github.com/RocketChat/Rocket.Chat.Android/pull/1585). Bubu is now working to send the FOSS release to the F-Droid store and soon you'll be able to install directly from there. Until then, you can download the APK file and install directly on your device by looking into the assets of [our releases](https://github.com/RocketChat/Rocket.Chat.Android/releases/tag/v2.6.0).
+This is a long time feature request for our Android app ([issue number 26!!!](https://github.com/RocketChat/Rocket.Chat.Android/issues/26)) and was finally accomplished thanks to huge help from [@Bubu](https://github.com/RocketChat/Rocket.Chat.Android/pull/1232) and [@luciofm](https://github.com/RocketChat/Rocket.Chat.Android/pull/1585). Bubu is now working to send the FOSS release to the F-Droid store and soon you'll be able to install it directly from there. Until then, you can download the APK file and install directly on your device by looking into the assets of [our releases](https://github.com/RocketChat/Rocket.Chat.Android/releases/tag/v2.6.0).
 
-### Contributors
+## Contributors
 
-_Thank you all for helping us on this release!_
+Thank you all for helping us on this release!
 
 * [@Bubu](https://github.com/Bubu)
 * [@divyanshub024](https://github.com/divyanshub024)

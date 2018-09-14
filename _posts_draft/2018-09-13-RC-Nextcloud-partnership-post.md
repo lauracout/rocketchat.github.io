@@ -1,4 +1,3 @@
-<!--
 ---
 title: "Rocket.Chat announces partnership and integration with Nextcloud"
 categories:
@@ -9,7 +8,6 @@ author: Isabella Russell
 cover: /images/posts/2018/09/2018-09-13-RC-Nextcloud-partnership-post/RC-Nextcloud-cover.png
 featured: true
 ---
--->
 
 ### A new partnership and integration
 

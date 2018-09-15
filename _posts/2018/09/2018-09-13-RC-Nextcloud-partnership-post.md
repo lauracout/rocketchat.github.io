@@ -5,7 +5,7 @@ categories:
 - Product
 date: 2018-09-13 08:00:00
 author: Isabella Russell
-cover: /images/posts/2018/09/2018-09-13-RC-Nextcloud-partnership-post/RC-Nextcloud-cover.png
+cover: /images/posts/2018/09/2018-09-13-RC-Nextcloud-partnership-post/rocketchat-nextcloud.jpg
 featured: true
 ---
 

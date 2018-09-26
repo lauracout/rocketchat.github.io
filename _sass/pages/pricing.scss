@@ -86,6 +86,7 @@ body.pricing {
     height: 43px;
     width: 216px;
     background: #A3B4CC;
+    cursor: pointer;
     &.active {
       background: $brand;
     }
@@ -120,8 +121,15 @@ body.pricing {
   align-content: center;
   justify-content: flex-end;
 
+  margin-bottom: -1px;
+  margin-left: -4px;
+  margin-right: 1px;
+  @media screen and (max-width: $tablet) {
+    flex-direction: column;
+  }
+
   .plan_wrapper {
-    height: 420px;
+    min-height: 420px;
     width: 25%;
     border: 1px solid #e7ebf2;
     color: #6b7d99;
@@ -132,6 +140,13 @@ body.pricing {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    margin-right: -1px;
+
+    @media screen and (max-width: $tablet) {
+      width: 100%;
+    }
+
     &.footer {
       height: unset;
       border-top: 0;

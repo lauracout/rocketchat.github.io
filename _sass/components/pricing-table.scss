@@ -1,8 +1,11 @@
 
 .pricing-table {
-    border-collapse: collapse;
+  border-collapse: collapse;
+  table-layout: fixed;
+
     &_wrapper {
-        margin: 0 auto;
+    margin: 0 auto;
+    overflow-x: auto;
     }
     &_header {
         height: 32px;
@@ -16,7 +19,27 @@
         letter-spacing: 0.67px;
         line-height: 16px;
         padding-left:24px;
+  }
+
+  &__header {
+    font-size: 1em;
+    padding: 10px;
+    color: #000;
+
+    &--hidden {
+      color: transparent;
+      user-select: none;
     }
+
+    @media screen and (max-width: $tablet) {
+      font-size: 0.8em;
+    }
+  }
+
+  @media screen and (max-width: $tablet) {
+      width: 100%;
+    }
+
     tr {
         border: 1px solid #E7EBF2;
     }
@@ -29,17 +52,19 @@
             margin: auto
         }
     }
-    &_label {
+
+
+  &_label {
         color: #030C1A;
         font-size: 16px;
         font-weight: 500;
         text-align: left;
         letter-spacing: 0;
         line-height: 24px;
-        padding-left: 24px;
-        padding-right: 24px;
-        word-wrap: wrap;
-    }
+        padding: 5px 24px;
+        word-wrap: break-word;
+  }
+
     .bronze, .silver, .gold {
         color: #030C1A;
         font-size: 16px;
@@ -47,5 +72,15 @@
         text-align: center;
         letter-spacing: 0;
         line-height: 24px;
+  }
+
+  @media screen and (max-width: $tablet) {
+
+      &_label, .bronze, .silver, .gold {
+      font-size: 10px;
+      padding: 5px;
+      line-height: 12px;
+      text-align: center;
+    }
     }
 }

@@ -114,12 +114,12 @@
   second: "Hourly"
   third: "Hourly"
 
-- title: "Customize User Permission"
+- title: "Multi Factor Authentication"
   first: ""
   second: true
   third: true
 
-- title: "Multi Factor Authentication"
+- title: "Customize User Permission"
   first: ""
   second: true
   third: true

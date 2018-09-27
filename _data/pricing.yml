@@ -194,11 +194,6 @@
   second: "Automatic"
   third: "Automatic"
 
-- title: "Issue Acknowledgement Response Time SLA"
-  first: "Critical: 1 hour<br>Normal: 12 hours<br>Minimal: 2 business days"
-  second: "Critical: 1 hour<br>Normal: 12 hours<br>Minimal: 2 business days"
-  third: "Critical: 30 minutes<br>Normal: 8 hours<br>Minimal: 1 business day"
-
 - title: "Online Ticket Creation"
   first: true
   second: true
@@ -219,10 +214,23 @@
   second: ""
   third: true
 
-- title: "Account Onboarding"
-  first: ""
-  second: ""
-  third: true
+- title: "Issue Acknowledgement Response Time SLA"
+  isHeader: true
+
+- title: "Minimal"
+  first: "4 business days"
+  second: "2 business days"
+  third: "1 business day"
+
+- title: "Normal"
+  first: "24 hours"
+  second: "12 hours"
+  third: "6 hours"
+
+- title: "Critical"
+  first: "2 hours"
+  second: "1 hour"
+  third: "30 minutes"
 
 - title: "Extras"
   isHeader: true

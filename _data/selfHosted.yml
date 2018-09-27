@@ -199,11 +199,6 @@
   second: ""
   third: true
 
-- title: "Account Onboarding"
-  first: ""
-  second: ""
-  third: true
-
 - title: "Issue Acknowledgement Response Time SLA"
   isHeader: true
 
@@ -219,7 +214,7 @@
 
 - title: "Critical"
   first: ""
-  second: "2 hour"
+  second: "2 hours"
   third: "30 minutes"
 
 - title: "Extras"

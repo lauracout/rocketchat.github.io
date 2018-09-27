@@ -31,15 +31,15 @@
   second: true
   third: true
 
-- title: "Audio/Video Conferencing"
-  first: "Standard Definition"
-  second: "High Definition"
-  third: "High Definition"
+- title: "Conferencing Server"
+  first: "Shared"
+  second: "Dedicated"
+  third: "Dedicated"
 
 - title: "Integrations"
   first: "Unlimited"
-  second: "100"
-  third: "1000"
+  second: "Unlimited"
+  third: "Unlimited"
 
 - title: "Multi Language Interface"
   first: true

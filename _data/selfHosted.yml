@@ -14,9 +14,9 @@
 
 # When updating this file locally you might need to restart the jekyll server or delete the "_site" folder to see the changes on your local site.
 
-- title: "Highly Available Application Servers"
+- title: "High Scalability Cluster"
   first: ""
-  second: true
+  second: ""
   third: true
 
 - title: "Features"
@@ -215,7 +215,7 @@
   second: ""
   third: true
 
-- title: "Issue Acknowledgement Response Time SLA"
+- title: "SLA - Issue Response Time"
   isHeader: true
 
 - title: "Minimal"

@@ -1,0 +1,43 @@
+{% if include.name == "pricing" %}
+    {% assign pricingTable = site.data.pricing %}
+{% elsif include.name == "selfHosted" %}
+    {% assign pricingTable = site.data.selfHosted %}
+{% endif %}
+
+
+<div class="pricing-table_wrapper">
+
+    <table class="pricing-table">
+    <thead>
+      <tr>
+        {% if include.name == "pricing" %}
+          <th scope="col" class="pricing-table__header pricing-table__header--hidden">Features</th>
+          <th scope="col" class="pricing-table__header">Bronze</th>
+          <th scope="col" class="pricing-table__header">Silver</th>
+          <th scope="col" class="pricing-table__header">Gold</th>
+        {% elsif include.name == "selfHosted" %}
+          <th scope="col" class="pricing-table__header pricing-table__header--hidden">Features</th>
+          <th scope="col" class="pricing-table__header">Community</th>
+          <th scope="col" class="pricing-table__header">Pro</th>
+          <th scope="col" class="pricing-table__header">Enterprise</th>
+        {% endif %}
+      </tr>
+    </thead>
+        <tbody>
+            {% for member in pricingTable %}
+                {% if member.isHeader == true %}
+                    <tr>
+                        <th class="pricing-table_header" colspan="4">{{member.title}}</th>
+                    </tr>
+                {% else %}
+                    <tr>
+                        <th scope="row" class="pricing-table_label">{{member.title}}</th>
+                        <td class="bronze">{% if member.first == true %}<img src="/images/default/check.svg" alt="check"/> {% else %}{{member.first}}{% endif %}</td>
+                        <td class="silver">{% if member.second == true %}<img src="/images/default/check.svg" alt="check" /> {% else %}{{member.second}}{% endif %}</td>
+                        <td class="gold">{% if member.third == true %}<img src="/images/default/check.svg" alt="check" /> {% else %}{{member.third}}{% endif %}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</div>

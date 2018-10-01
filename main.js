@@ -395,3 +395,8 @@ $('.switch').on('click', function () {
     $('.self-managed__container').css("display","block");
   }
 })
+
+$('.youtube-image-link').on('click', function (e) {
+  $(".featherlight.featherlight-iframe .youtube-video")[0].src += "?autoplay=1";
+
+})

@@ -68,7 +68,7 @@
     }
   }
 
-    .bronze, .silver, .gold, .community, .pro, .enterprise {
+    .table-cell {
         color: #030C1A;
         font-size: 16px;
         font-weight: 500;
@@ -79,7 +79,7 @@
 
   @media screen and (max-width: $tablet) {
 
-      &_label, .bronze, .silver, .gold {
+      &_label, .table-cell {
       font-size: 10px;
       padding: 5px;
       line-height: 12px;

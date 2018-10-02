@@ -397,6 +397,7 @@ $('.switch').on('click', function () {
 })
 
 $('.youtube-image-link').on('click', function (e) {
-  $(".featherlight.featherlight-iframe .youtube-video")[0].src += "?autoplay=1";
-
+  setTimeout(function(){
+    $(".featherlight .youtube-video")[0].src += "?autoplay=1";
+  }, 1000);
 })

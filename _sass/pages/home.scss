@@ -498,8 +498,11 @@ body.index .featherlight .featherlight-content {
 .featherlight-content > #youtube-link {
   display: block;
   width: 70vw;
-
   height: 90vh;
-
   overflow: hidden;
+
+  @media (max-width: $tablet) {
+    width: 97vw;
+    height: 90vh;
+  }
 }

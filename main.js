@@ -396,7 +396,7 @@ $('.switch').on('click', function () {
   }
 })
 
-$('.youtube-image-link').on('click', function (e) {
+$('.youtube-image-link').on('click touch', function (e) {
   setTimeout(function(){
     $(".featherlight .youtube-video")[0].src += "?autoplay=1";
   }, 1000);

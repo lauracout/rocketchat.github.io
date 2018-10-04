@@ -397,7 +397,10 @@ $('.switch').on('click', function () {
 })
 
 $('.youtube-image-link').on('click touch', function (e) {
-  setTimeout(function(){
-    $(".featherlight .youtube-video")[0].src += "?autoplay=1";
-  }, 1000);
+  var checkExist = setInterval(function() {
+    if ($('.featherlight').length) {
+      $(".featherlight .youtube-video")[0].src += "?autoplay=1";
+      clearInterval(checkExist);
+    }
+ }, 500);
 })

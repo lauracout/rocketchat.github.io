@@ -113,21 +113,25 @@
 }
 
 .card--blog__image {
-  background-position: center;
-  background-size: cover;
+  display: flex;
+  flex-direction: column;
   border-radius: 2px;
   height: 100%;
   min-width: 6em;
+}
+
+.card--blog__cover {
+  width: 100%;
+  height: 65%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .card--blog__wrap {
   background: rgba($space, 0.9);
   border-radius: 2px;
   padding: 1.5em;
-  position: absolute;
-  left: 0.5em;
-  right: 0.5em;
-  bottom: 0.5em;
   transition: all 0.3s ease;
 }
 

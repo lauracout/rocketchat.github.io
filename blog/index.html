@@ -14,7 +14,7 @@ redirect_from:
   - /2015/06/10/rocketchat-host-your-own-open-source-chat-server/
   - /2016/06/14/rocketchat-enabling-privately-hosted-chat-services/
   - /2017/10/06/success-story-rotogrinders/
-  
+
 category: home
 ---
 
@@ -37,26 +37,29 @@ category: home
 
 <div class="container">
   {% include blog/header.html %}
-  
+
   {% if paginator.page == 1 %}
 
   <h3 class="display--small theme_type--dark blog__section"><strong>Featured</strong></h3>
 
   <div class="blog__featured">
     {% for post in FeaturedList limit:5 %}
-      <a 
+      <a
         class="card--blog card--blog__image"
         href="{{ post.url | remove: "index.html" }}"
-        {% if post.cover %}
-          style="background-image: url('{{ post.cover }}')"
-        {% else %}
-          style="background-image: url('/images/blog/post.jpg')"
-        {% endif %}
       >
+        <div
+          class="card--blog__cover"
+          {% if post.cover %}
+            style="background-image: url('{{ post.cover }}')"
+          {% else %}
+            style="background-image: url('/images/blog/post.jpg')"
+          {% endif %}
+        ></div>
         <div class="card--blog__wrap">
           <p class="card--blog__meta label--small theme_type--grey">
             {{ post.date | date: "%b %-d, %Y" }}
-            — 
+            —
             {% assign words = post.content | number_of_words %}
             {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
           </p>
@@ -90,7 +93,7 @@ category: home
           <p class="blog__event-dayweek label--small theme_type--kinda-white type--nomargin">{{ post.dateEvent | date: "%a" }}</p>
           <h4 class="display theme_type--dark">
             {{ post.dateEvent | date: "%m.%d" }}
-            {% if post.dateEventEnd %} 
+            {% if post.dateEventEnd %}
               — {{ post.dateEventEnd | date: "%m.%d" }}
             {% endif %}
           </h4>
@@ -121,7 +124,7 @@ category: home
       <div class="blog__recents">
         {% for post in paginator.posts %}
           {% if post.categories contains "Events" and post.location and post.dateEvent %}
-              <a 
+              <a
                 class="card--blog card--blog__image card--horizontal"
                 href="{{ post.url | remove: "index.html" }}"
                 {% if post.cover %}
@@ -134,7 +137,7 @@ category: home
                   <p class="blog__event-dayweek label--small theme_type--grey type--nomargin">{{ post.dateEvent | date: "%a" }}</p>
                   <h4 class="display theme_type--dark">
                     {{ post.dateEvent | date: "%m.%d" }}
-                    {% if post.dateEventEnd %} 
+                    {% if post.dateEventEnd %}
                       — {{ post.dateEventEnd | date: "%m.%d" }}
                     {% endif %}
                   </h4>
@@ -147,7 +150,7 @@ category: home
                 </div>
               </a>
             {% else %}
-              <a 
+              <a
                 class="card--blog card--blog__image card--horizontal"
                 href="{{ post.url | remove: "index.html" }}"
                 {% if post.cover %}
@@ -159,7 +162,7 @@ category: home
                 <div class="card--blog__wrap">
                   <p class="card--blog__meta label--small theme_type--grey">
                     {{ post.date | date: "%b %-d, %Y" }}
-                    — 
+                    —
                     {% assign words = post.content | number_of_words %}
                     {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
                   </p>
@@ -180,7 +183,7 @@ category: home
       {% for post in FeaturedList %}
         {% if forloop.index > 5 %}
         <div class="flex-grid--nobreak">
-          <a 
+          <a
             href="{{ post.url | remove: "index.html" }}"
             class="no-gutter col--third"
           >
@@ -196,7 +199,7 @@ category: home
           <a class="no-gutter col mini-gutter" href="{{ post.url | remove: "index.html" }}">
             <p class="card--blog__meta label--small theme_type--grey">
               {{ post.date | date: "%b %-d, %Y" }}
-              — 
+              —
               {% assign words = post.content | number_of_words %}
               {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
             </p>
@@ -220,7 +223,7 @@ category: home
       </div>
     </div>
   </div>
-  
+
   <div class="space--6"></div>
 
   {% endif %}
@@ -234,7 +237,7 @@ category: home
     {% for post in paginator.posts %}
 
       {% if post.categories contains "Events" and post.location and post.dateEvent %}
-        <a 
+        <a
           class="card--blog card--blog__image"
           href="{{ post.url | remove: "index.html" }}"
           {% if post.cover %}
@@ -247,7 +250,7 @@ category: home
             <p class="blog__event-dayweek label--small theme_type--grey type--nomargin">{{ post.dateEvent | date: "%a" }}</p>
             <h4 class="display theme_type--dark">
               {{ post.dateEvent | date: "%m.%d" }}
-              {% if post.dateEventEnd %} 
+              {% if post.dateEventEnd %}
                 — {{ post.dateEventEnd | date: "%m.%d" }}
               {% endif %}
             </h4>
@@ -260,7 +263,7 @@ category: home
           </div>
         </a>
       {% else %}
-        <a 
+        <a
           class="card--blog card--blog__image"
           href="{{ post.url | remove: "index.html" }}"
           {% if post.cover %}
@@ -272,7 +275,7 @@ category: home
           <div class="card--blog__wrap">
             <p class="card--blog__meta label--small theme_type--grey">
               {{ post.date | date: "%b %-d, %Y" }}
-              — 
+              —
               {% assign words = post.content | number_of_words %}
               {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
             </p>

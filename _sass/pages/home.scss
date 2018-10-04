@@ -502,6 +502,7 @@ body.index .featherlight .featherlight-content {
   margin: auto;
   background: url("/images/default/video-placeholder.png");
   background-size: 100%;
+  background-repeat: no-repeat;
 
   display: flex;
   flex-direction: column;
@@ -513,7 +514,8 @@ body.index .featherlight .featherlight-content {
   }
 
   @media (max-width: $mobile) {
-    display: none;
+    width: 100%;
+    height: 40vh;
    }
 }
 
@@ -528,6 +530,11 @@ body.index .featherlight .featherlight-content {
 
   &:hover {
     filter: invert(1);
+  }
+
+  @media (max-width: $mobile) {
+    width: 64px;
+    height: 64px;
   }
 }
 

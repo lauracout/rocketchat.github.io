@@ -136,6 +136,7 @@ body.post {
 
 .blog__col-recents {
   @include justify-content(space-between);
+  flex-direction: column;
 
   // only IE
   @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
@@ -144,6 +145,22 @@ body.post {
 
   .col {
     max-width: 40em;
+  }
+}
+
+.blog__recents {
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 350px);
+}
+
+.blog__more-featured {
+  &-grid {
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 350px);
   }
 }
 

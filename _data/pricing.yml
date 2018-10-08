@@ -141,13 +141,24 @@
   pro: true
   enterprise: true
 
-- title: "Realtime Translation"
+- title: "Message Auditing Panel"
   bronze: ""
-  silver: true
+  silver: ""
   gold: true
-  community: true
-  pro: true
+  community: ""
+  pro: ""
   enterprise: true
+
+- title: "Broadcast Channel"
+  bronze: ""
+  silver: ""
+  gold: true
+  community: ""
+  pro: ""
+  enterprise: true
+
+- title: "Preconfigured Proxy Servers"
+  isHeader: true
 
 - title: "Social Network Login"
   bronze: ""
@@ -165,23 +176,15 @@
   pro: true
   enterprise: true
 
+- title: "Realtime Translation"
+  bronze: ""
+  silver: true
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
 - title: "Audio to Text Conversion"
-  bronze: ""
-  silver: ""
-  gold: true
-  community: ""
-  pro: ""
-  enterprise: true
-
-- title: "Message Auditing Panel"
-  bronze: ""
-  silver: ""
-  gold: true
-  community: ""
-  pro: ""
-  enterprise: true
-
-- title: "Broadcast Channel"
   bronze: ""
   silver: ""
   gold: true

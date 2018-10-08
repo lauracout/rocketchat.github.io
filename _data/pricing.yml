@@ -117,7 +117,7 @@
   pro: true
   enterprise: true
 
-- title: "Live Chat"
+- title: "Livechat"
   bronze: ""
   silver: true
   gold: true
@@ -141,7 +141,7 @@
   pro: true
   enterprise: true
 
-- title: "Message Auditing Panel"
+- title: "Broadcast Channel"
   bronze: ""
   silver: ""
   gold: true
@@ -149,7 +149,7 @@
   pro: ""
   enterprise: true
 
-- title: "Broadcast Channel"
+- title: "Message Auditing Panel"
   bronze: ""
   silver: ""
   gold: true
@@ -180,7 +180,7 @@
   bronze: ""
   silver: true
   gold: true
-  community: true
+  community: ""
   pro: true
   enterprise: true
 

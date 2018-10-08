@@ -64,6 +64,14 @@
   pro: true
   enterprise: true
 
+- title: "Broadcast Channel"
+  bronze: true
+  silver: true
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
 - title: "Conferencing Server"
   bronze: "Shared"
   silver: "Dedicated"
@@ -139,14 +147,6 @@
   gold: true
   community: true
   pro: true
-  enterprise: true
-
-- title: "Broadcast Channel"
-  bronze: ""
-  silver: ""
-  gold: true
-  community: ""
-  pro: ""
   enterprise: true
 
 - title: "Message Auditing Panel"

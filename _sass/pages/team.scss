@@ -279,12 +279,12 @@
   margin-bottom: 1em;
 
   @media screen and (min-width: 33em) {
-    width: calc(100% / 3 - 0.5em);
+    width: calc(100% / 2 - 0.5em);
   }
 
   @media screen and (min-width: 60em) {
     margin-bottom: 3em;
-    width: calc(100% / 4 - 1.5em);
+    width: calc(100% / 3 - 1.5em);
   }
 }
 

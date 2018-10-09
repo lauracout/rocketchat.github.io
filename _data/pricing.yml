@@ -64,6 +64,14 @@
   pro: true
   enterprise: true
 
+- title: "Broadcast Channel"
+  bronze: true
+  silver: true
+  gold: true
+  community: true
+  pro: true
+  enterprise: true
+
 - title: "Conferencing Server"
   bronze: "Shared"
   silver: "Dedicated"
@@ -117,7 +125,7 @@
   pro: true
   enterprise: true
 
-- title: "Live Chat"
+- title: "Livechat"
   bronze: ""
   silver: true
   gold: true
@@ -141,13 +149,16 @@
   pro: true
   enterprise: true
 
-- title: "Realtime Translation"
+- title: "Message Auditing Panel"
   bronze: ""
-  silver: true
+  silver: ""
   gold: true
-  community: true
-  pro: true
+  community: ""
+  pro: ""
   enterprise: true
+
+- title: "Preconfigured Proxy Servers"
+  isHeader: true
 
 - title: "Social Network Login"
   bronze: ""
@@ -165,23 +176,15 @@
   pro: true
   enterprise: true
 
+- title: "Realtime Translation"
+  bronze: ""
+  silver: true
+  gold: true
+  community: ""
+  pro: true
+  enterprise: true
+
 - title: "Audio to Text Conversion"
-  bronze: ""
-  silver: ""
-  gold: true
-  community: ""
-  pro: ""
-  enterprise: true
-
-- title: "Message Auditing Panel"
-  bronze: ""
-  silver: ""
-  gold: true
-  community: ""
-  pro: ""
-  enterprise: true
-
-- title: "Broadcast Channel"
   bronze: ""
   silver: ""
   gold: true
@@ -245,7 +248,7 @@
   isHeader: true
 
 - title: "Documentation & Tutorials"
-  link: "https://rocket.chat/docs"
+  link: "https://rocket.chat/docs/"
   bronze: true
   silver: true
   gold: true

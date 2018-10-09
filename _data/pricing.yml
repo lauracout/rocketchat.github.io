@@ -248,7 +248,7 @@
   isHeader: true
 
 - title: "Documentation & Tutorials"
-  link: "https://rocket.chat/docs"
+  link: "https://rocket.chat/docs/"
   bronze: true
   silver: true
   gold: true

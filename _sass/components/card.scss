@@ -62,6 +62,8 @@
   position: relative;
   margin-bottom: 1em;
 
+  transition: box-shadow .3s, background .3s;
+
   p {
     transition: all 0.3s ease;
   }
@@ -84,12 +86,12 @@
   }
 
   &:hover {
-    box-shadow: 0 0 0 1em $space-grey;
-    background: $space-grey;
+    box-shadow: 1em 1em 0 1px #121f33,
+    -1em -1em 0 1px #121f33,
+    -1em 1em 0 1px #121f33,
+    1em -1em 0 1px #121f33;
 
-    .card--blog__wrap {
-      background: $space-grey;
-    }
+    background: $space-grey;
   }
 }
 
@@ -129,7 +131,6 @@
 }
 
 .card--blog__wrap {
-  background: rgba($space, 0.9);
   border-radius: 2px;
   padding: 1em 0 0;
 }

@@ -66,6 +66,10 @@
     transition: all 0.3s ease;
   }
 
+  @media screen and (max-width: $tablet) {
+    margin-bottom: 32px;
+  }
+
   &.card--horizontal {
     @media screen and (min-width: $tablet) {
       .card--blog__wrap {
@@ -80,18 +84,11 @@
   }
 
   &:hover {
+    box-shadow: 0 0 0 1em $space-grey;
+    background: $space-grey;
+
     .card--blog__wrap {
-      background: $brand;
-
-      .tag {
-        background: #fff;
-        color: $brand;
-      }
-
-      .card--blog__author,
-      .card--blog__meta {
-        color: rgba(255, 255, 255, 0.6);
-      }
+      background: $space-grey;
     }
   }
 }
@@ -113,22 +110,28 @@
 }
 
 .card--blog__image {
-  background-position: center;
-  background-size: cover;
+  display: flex;
+  flex-direction: column;
   border-radius: 2px;
   height: 100%;
   min-width: 6em;
+  height: 313px;
+}
+
+.card--blog__cover {
+  width: 100%;
+  height: 193px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: background-size 1s;
+  border-radius: 2px;
 }
 
 .card--blog__wrap {
   background: rgba($space, 0.9);
   border-radius: 2px;
-  padding: 1.5em;
-  position: absolute;
-  left: 0.5em;
-  right: 0.5em;
-  bottom: 0.5em;
-  transition: all 0.3s ease;
+  padding: 1em 0 0;
 }
 
 .card--blog__title {

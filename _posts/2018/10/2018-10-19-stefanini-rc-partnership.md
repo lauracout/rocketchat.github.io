@@ -13,9 +13,26 @@ cover:
 
 Rocket.Chat is pleased to announce it has partnered with Stefanini Global during this year's Gartner Symposium/ITxpo in Orlando, Florida, where both companies were in attendance.
 
+According to Stefanini's R&D Director Alexandre Winetzki, the company's AI Solution for collaborative digital transformation, named Sophie, can work alongside Rocket.Chat as the "technologies are complementary" and, "while the technology of our partner is a powerful chat and service system for human use, Sophie can automate most of the service processes".
 
+Sophie will take care of the initial process while those that are not served by the virtual assistant will be transferred to a human team, which uses Rocket.Chat as a tool for collaboration and customer management and demands. Rocket.Chat will then unify access to various systems (tickets, CRMs, transactional systems) using platform integration interfaces and Sophie's "brain". From there, additional interactions with the end user can either be made via Rocket.Chat - when the customer needs a human service - or via Sophie, when automated attendance is required.
+
+Rocket.Chat CEO Gabriel Engel adds that "the partnership stands out in the market for having integrated teams that work together using complementary tools, which makes solutions globally competitive".
+
+According to Engel, Rocket.Chat and Stefanini are working on integrating CRM, Bots and ERP solutions to automate processes and optimize internal user communication, as well as integration with vendors and customers.
+
+> "All this in a secure, scalable way, that observes compliance rules,"
+
+explains Engel.
+
+Rocket.Chat currently has over 250,000 installed servers and more than 10 million users in 150 countries. Meanwhile Sophie 3.0 is present in more than 50 large corporations across Brazil, the United States, Latin America and Europe.
+
+> "The pool of joint opportunities is immense. Rocket.Chat and Sophie are two internationalized Brazilian platforms, designed and developed for the global market. This combination of skills and joint experience has the potential to take our two companies, which grow three by digits annually, to a new level, in addition to indicating an exemplary path to be followed by several other companies,"
+
+said Stefanini's R&D director.
 
 ### About Stefanini Global
+
 
 
 

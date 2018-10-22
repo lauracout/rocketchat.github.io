@@ -8,6 +8,13 @@ author: Isabella Russell
 cover: /images/posts/2018/10/2018-10-22-rc-gluu-partnershi/gluu-rc-team-photo-cover.jpg
 featured: true
 ---
+October 22, 2018 — Raleigh, NC USA — Live from All Things Open 2018 - Rocket.Chat and Gluu jointly announced today an extensive partnership between the two companies to facilite team collaboration for the enterprises, universities, and government agencies.
+
+Under this partnership, Rocket.Chat will implement and verify Gluu's central authentication and authorization solution as a built-in single sign-on alternative.  Gluu will offer Rocket.Chat as an open source team collaboration and livechat platform to its clients.
+
+"xxxxxxxxxxxxxx"    Said Mike Schwartz, CEO of Gluu.
+
+"We are delighted to work with the amazing team from Gluu, and to offer our community and customers a robust, industry proven, strongly authenticated single sign-on solution."   Said  Gabriel Engel, CEO of Rocket.Chat.
 
 
 ## About Rocket.Chat

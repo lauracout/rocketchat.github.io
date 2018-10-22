@@ -28,6 +28,17 @@
     background-color: #040b1b;
     .wrap {
       padding: 3em 5em;
+
+      @media screen and (max-width: $tablet) {
+        padding: 48px 32px;
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+
+    @media screen and (max-width: $tablet) {
+      background-image: none;
+      padding: 16px;
     }
   }
 

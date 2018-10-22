@@ -6,7 +6,7 @@ featured: true
 categories:
   - News
   - Product
-cover:
+cover: /images/posts/2018/10/2018-10-19-stefanini-rc-partnershi/stefanini-rc-cover.png
 ---
 
 ### A new partnership live from Orlando, FL

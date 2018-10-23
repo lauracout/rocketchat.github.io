@@ -295,7 +295,7 @@ if (document.querySelector(".js-download")) {
     var homeMail = document.querySelector(".home-landingpage__mail");
     var homeChat = document.querySelector(".home-landingpage__chat");
     var support = document.querySelector(".support-hero__image");
-    var cloud = document.querySelector(".cloud-hero__image");
+    var cloud = document.querySelector(".pricing-hero__image");
     var install = document.querySelector(".install-hero__image");
     var partners = document.querySelector(".partners-hero__image");
     var partnersBody = document.querySelector("body.partners");

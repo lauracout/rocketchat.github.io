@@ -6,7 +6,7 @@ categories:
 date: 2018-09-17 08:00:00
 author: Isabella Russell
 cover: /images/posts/2018/09/2018-09-17-RC-Nextcloud-partnership-post/rocketchat-nextcloud.jpg
-hidden: true
+featured: true
 ---
 
 ### A new partnership and integration
@@ -19,7 +19,9 @@ Over the last few months, engineers at Rocket.Chat and Nextcloud have been colla
 
 The integration allows users to post files from Nextcloud directly into a chat channel, enabling seamless integration between chat and file handling. By sharing project documents in a project's chat, collaboration is simplified. Home users can easily share pictures or documents with family and friends. More integrations, that go even further than this latest iteration, are in development.
 
-<img alt="rocket.chat x nextcloud integration demo" src="//g.recordit.co/TYL5rObv2D.gif"/>
+<img alt="rocket.chat x nextcloud integration demo" src="/images/posts/2018/09/2018-09-17-RC-Nextcloud-partnership-post/integration-demo.gif"/>
+
+<img alt="rocket.chat x nextcloud integration demo" src="/images/posts/2018/09/2018-09-17-RC-Nextcloud-partnership-post/rocket.chat-integration.gif"/>
 
 > "This integration strengthens the strategy that made Nextcloud into the leading on-premises collaboration and communication platform,"
 

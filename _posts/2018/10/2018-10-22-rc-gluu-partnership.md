@@ -3,7 +3,7 @@ title: "Rocket.Chat announces partnership with Gluu, live from All Things Open 2
 categories:
   - News
   - Product
-date: 2018-10-22 08:00:00
+date: 2018-10-23 08:00:00
 author: Isabella Russell
 cover: /images/posts/2018/10/2018-10-22-rc-gluu-partnershi/gluu-rc-team-photo-cover.jpg
 featured: true

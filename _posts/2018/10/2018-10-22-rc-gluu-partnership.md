@@ -8,17 +8,26 @@ author: Isabella Russell
 cover: /images/posts/2018/10/2018-10-22-rc-gluu-partnershi/gluu-rc-team-photo-cover.jpg
 featured: true
 ---
-Rocket.Chat and Gluu jointly announce an extensive partnership today between the two companies to facilite team collaboration for enterprises, universities, and government agencies.
+Rocket.Chat and [Gluu](https://www.gluu.org/) jointly announce an extensive partnership today to collaborate on identity and access management (IAM) and strong authentication for community, enterprise, and institutional customers.
 
-With this partnership, Rocket.Chat will implement and verify Gluu's central authentication and authorization solution as a built-in single sign-on alternative. Gluu will offer Rocket.Chat as an open source team collaboration and LiveChat platform to its clients.
+In accordance with this partnership, Rocket.Chat will work with Gluu to identify and support best practices for single sign-on (SSO), two-factor
+authentication (2FA), user enrollment, and access management in its industry-leading messaging platform. Gluu will in turn offer Rocket.Chat as an open source team collaboration and LiveChat platform to its clients.
 
-> "We are delighted to work with the amazing team at Gluu, and to offer our community and customers a robust, industry-proven, and strongly authenticated single sign-on solution,"
+> "We are delighted to work with the amazing team at Gluu to offer our community and customers a robust, industry proven solution for single sign-on (SSO) and two-factor authentication (2FA),"
 
 said  Gabriel Engel, CEO of Rocket.Chat.
 
-> "xxxxxxxxxxxxxx,"
+Rocket.Chat supports OAuth 2.0 out-of-the-box and can quickly be configured to use an Authorization Server (AS) like Gluu for user sign
+in. By leveraging open web standards like OAuth, OpenID Connect, and FIDO, organizations can significantly improve account security and
+reduce the likelihood of password-related hacking incidents.
 
-affirmed Mike Schwartz, CEO of Gluu.
+> ""Rocket.Chat is the premier open source solution for team communication and the platform of choice at Gluu,"
+
+said Gluu CEO Michael Schwartz.
+
+> "We are excited to work with the Rocket.Chat team to offer organizations around the world a secure and scalable solution for team collaboration and identity and access management,"
+
+added Schwartz.
 
 ## About Rocket.Chat
 
@@ -29,4 +38,4 @@ To learn more, visit [the website](https://rocket.chat.com), check out the [GitH
 
 ##  About Gluu
 
-Gluu publishes identity and access management software that companies, universities and government agencies can use to securely identify people and manage what resources they are allowed to access. Using the Gluu suite of identity and access management software, an organization can leverage open web standards and free open source software to offer customers, employees, and partners single sign-on (SSO) and strong authentication.
+[Gluu](https://www.gluu.org/) publishes identity and access management software that companies, universities and government agencies can use to securely identify people and manage what resources they are allowed to access. Using the Gluu suite of identity and access management software, an organization can leverage open web standards and free open source software to offer customers, employees, and partners single sign-on (SSO) and strong authentication.

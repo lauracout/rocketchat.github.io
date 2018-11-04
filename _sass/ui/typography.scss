@@ -118,8 +118,14 @@ strong {
 // Helpers
 .align--center {
   text-align: center;
-  width: 50%;
+}
+
+.subtitle {
+  width: 45%;
   margin: auto;
+  @media (max-width: $tablet) {
+    width: 75%;
+  }
 }
 
 .type--nomargin {

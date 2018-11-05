@@ -179,6 +179,7 @@
 
       .button {
         width: 45%;
+        white-space: nowrap;
         @media (max-width: $tablet) {
           width: 47%;
         }

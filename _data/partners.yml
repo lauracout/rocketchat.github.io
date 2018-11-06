@@ -22,6 +22,12 @@
   logo: /images/partners/logos/curvestone.png
   type: technology
 
+- name: Amazebot
+  description: Chatbots and automation partner, experienced in development of bespoke Rocket.Chat integrations.
+  website: //amazebot.chat
+  logo: /images/partners/logos/amazebot.png
+  type: technology
+
 - name: Chef
   website: //www.chef.io
   logo: /images/partners/logos/chef.png

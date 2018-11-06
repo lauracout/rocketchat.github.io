@@ -385,9 +385,8 @@ if (document.querySelector(".js-download")) {
 
 
 $(document).ready(function() {
-  console.log(window.location.pathname);
-
-  if (window.location.pathname == '/pricing/') {
+  var path = window.location.pathname;
+  if (path == '/pricing' || path == '/pricing/') {
     if (window.location.hash.substr(1) == "cloud") {
       $('.switch').removeClass('active');
       $(".cloud").addClass(' active');

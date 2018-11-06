@@ -1,0 +1,12 @@
+
+<a href="{{include.tag.link}}" class="install__tag">
+    <img src="{{include.tag.image}}">
+    <div class="install__tag-wrapper">
+        <h3 class="title">{{include.tag.title}}</h3>
+        <div class="install__tags-wrapper">
+            {% for tag in include.tag.tags %}
+                <p class="small-tag">{{tag}}</p>
+            {% endfor %}
+        </div>
+    </div>
+</a>

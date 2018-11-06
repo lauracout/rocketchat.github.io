@@ -27,40 +27,37 @@
   }
 }
 
-.select-download {
-  border: 1px solid $grey-dark;
-  background: $space-b;
-
-  @media (min-width: $tablet) {
-    font-size: 0.8em;
-  }
-
-  &:after {
-    border-top: 1.5px solid #fff;
-    border-right: 1.5px solid #fff;
-  }
-
-  select {
-    color: #fff;
-    
-    option {
-      background-color: $space-b; 
-    }
-  }
-}
-
-.install-mobile {
+.install-box {
   margin-bottom: 5em;
   background-repeat: no-repeat;
-  background-image: url("/images/install/mobile-haft.png");
   background-position: center bottom;
   background-size: auto 20em;
   padding-bottom: 20em;
+  background-color: $space-void;
+
+  &.mobile {
+    height: 390px;
+
+    @media (max-width: $tablet) {
+      height: unset;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 0;
+      background-image: url("/images/install/iphoneHalf.png");
+      background-size: auto 395px;
+      padding-bottom: 475px;
+    }
+  }
+
+  &.desktop {
+    @media (max-width: $tablet) {
+      display: none;
+    }
+  }
 
   @media (min-width: $tablet) {
     @include flexbox();
     padding-bottom: 1.5em;
-    background-image: url("/images/install/mobile.png");
     background-size: auto 90%;
     background-position: right -40% bottom;
     margin-bottom: 10em;
@@ -68,6 +65,8 @@
     .wrap {
       padding: 2em;
       max-width: 30%;
+      display: flex;
+      flex-direction: column;
     }
   }
 
@@ -79,17 +78,213 @@
       max-width: 50%;
     }
   }
-
-  img {
-    width: 9em;
-    margin-right: 1em;
-  }
 }
 
-.install-server {
-  margin-bottom: 5em;
-
-  @media (min-width: $tablet) {
-    margin-bottom: 10em;
+.install {
+  background-color: $space;
+  .hero {
+    min-height: 0;
+    margin-bottom: 107px;
+    margin-top: 95px;
   }
+
+  &_desktop-buttons {
+    display: flex;
+    margin-bottom: 32px;
+    width: 90%;
+    .button {
+      padding: 5px 10px;
+      margin-right: 16px;
+      &:not(.active){
+        background-color: unset;
+      }
+    }
+  }
+
+  &__desktop-image {
+    margin-top: -66px;
+    margin-bottom: 50px !important;
+    width: 715px;
+    height: 100%;
+    flex: 1;
+  }
+
+  &__mobile-image {
+    margin-top: -103px;
+    flex: 1;
+    flex-grow: 0;
+    width: 205px;
+    height: 428px;
+    margin-left: 26px;
+
+    &:first-child {
+      margin-left: 60px;
+      width: 215px;
+    }
+
+    @media (max-width: $tablet) {
+      display: none;
+    }
+  }
+
+  &__tags-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+
+    @media (max-width: $tablet) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 670px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  &__tag-wrapper {
+    width: 100%;
+  }
+
+  &__tag {
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    background-color: $space-grey;
+    padding: 0 25px;
+    height: 94px;
+
+    img {
+      height: 40px;
+      width: 40px;
+      margin-right: 17px;
+    }
+
+    .title {
+      font-size: 16px;
+      font-weight: 600;
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__tags-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .small-tag {
+      border-radius: 2px;
+      background-color: #31415b;
+      padding: 0 8px;
+      color:$grey;
+      font-size: 10px;
+      letter-spacing: 0.7px;
+      line-height: 1.6;
+      margin-right: 8px;
+      text-transform: uppercase;
+      font-weight: 700;
+      white-space: nowrap;
+      margin-bottom: 5px;
+    }
+  }
+
+  .select-download {
+    width: 180px;
+    height: 44px;
+    border-radius: 2px;
+    margin-bottom: 17px;
+
+    select {
+      width: 100%;
+      text-align: center;
+      padding: 6px;
+    }
+  }
+
+  &_download {
+    display: flex;
+    flex-direction: column;
+
+    &:not(.active){
+      display: none;
+    }
+
+    .store-download {
+      margin-bottom: 17px;
+
+      img {
+        width: 180px;
+      }
+    }
+  }
+
+  .manual-download {
+    width: 180px;
+    height: 44px;
+    border-radius: 2px;
+    background-color: $grey-dark;
+  }
+
+  .more-options {
+    margin-top: 30px;
+  }
+
+  .try-cloud {
+    margin-bottom: 5em;
+    background-repeat: no-repeat;
+    background-color: $brand;
+    background-image: url("/images/install/try-cloud.svg");
+    background-position: right bottom;
+    background-size: auto 20em;
+    padding-bottom: 20em;
+    height: 486px;
+
+    @media (max-width: $tablet) {
+      background-size: cover;
+
+      .wrap {
+        width: 60%;
+      }
+    }
+
+    @media (max-width: 600px) {
+      background-size: auto 20em;
+
+      .wrap {
+        width: 100%;
+      }
+    }
+
+    @media (min-width: $tablet) {
+      @include flexbox();
+      padding-bottom: 0;
+      background-size: contain;
+      background-position: right bottom;
+
+      .wrap {
+        padding: 2em;
+        max-width: 30%;
+      }
+    }
+
+    @media (min-width: 62em) {
+      background-position: right bottom;
+
+      .wrap {
+        padding: 3em 4em;
+        max-width: 50%;
+      }
+    }
+
+    .button {
+      background-color: #fff;
+      color: $brand;
+    }
+
+    img {
+      width: 9em;
+      margin-right: 1em;
+    }
+  }
+
 }

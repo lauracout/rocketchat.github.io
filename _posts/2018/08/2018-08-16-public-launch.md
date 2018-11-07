@@ -2,6 +2,7 @@
 title: "Rocket.Chat's Zapier App now public"
 categories:
   - News
+  - Case Studies
 date: 2018-08-16 08:00:00
 author: Isabella Russell
 cover: /images/posts/2018/07/2018-07-01-zapier-public-launch/zapier&RC.png

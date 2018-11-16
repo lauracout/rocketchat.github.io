@@ -1,0 +1,160 @@
+---
+layout: en/default
+class: landing-page
+title: "Welcome to Rocket.Chat a open source"
+description: |
+  Welcome to Rocket.Chat
+permalink: /landing
+
+theme: dark
+
+redirect_from:
+  - /landing/
+---
+
+<section class="hero">
+    <div class="container background">
+        <div class="hero__content">
+            <h2 class="display theme_type--dark">The <bold>communication</bold> platform for <bold>remote</bold> and <bold>local</bold> teams</h2>
+            <span class="form">
+                <input placeholder="Enter your work email" class="input" />
+                <a class="button" href="">Start now, it's free!</a>
+            </span>
+            <span>
+                <p class="display--small theme_type--dark">See Rocket.Chat in action.</p>
+                <a href="" target="_blank" class="button--link button--with-arrow">Explore our live demo</a>
+            </span>
+        </div>
+    </div>
+</section>
+
+<section class="trusted">
+    <div class="container">
+        <p class="display--small align--center theme_type--dark" >We are <bold>trusted</bold> by hundreds of companies</p>
+        <img src="/images/landing/trusted.png" alt="clients">
+    </div>
+</section>
+
+<section class="features">
+    <div class="container">
+        <div class="features__list">
+            <div class="feature">
+                <span class="feature__title">
+                    <img class="icon" src="/images/landing/icons/hash.svg" alt="hash">
+                    <h3>Create public channels or private groups</h3>
+                </span>
+                <p class="feature__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt purus vitae dui rhoncus maximus. Mauris vulputate eros nec fermentum facilisis.</p>
+            </div>
+
+            <div class="feature">
+                <span class="feature__title">
+                    <img class="icon" src="/images/landing/icons/lock.svg" alt="lock">
+                    <h3>Chat securely with end-to-end encryption </h3>
+                </span>
+            </div>
+
+            <div class="feature">
+                <span class="feature__title">
+                    <img class="icon" src="/images/landing/icons/folder.svg" alt="folder">
+                    <h3>Retain total control of your data</h3>
+                </span>
+            </div>
+
+            <div class="feature">
+                <span class="feature__title">
+                    <img class="icon" src="/images/landing/icons/comment.svg" alt="speech-bubble">
+                    <h3>Customize your chat with colors and more</h3>
+                </span class="feature__title">
+            </div>
+
+            <div class="feature">
+                <span class="feature__title">
+                    <img class="icon" src="/images/landing/icons/file.svg" alt="file">
+                    <h3>Share files easily and safe</h3>
+                </span>
+            </div>
+        </div>
+
+        <div class="features__join">
+            <p>Be the next team to join <bold>Rocket.Chat</bold></p>
+            <span class="form">
+                <input placeholder="Enter your work email" class="input" />
+                <a class="button" href="">Start now, it's free!</a>
+            </span>
+        </div>
+    </div>
+
+</section>
+
+<section class="people">
+    <div class="container">
+        <span class="people__header">
+            <p>People who</p>
+            <img src="/images/landing/heart.png" alt="heart">
+            <a href="https://rocket.chat/">Rocket.Chat</a>
+        </span>
+        <div class="people__testimonials">
+            <div class="people__testimonial">
+                <img class="customer" src="/images/install/wedeploy.png" alt="customer">
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt purus vitae dui rhoncus maximus. Mauris vulputate eros nec fermentum facilisis.</p>
+                <h4 class="name">Customer Name</h4>
+                <p class="name">Company Name</p>
+            </div>
+            <div class="people__testimonial">
+                <img class="customer" src="/images/install/wedeploy.png" alt="customer">
+                <p class="description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt purus vitae dui rhoncus maximus. Mauris vulputate eros nec fermentum facilisis.</p>
+                <h4 class="name">Customer Name</h4>
+                <p class="name">Company Name</p>
+            </div>
+            <div class="people__testimonial">
+                <img class="customer" src="/images/install/wedeploy.png" alt="customer">
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt purus vitae dui rhoncus maximus. Mauris vulputate eros nec fermentum facilisis.</p>
+                <h4 class="name">Customer Name</h4>
+                <p class="name">Company Name</p>
+            </div>
+        </div>
+
+        <div class="people__team">
+            {% for image in site.static_files %}
+                {% if image.path contains 'images/landing/team' %}
+                    <img class="team-member" src="{{ site.baseurl }}{{ image.path }}" alt="team member" />
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        <div class="people__footer">
+
+        </div>
+    </div>
+</section>
+
+<section class="worldwide">
+    <div class="col--third">
+        <div>
+            <h2>Rocket.Chat is used by teams <strong>worldwide</strong></h2>
+        </div>
+        <div class="worldwide__item worldwide__servers">
+            <p>+250k</p>
+            <p>servers<br><strong>launched</strong></p>
+        </div>
+        <div class="worldwide__item worldwide__users">
+            <p>+10</p>
+            <p>million<br><strong>users</strong></p>
+        </div>
+        <div class="worldwide__item worldwide__countries">
+            <p>+150</p>
+            <p><strong>countries</strong><br>online</p>
+        </div>
+        <div class="worldwide__item worldwide__contributors">
+            <p>+800</p>
+            <p>global<br><strong>contributors</strong></p>
+        </div>
+    </div>
+    <div>
+        <p>Launch your own <bold>Rocket.Chat</bold></p>
+        <span>
+            <input placeholder="Enter your work email" class="input" />
+            <a class="button" href="">Start now, it's free!</a>
+        </span>
+    </div>
+</section>

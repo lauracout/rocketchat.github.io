@@ -116,45 +116,56 @@ redirect_from:
 
         <div class="people__team">
             {% for image in site.static_files %}
-                {% if image.path contains 'images/landing/team' %}
+                {% if image.path contains 'images/landing/team/' %}
                     <img class="team-member" src="{{ site.baseurl }}{{ image.path }}" alt="team member" />
                 {% endif %}
             {% endfor %}
         </div>
 
         <div class="people__footer">
+            <div class="first">
+                <p class="pink">We are a <bold>passionate team</bold> from</p>
+                {% for image in site.static_files %}
+                    {% if image.path contains 'images/flags' %}
+                        <img class="team-member" src="{{ site.baseurl }}{{ image.path }}" alt="team member" />
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <p class="second">and also more than <bold>800 talented open source contributors</bold> too!</p>
 
         </div>
     </div>
 </section>
 
 <section class="worldwide">
-    <div class="col--third">
-        <div>
-            <h2>Rocket.Chat is used by teams <strong>worldwide</strong></h2>
+    <div class="container">
+        <div class="worldwide__list">
+            <div class="worldwide__title">
+                <h2>Rocket.Chat is used by teams <strong>worldwide</strong></h2>
+            </div>
+            <div class="worldwide__item worldwide__servers">
+                <p class="number">+250k</p>
+                <p class="text">servers<br><strong>launched</strong></p>
+            </div>
+            <div class="worldwide__item worldwide__users">
+                <p class="number">+10</p>
+                <p class="text">million<br><strong>users</strong></p>
+            </div>
+            <div class="worldwide__item worldwide__countries">
+                <p class="number">+150</p>
+                <p class="text"><strong>countries</strong><br>online</p>
+            </div>
+            <div class="worldwide__item worldwide__contributors">
+                <p class="number">+800</p>
+                <p class="text">global<br><strong>contributors</strong></p>
+            </div>
         </div>
-        <div class="worldwide__item worldwide__servers">
-            <p>+250k</p>
-            <p>servers<br><strong>launched</strong></p>
+        <div class="worldwide__join">
+            <p>Launch your own <bold>Rocket.Chat</bold></p>
+            <span class="form">
+                <input placeholder="Enter your work email" class="input" />
+                <a class="button" href="">Start now, it's free!</a>
+            </span>
         </div>
-        <div class="worldwide__item worldwide__users">
-            <p>+10</p>
-            <p>million<br><strong>users</strong></p>
-        </div>
-        <div class="worldwide__item worldwide__countries">
-            <p>+150</p>
-            <p><strong>countries</strong><br>online</p>
-        </div>
-        <div class="worldwide__item worldwide__contributors">
-            <p>+800</p>
-            <p>global<br><strong>contributors</strong></p>
-        </div>
-    </div>
-    <div>
-        <p>Launch your own <bold>Rocket.Chat</bold></p>
-        <span>
-            <input placeholder="Enter your work email" class="input" />
-            <a class="button" href="">Start now, it's free!</a>
-        </span>
     </div>
 </section>

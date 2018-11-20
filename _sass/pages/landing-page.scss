@@ -1,11 +1,11 @@
 .landing-page {
     .hero {
-        height: 900px;
+        height: 860px;
         max-height: unset;
         background-color: $space-nebula;
         background-image: url("/images/landing/hero.svg");
         background-position: center bottom;
-        background-size: 55%;
+        background-size: auto;
 
         &__content {
             display: flex;
@@ -17,10 +17,14 @@
             h2 {
                 font-weight: 300;
                 margin-bottom: 32px;
+                font-size: 44px;
+            }
 
-                bold {
-                    font-weight: 700;
-                }
+            .link p, .link a {
+                font-size: 20px;
+                line-height: 1.4;
+                letter-spacing: 0.5px;
+                margin: 0;
             }
 
             .form {
@@ -38,6 +42,19 @@
                     font-size: 15px;
                     height: 100%;
                     border-radius: 4px;
+                }
+            }
+        }
+
+        @media screen and (max-width: $tablet) {
+            background-size: 100%;
+
+            &__content {
+                width: 100%;
+                margin: 0;
+
+                h2 {
+                    font-size: 40px;
                 }
             }
         }
@@ -70,6 +87,11 @@
             width: 45%;
             margin: auto;
             text-align: center;
+
+            p {
+                margin-bottom: 35px;
+                font-size: 24px;
+            }
 
             .form {
                 display: flex;
@@ -243,6 +265,10 @@
             margin: auto;
             text-align: center;
 
+            p {
+                margin-bottom: 35px;
+            }
+
             .form {
                 display: flex;
                 height: 50px;
@@ -307,5 +333,9 @@
         &__contributors {
             color: #0fe9c4;
         }
+    }
+
+    .light-grey {
+        color: $grey-light;
     }
 }

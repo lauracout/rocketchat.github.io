@@ -250,7 +250,7 @@
   github_username: alansikora
   department: Technology
   username: alan.sikora
-  photo: no
+  photo: yes
   country: Brazil
 
 - name: Daniel Townsend
@@ -266,7 +266,6 @@
   github_username:
   department: Sales
   username: daniel.carboni
-  photo: yes
   country: Brazil
 
 - name: Douglas Gubert

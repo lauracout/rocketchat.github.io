@@ -1,5 +1,5 @@
 <a class="card--blog card--blog__image{% if include.post.dateEvent %} event{% endif %}" href='{% if include.post.extUrl %} {{include.post.extUrl}} {% else %} {{ include.post.url | remove: "index.html" }} {% endif %}' >
-    <div class="card--blog__cover" style="{% if include.post.bgColor %}background-color: #{{include.post.bgColor}};{% endif %}{% unless include.post.bgSize == 'logo' %}{% if include.post.bgImage %}background-image: url('{{ include.post.bgImage }}'); background-size: {{ include.post.bgSize }};{% else %}background-image: url('/images/blog/post.jpg');{% endif %}{% endunless %}">
+    <div class="card--blog__cover" style="{% if include.post.bgColor %}background-color: #{{include.post.bgColor}};{% endif %}{% unless include.post.bgSize == 'logo' %}{% if include.post.bgImage %}background-image: url('{{ include.post.bgImage }}');{% if include.post.bgSize %}background-size: {{ include.post.bgSize }};{% endif %}{% else %}background-image: url('/images/blog/post.jpg');{% endif %}{% endunless %}">
         {% if include.post.bgImage and include.post.bgSize == 'logo'%}
         <img class="card--blog__img-cover" src="{{include.post.bgImage}}" alt="go to post">
         {% endif %}

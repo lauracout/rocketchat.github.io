@@ -48,34 +48,8 @@ theme: dark
   <div class="space--2"></div>
 
   <div class="blog__related">
-    {% for post in site.data.press %}
-      <a class="card--blog card--blog__image"
-      href="{{ post.url | remove: "index.html" }}"
-      >
-      <div
-        class="card--blog__cover"
-        style="
-            {% if include.post.bgColor %}
-                background-color: #{{include.post.bgColor}}
-            {% endif %}
-            {% unless include.post.isLogo %}
-                {% if include.post.cover and include.post.bgSize == 'cover'%}
-                    background-image: url('{{ include.post.cover }}'); background-size: cover;
-                {% else if include.post.cover%}
-                    background-image: url('{{ include.post.cover }}');
-                {% else %}
-                    background-image: url('/images/blog/post.jpg');
-                {% endif %}
-            {% endunless %}"
-    >
-      ></div>
-      <div class="card--blog__wrap">
-        <p class="card--blog__meta label--small theme_type--grey">
-            {{ post.date | date: "%b %-d, %Y" }}
-        </p>
-        <h3 class="card--blog__title theme_type--dark">{{ post.title }}</h3>
-      </div>
-      </a>
+    {% for post in site.categories.Press %}
+      {% include blog/article-link.html post=post %}
     {% endfor %}
   </div>
 </section>

@@ -4,8 +4,8 @@ date: 2018-10-09 10:00:00
 link: //www.softex.br/softex-projeta-us-10-milhoes-em-negocios-para-a-delegacao-brasileira-no-gartner-symposium-itxpo/
 hidden: true
 author: Softex
-bgImage: /images/posts/2018/10/2018-10-09-softex-article/softex-logo.jpg
 extUrl: https://www.softex.br/softex-projeta-us-10-milhoes-em-negocios-para-a-delegacao-brasileira-no-gartner-symposium-itxpo/
+bgImage: /images/press/softex.png
 bgSize: logo
 bgColor: "ffffff"
 categories:

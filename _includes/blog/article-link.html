@@ -5,7 +5,7 @@ href='{% if include.post.extUrl %} {{include.post.extUrl}} {% else %} {{ include
         class="card--blog__cover"
         style="{% if include.post.bgColor %}background-color: #{{include.post.bgColor}}{% endif %}
             {% unless include.post.bgSize == 'logo' %}
-                {% if include.post.bgImage}background-image: url('{{ include.post.bgImage }}'); background-size: {{ include.post.bgSize }};
+                {% if include.post.bgImage %}background-image: url('{{ include.post.bgImage }}'); background-size: {{ include.post.bgSize }};
                 {% else %}background-image: url('/images/blog/post.jpg');{% endif %}{% endunless %}">
         {% if include.post.bgImage and include.post.bgSize == 'logo'%}
         <img class="card--blog__img-cover" src="{{include.post.bgImage}}" alt="go to post">

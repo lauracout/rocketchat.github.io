@@ -82,15 +82,6 @@
   photo: yes
   country: Brazil
 
-- name: Diego Dorgam
-  role: Senior Sales & Bots Engineer
-  github_username: diegodorgam
-  github_uid: 12052193
-  department: Sales
-  username: diego.dorgam
-  country: Brazil
-  photo: yes
-
 - name: Guilherme Gazzo
   role: Lead Front End Engineer
   github_username: ggazzo

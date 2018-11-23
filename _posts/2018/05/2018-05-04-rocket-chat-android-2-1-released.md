@@ -4,7 +4,7 @@ categories:
   - News
 date: 2018-05-04 08:00:00
 author: Rocket.Chat Team
-cover: /images/posts/2018/04/2018-05-04-rocket-chat-android-2-1-released.md/cover.jpg
+bgImage: /images/posts/2018/04/2018-05-04-rocket-chat-android-2-1-released.md/cover.jpg
 ---
 
 Rocket.Chat is proud to announce its Rocket.Chat Android 2.1.1 release with the following features and changes:

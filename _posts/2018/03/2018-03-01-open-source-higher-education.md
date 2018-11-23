@@ -5,7 +5,7 @@ categories:
   - Product
 date: 2018-03-01 16:11
 author: Louise Message
-cover: /images/posts/2018/03/03-13-18-open-source-higher-education-cover.jpg
+bgImage: /images/posts/2018/03/03-13-18-open-source-higher-education-cover.jpg
 redirect_from: /2017/03/01/open-source-higher-education/
 featured: true
 ---

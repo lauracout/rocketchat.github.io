@@ -4,7 +4,7 @@ categories:
   - News
 date: 2017-08-26 14:01:55
 author: Sing Li
-cover: /images/posts/2017/08/new-desktop-app-release-available-for-windows-linux-and-macos/cover-desktop-release.jpg
+bgImage: /images/posts/2017/08/new-desktop-app-release-available-for-windows-linux-and-macos/cover-desktop-release.jpg
 redirect_from: /blog/new-desktop-app-release-available-for-windows-linux-and-macos
 ---
 

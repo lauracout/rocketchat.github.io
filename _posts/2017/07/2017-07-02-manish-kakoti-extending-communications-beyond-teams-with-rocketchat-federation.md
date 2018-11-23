@@ -5,7 +5,9 @@ categories:
   - Events
 date: 2017-07-02 22:21:50
 author: Sing Li
-cover: /images/posts/2017/07/gsoc-logo.png
+bgImage: /images/press/gsoc.png
+bgSize: logo
+bgColor: "ffffff"
 redirect_from: /blog/manish-kakoti-extending-communications-beyond-teams-with-rocketchat-federation
 ---
 

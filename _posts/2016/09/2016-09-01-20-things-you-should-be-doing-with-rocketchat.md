@@ -5,7 +5,7 @@ categories:
   - Case Studies
 date: 2016-09-01 14:13:25
 author: Marcelo Schmidt
-cover: /images/posts/2016/09/20-things-you-should-be-doing-with-rocketchat/cover-do.jpg
+bgImage: /images/posts/2016/09/20-things-you-should-be-doing-with-rocketchat/cover-do.jpg
 redirect_from: /blog/20-things-you-should-be-doing-with-rocketchat
 ---
 

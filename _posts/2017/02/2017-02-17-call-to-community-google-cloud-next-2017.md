@@ -5,7 +5,7 @@ categories:
   - Events
 date: 2017-02-17 12:22:57
 author: Sing Li
-cover: /images/posts/2017/02/call-to-community-google-cloud-next-2017/cover-san-fran-cloud.jpg
+bgImage: /images/posts/2017/02/call-to-community-google-cloud-next-2017/cover-san-fran-cloud.jpg
 redirect_from: /blog/call-to-community-google-cloud-next-2017
 ---
 

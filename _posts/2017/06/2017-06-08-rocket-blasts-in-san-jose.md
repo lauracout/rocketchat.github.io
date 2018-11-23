@@ -5,7 +5,7 @@ categories:
   - Events
 date: 2017-06-08 18:57:52
 author: Sing Li
-cover: /images/posts/2017/06/rocket-blasts-in-san-jose/cover-rocket-blasts-san-jose.jpg
+bgImage: /images/posts/2017/06/rocket-blasts-in-san-jose/cover-rocket-blasts-san-jose.jpg
 redirect_from: /blog/rocket-blasts-in-san-jose
 ---
 

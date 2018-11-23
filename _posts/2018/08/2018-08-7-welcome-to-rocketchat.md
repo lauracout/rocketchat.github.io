@@ -4,7 +4,7 @@ categories:
   - News
 date: 2018-08-7 08:00:00
 author: Rocket.Chat Team
-cover: /images/posts/2018/08/2018-08-7-welcome-to-rocketchat/hipchat-rc-cover.jpg
+bgImage: /images/posts/2018/08/2018-08-7-welcome-to-rocketchat/hipchat-rc-cover.jpg
 featured: true
 ---
 

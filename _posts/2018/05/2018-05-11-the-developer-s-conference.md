@@ -9,7 +9,7 @@ bgSize: logo
 bgColor: ffffff
 author: Isabella Russell
 hidden: true
-cover: /images/posts/2018/05/2018-05-11-the-developer-s-conference-tdc-poa/tdc-cover-general-logo.jpg
+bgImage: /images/posts/2018/05/2018-05-11-the-developer-s-conference-tdc-poa/tdc-cover-general-logo.jpg
 categories:
   - Events
 ---

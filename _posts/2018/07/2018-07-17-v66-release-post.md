@@ -4,7 +4,7 @@ categories:
   - News
 date: 2018-07-17 08:00:00
 author: Rocket.Chat Team
-cover: /images/posts/2018/07/2018-07-17-v66-release-post/0.66-cover.jpg
+bgImage: /images/posts/2018/07/2018-07-17-v66-release-post/0.66-cover.jpg
 featured: true
 ---
 

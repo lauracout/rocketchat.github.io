@@ -4,7 +4,7 @@ categories:
   - News
 date: 2018-06-7 08:00:00
 author: Rocket.Chat Team
-cover: /images/posts/2018/06/2018-06-7-android-2-4-release/cover.jpg
+bgImage: /images/posts/2018/06/2018-06-7-android-2-4-release/cover.jpg
 featured: true
 ---
 

@@ -5,7 +5,7 @@ categories:
   - Product
 date: 2017-05-24 10:30:05
 author: Bradley Hilton
-cover: /images/posts/2017/05/announcing-zapier-integration/zapier-logo-colored.png
+bgImage: /images/posts/2017/05/announcing-zapier-integration/zapier-logo-colored.png
 redirect_from: /blog/announcing-zapier-integration
 ---
 

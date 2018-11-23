@@ -5,7 +5,7 @@ categories:
   - Case Studies
 date: 2017-01-25 06:01:00
 author: Sing Li
-cover: /images/posts/2017/01/making-connections-at-conferences-and-trade-fairs/cover-meeting.jpg
+bgImage: /images/posts/2017/01/making-connections-at-conferences-and-trade-fairs/cover-meeting.jpg
 redirect_from: /blog/making-connections-at-conferences-and-trade-fairs
 ---
 

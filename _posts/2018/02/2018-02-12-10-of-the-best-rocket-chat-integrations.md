@@ -5,7 +5,7 @@ categories:
   - Case Studies
   - Product
 author: Louise Message
-cover: /images/posts/2018/02/2018-02-12-10-best-integrations/cover.jpg
+bgImage: /images/posts/2018/02/2018-02-12-10-best-integrations/cover.jpg
 featured: true
 ---
 

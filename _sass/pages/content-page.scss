@@ -40,6 +40,10 @@
     min-height: unset;
     max-height: unset;
     top: -70px;
+
+    &.small {
+      height: 300px;
+    }
   }
 
   &__column {

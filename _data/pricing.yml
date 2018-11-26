@@ -74,7 +74,7 @@
 
 - title: "Conferencing Server"
   bronze: "Shared"
-  silver: "Dedicated"
+  silver: "Shared"
   gold: "Dedicated"
   community: "Shared"
   pro: "Dedicated"

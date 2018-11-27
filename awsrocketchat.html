@@ -26,6 +26,12 @@ redirect_from:
                 <div class="space--3"></div>
                 <p class="theme_type--space half-paragraph">Rocket.Chat is a team chat collaboration platform that allows users to communicate securely in real-time on web, desktop or mobile and to customize their interface with a range of plugins, themes and integrations with other key software.
                 </p>
+                <br/>
+                <p class="theme_type--space half-paragraph">Architecturally, the Rocket.Chat server is a middle tier process and, more specifically, a Node.js process running on Linux.  It accepts requests from clients (mobile iOS or Android apps, desktop client, web client, and so on…) and executes them.  Data persistence is achieved through a MongoDB server at the database tier.
+                </p>
+                <br/>
+                <p class="theme_type--space half-paragraph">Rocket.Chat can be scaled by increasing the number of middle tier server instances working on incoming requests, all sharing the same database instance.  In this case, MongoDB acts as both data persistence as well as real-time state synchronizer between the Rocket.Chat server instances.
+                </p>
                 <div class="space--3"></div>
 
             </div>

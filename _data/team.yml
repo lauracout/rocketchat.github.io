@@ -276,3 +276,12 @@
   twitter: d_gubert
   photo: yes
   country: Brazil
+
+- name: Bruno Raymundo
+  role: Lead of Support
+  department: Support
+  github_username: braymundo
+  username: bruno.raymundo
+  twitter: brunoraymundo
+  # photo: yes
+  country: Brazil

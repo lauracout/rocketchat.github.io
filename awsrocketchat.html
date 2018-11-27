@@ -8,42 +8,49 @@ description: |
 permalink: /awsrocketchat
 
 theme: light
-
-redirect_from:
-    /awsrocketchat/
 ---
-
-
 <section class="hero small">
-    <div class="space--5"></div>
-    <h1 class="display--big theme_type--dark">AWS and Rocket.Chat</h1>
-</section>
+        <div class="space--5"></div>
+        <h1 class="display--big theme_type--dark">Rocket.Chat and AWS</h1>
+    </section>
 
-<div class="space--4"></div>
+    <div class="space--4"></div>
 
-<section class="container">
-    <div class="flex-grid grid--justify-around">
-        <div class="col">
-            <h3 class="display align--center">How Rocket.Chat Works</h3>
-            <div class="space--3"></div>
-            <p class="theme_type--space half-paragraph">Rocket.Chat is a team chat collaboration platform that allows users to communicate securely in real-time on web, desktop or mobile and to customize their interface with a range of plugins, themes and integrations with other key software.
-            </p>
-            <div class="space--3"></div>
+    <section class="container">
+        <div class="flex-grid grid--justify-around">
+            <div class="col">
+                <h3 class="display align--center">How Rocket.Chat works</h3>
+                <div class="space--3"></div>
+                <p class="theme_type--space half-paragraph">Rocket.Chat is a team chat collaboration platform that allows users to communicate securely in real-time on web, desktop or mobile and to customize their interface with a range of plugins, themes and integrations with other key software.
+                </p>
+                <br/>
+                <p class="theme_type--space half-paragraph">[Insert Here] DIAGRAM
+                </p>
+                <div class="space--3"></div>
 
+            </div>
         </div>
-    </div>
-</section>
 
-<div class="space--5"></div>
+<section class="container">
+        <div class="flex-grid grid--justify-around">
+            <div class="col">
+                <h3 class="display align--center">How deployment works</h3>
+                <div class="space--3"></div>
+                <p class="theme_type--space half-paragraph">The helm chart-based deployment starts a Rocket.Chat server container backed by a MongoDB database container, orchestrated by the Kubernetes control pane. <br/>You can scale up the number of Rocket.Chat server containers depending on your workload, and you can also add reverse proxy such as nginx and load balancers.
+                </p>
+                <div class="space--3"></div>
+
+                </div>
+        </div>
 
 <section class="container">
     <div class="flex-grid grid--justify-around">
         <div class="col">
-            <h3 class="display align--center">Rocket.Chat Community X Enterprise  </h3>
+            <h3 class="display align--center">Rocket.Chat Containers for <br/>Community &amp; Enterprise Editions</h3>
             <div class="space--3"></div>
             <p class="theme_type--space half-paragraph align--center">Two separate editions of Rocket.Chat are available for instant deployment:</p>
             <div class="space--3"></div>
-            <h4 class="display--medium align--center">Community</h4>
+            <h4 class="display--medium align--center"><strong>Community Edition</h4></strong>
             <div class="space--1"></div>
             <p class="theme_type--space half-paragraph">The Community edition is free to deploy. It is also a great way to easily try Rocket.Chat for your organization.</p>
 
@@ -68,10 +75,13 @@ redirect_from:
                 <li>Free support resources: <a class="button--link" href="https://rocket.chat/docs" target="_blank" rel="noopener noreferrer">Docs</a> & <a class="button--link" href="https://www.youtube.com/channel/UCin9nv7mUjoqrRiwrzS5UVQ" target="_blank" rel="noopener noreferrer">Tutorials</a>, <a class="button--link" href="https://forums.rocket.chat/" target="_blank" rel="noopener noreferrer">Forums</a>, <a class="button--link" href="https://github.com/RocketChat/Rocket.Chat/issues" target="_blank" rel="noopener noreferrer">Features & Bugs</a></li>
                 <li>Support: Monitoring and Alerts</li>
             </ul>
+            <div class="space--1"></div>
+
+            <p class="theme_type--light half-paragraph align--center">For any assistance with the product or if you would like to purchase professional support for your server please email: <a class="button--link" href="mailto:aws_support@rocket.chat." target="_blank" rel="noopener noreferrer">aws_support@rocket.chat.</a></p>
 
             <div class="space--4"></div>
 
-            <h4 class="display--medium align--center">Enterprise</h4>
+            <h4 class="display--medium align--center"><strong>Enterprise Edition</h4></strong>
             <div class="space--1"></div>
             <p class="theme_type--space half-paragraph">The Enterprise Edition allows you to easily scale Rocket.Chat for higher numbers of users and would suit larger organizations.</p>
 
@@ -102,8 +112,6 @@ redirect_from:
 
             <div class="space--3"></div>
 
-
-            <p class="theme_type--space half-paragraph align--center">For any assistance with the product or if you would like to purchase professional support for your server please email: <a class="button--link" href="mailto:aws_support@rocket.chat." target="_blank" rel="noopener noreferrer">aws_support@rocket.chat.</a></p>
         </div>
     </div>
 </section>

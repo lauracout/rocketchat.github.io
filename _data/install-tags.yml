@@ -41,6 +41,12 @@
     - Official
     - Manual Install
 
+- title: Oracle
+  image: /images/install/oracle.png
+  link: https://rocket.chat/docs/administrator-guides/authentication/saml/oracle-cloud/#oracle-identity-cloud-service
+  tags:
+    - Official
+
 - title: Cloudron.io
   image: /images/install/cloudron.png
   link: https://rocket.chat/docs/installation/paas-deployments/cloudron-io/

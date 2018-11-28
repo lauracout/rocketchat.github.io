@@ -4,7 +4,7 @@ categories:
   - Case Studies
 date: 2016-07-19 12:31:59
 author: Marcelo Schmidt
-bgImage: /images/posts/2016/07/viva-liberte-indiehosters-supporting-internet-freedom-with-open-source-chat/indiehosters-4.jpg
+cover: /images/posts/2016/07/viva-liberte-indiehosters-supporting-internet-freedom-with-open-source-chat/indiehosters-4.jpg
 redirect_from: /blog/viva-liberte-indiehosters-supporting-internet-freedom-with-open-source-chat
 ---
 

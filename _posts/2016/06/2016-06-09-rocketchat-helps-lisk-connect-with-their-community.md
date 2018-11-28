@@ -5,7 +5,7 @@ categories:
   - Case Studies
 date: 2016-06-09 19:58:37
 author: Marcelo Schmidt
-bgImage: /images/posts/2016/06/rocketchat-helps-lisk-connect-with-their-community/cover-lisk-community-connect.jpg
+cover: /images/posts/2016/06/rocketchat-helps-lisk-connect-with-their-community/cover-lisk-community-connect.jpg
 redirect_from: /blog/rocketchat-helps-lisk-connect-with-their-community
 ---
 

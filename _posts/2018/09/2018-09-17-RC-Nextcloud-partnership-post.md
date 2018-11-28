@@ -6,7 +6,7 @@ categories:
 - Case Studies
 date: 2018-09-17 08:00:00
 author: Isabella Russell
-bgImage: /images/posts/2018/09/2018-09-17-RC-Nextcloud-partnership-post/rocketchat-nextcloud.jpg
+cover: /images/posts/2018/09/2018-09-17-RC-Nextcloud-partnership-post/rocketchat-nextcloud.jpg
 featured: true
 ---
 

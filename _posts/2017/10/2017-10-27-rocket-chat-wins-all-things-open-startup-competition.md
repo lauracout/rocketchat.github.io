@@ -5,7 +5,7 @@ categories:
   - Events
 date: 2017-10-27 10:00:00
 author: Sean Packham
-bgImage: /images/posts/2017/10/rocket-chat-wins-all-things-open-startup-competition/cover.jpg
+cover: /images/posts/2017/10/rocket-chat-wins-all-things-open-startup-competition/cover.jpg
 redirect_from: /blog/rocket-chat-wins-all-things-open-startup-competition
 ---
 

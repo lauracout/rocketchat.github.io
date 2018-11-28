@@ -8,5 +8,5 @@ author: Isabella Russell
 hidden: true
 categories:
   - Events
-bgImage: /images/posts/2018/10/2018-10-19-all-things-open/ATL-logo.png
+cover: /images/posts/2018/10/2018-10-19-all-things-open/ATL-logo.png
 ---

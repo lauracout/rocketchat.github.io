@@ -5,7 +5,7 @@ categories:
   - News
 date: 2017-12-15 00:00:00
 author: Sing Li
-bgImage: /images/posts/2017/12/try-brave-browser-and-support-rocket-chat/brave-rc.png
+cover: /images/posts/2017/12/try-brave-browser-and-support-rocket-chat/brave-rc.png
 redirect_from: /blog/try-brave-browser-and-support-rocket-chat
 ---
 

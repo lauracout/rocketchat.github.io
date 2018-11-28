@@ -4,7 +4,7 @@ categories:
   - News
 date: 2018-07-17 8:00:00
 author: Isabella Russell
-bgImage: /images/posts/2018/07/2018-07-17-gsoc-project-2/iPhone X-dark-mode-cover.png
+cover: /images/posts/2018/07/2018-07-17-gsoc-project-2/iPhone X-dark-mode-cover.png
 featured: true
 ios_release: true
 ---

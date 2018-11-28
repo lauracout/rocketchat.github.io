@@ -5,7 +5,7 @@ categories:
   - Events
 date: 2016-09-21 12:08:07
 author: Marcelo Schmidt
-bgImage: /images/posts/2016/09/bossie-awards-2016-the-best-open-source-applications/cover-bossie-awards.jpg
+cover: /images/posts/2016/09/bossie-awards-2016-the-best-open-source-applications/cover-bossie-awards.jpg
 redirect_from: /blog/bossie-awards-2016-the-best-open-source-applications
 ---
 

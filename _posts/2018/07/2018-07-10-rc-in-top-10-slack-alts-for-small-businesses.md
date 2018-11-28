@@ -5,7 +5,7 @@ link: //www.business2community.com/small-business/the-top-10-slack-alternatives-
 hidden: true
 author: Business2Community
 extUrl: https://www.business2community.com/small-business/the-top-10-slack-alternatives-for-small-businesses-02087348
-bgImage: /images/press/business-2-community.png
+cover: /images/press/business-2-community.png
 bgSize: logo
 bgColor: "f0f0f0"
 categories:

@@ -8,7 +8,7 @@ author: Isabella Russell
 hidden: true
 categories:
   - Events
-bgImage: /images/posts/2018/10/2018-10-12-gartner-symposium-itxpo/gartner-symposium-itxpo-orlando.jpg
+cover: /images/posts/2018/10/2018-10-12-gartner-symposium-itxpo/gartner-symposium-itxpo-orlando.jpg
 bgSize: contain
 bgColor: #4D82CCs
 ---

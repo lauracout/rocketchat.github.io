@@ -4,7 +4,7 @@ categories:
   - News
 date: 2018-01-10 14:23:00
 author: Louise Message
-bgImage: /images/posts/2018/01/2018-01-10-ios-1-8-released/cover.jpg
+cover: /images/posts/2018/01/2018-01-10-ios-1-8-released/cover.jpg
 ios_release: true
 ---
 

@@ -5,7 +5,7 @@ link: //www.news.uct.ac.za/article/-2018-09-04-connecting-the-ocean-view-communi
 hidden: true
 author: University of Cape Town News
 extUrl: https://www.news.uct.ac.za/article/-2018-09-04-connecting-the-ocean-view-community
-bgImage: /images/press/university-of-cape-town.png
+cover: /images/press/university-of-cape-town.png
 bgSize: logo
 bgColor: "ffffff"
 categories:

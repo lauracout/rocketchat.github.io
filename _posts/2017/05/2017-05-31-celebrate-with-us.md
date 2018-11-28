@@ -5,7 +5,7 @@ categories:
   - Events
 date: 2017-05-31 22:03:40
 author: Sing Li
-bgImage: /images/posts/2017/05/celebrate-with-us/cover-2nd-birthday.jpg
+cover: /images/posts/2017/05/celebrate-with-us/cover-2nd-birthday.jpg
 redirect_from: /blog/celebrate-with-us
 ---
 

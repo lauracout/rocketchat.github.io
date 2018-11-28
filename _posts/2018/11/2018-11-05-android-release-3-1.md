@@ -4,7 +4,7 @@ categories:
 - News
 date: 2018-11-05 08:00:00
 author: Isabella Russell
-bgImage: /images/posts/2018/11/2018-11-05-android-release-3-1/android-3-1-cover.jpg
+cover: /images/posts/2018/11/2018-11-05-android-release-3-1/android-3-1-cover.jpg
 featured: true
 android_release: true
 ---

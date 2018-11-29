@@ -95,7 +95,7 @@
 
 - name: E-Core
   website: https://www.e-core.com/en/
-  logo: /images/atlassian/ecore.png
+  logo: /images/atlassian/ecore-logo.png
   type: technology
 
 - name: 4Linux

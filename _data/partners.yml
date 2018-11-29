@@ -1,29 +1,24 @@
 - name: Zibtek
-  description: Zibtek LLC is a US-based full service software development firm that specializes in high performance engineering, design and advisory services.
   website: //www.zibtek.com/
   logo: /images/partners/logos/zibtek.png
   type: technology
 
 - name: Source Forte
-  description: Certified implementers & experts in several of the most popular and well respected open source platforms.
   website: //sourceforte.com/our-global-collaborations/
   logo: /images/partners/logos/sourceforte.png
   type: technology
 
 - name: Vortigo
-  description: Vortigo is a software factory support companies with digital transformation initiatives through software development, consultancy, professional services and products in the SAAS model.
   website: //vortigo.com.br/en/
   logo: /images/partners/logos/vortigo.png
   type: technology
 
 - name: Curve Stone
-  description: Hands-on partner with expertise on the configuration, customization and development of Rocket.Chat.
   website: //www.curvestone.io/rocket-chat
   logo: /images/partners/logos/curvestone.png
   type: technology
 
 - name: Amazebot
-  description: Chatbots and automation partner, experienced in development of bespoke Rocket.Chat integrations.
   website: //amazebot.chat
   logo: /images/partners/logos/amazebot.png
   type: technology
@@ -34,7 +29,6 @@
   type: institutional
 
 - name: Tokenly
-  description:
   website: //tokenly.com
   logo: /images/partners/logos/tokenly.png
   type: institutional
@@ -64,11 +58,6 @@
   logo: /images/partners/logos/mconf.png
   type: institutional
 
-- name: Curve Stone
-  website: //www.curvestone.io/managed-rocketchat-hosting
-  logo: /images/partners/logos/curvestone.png
-  type: hosting
-
 - name: Layershift PaaS
   website: //jps.layershift.com/rocketchat/deploy.html
   logo: /images/partners/logos/layershift.png
@@ -93,6 +82,26 @@
   website: //www.zenvia.com/produtos/chatbots/chatbot-cobranca
   logo: /images/partners/logos/zenvia.png
   type: value added
+
+- name: Artificial.Chat
+  website: http://artificial.chat/
+  logo: /images/partners/logos/artificial-chat.png
+  type: value added
+
+- name: Stefanini
+  website: https://rocket.chat/2018/10/19/stefanini-rc-partnership/
+  logo: /images/partners/logos/stefanini.svg
+  type: value added
+
+- name: E-Core
+  website: https://www.e-core.com/en/
+  logo: /images/atlassian/ecore.png
+  type: technology
+
+- name: 4Linux
+  website: https://www.4linux.com.br/
+  logo: /images/partners/logos/4linux.svg
+  type: technology
 
 - name: rtm
   website: //www.rtm.net.br/solucoes/rtm-rocketchat.asp?gclid=Cj0KCQjwv-DaBRCcARIsAI9sba8Pu8YJdWb8eYqfp3ftGGutOWjsQjL9gEsSQD24jcZn0p3Q5fqXIREaAp4oEALw_wcB

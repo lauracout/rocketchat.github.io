@@ -278,10 +278,9 @@
   country: Brazil
 
 - name: Bruno Raymundo
-  role: Lead of Support
+  role: Support Lead
   department: Support
   github_username: braymundo
   username: bruno.raymundo
-  twitter: brunoraymundo
-  # photo: yes
+  photo: yes
   country: Brazil

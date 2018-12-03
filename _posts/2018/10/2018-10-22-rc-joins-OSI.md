@@ -5,7 +5,7 @@ categories:
 - Product
 date: 2018-10-22 08:00:00
 author: Isabella Russell
-bgImage: /images/posts/2018/10/2018-10-22-rc-joins-OSI/rc-osi-cover.JPG
+cover: /images/posts/2018/10/2018-10-22-rc-joins-OSI/rc-osi-cover.JPG
 featured: true
 ---
 ### Rocket.Chat stays on as Corporate Sponsor

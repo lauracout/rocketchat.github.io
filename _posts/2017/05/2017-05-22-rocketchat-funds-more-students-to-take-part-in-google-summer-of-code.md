@@ -5,7 +5,7 @@ categories:
   - Events
 date: 2017-05-22 17:20:01
 author: Sing Li
-bgImage: /images/press/gsoc.png
+cover: /images/press/gsoc.png
 bgSize: logo
 bgColor: "ffffff"
 redirect_from: /blog/rocketchat-funds-more-students-to-take-part-in-google-summer-of-code

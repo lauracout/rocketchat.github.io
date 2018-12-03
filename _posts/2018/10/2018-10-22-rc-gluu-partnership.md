@@ -6,7 +6,7 @@ categories:
   - Case Studies
 date: 2018-10-23 08:00:00
 author: Isabella Russell
-bgImage: /images/posts/2018/10/2018-10-22-rc-gluu-partnershi/gluu-rc-team-photo-cover.jpg
+cover: /images/posts/2018/10/2018-10-22-rc-gluu-partnershi/gluu-rc-team-photo-cover.jpg
 featured: true
 ---
 Rocket.Chat and [Gluu](https://www.gluu.org/) jointly announce an extensive partnership today to collaborate on identity and access management (IAM) and strong authentication for community, enterprise, and institutional customers.

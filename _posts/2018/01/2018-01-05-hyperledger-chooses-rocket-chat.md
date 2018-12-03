@@ -7,7 +7,7 @@ categories:
 title: Hyperledger chooses Rocket.Chat
 date: 2018-01-05 11:26:00
 author: Louise Message
-bgImage: /images/posts/2018/01/2018-01-05-hyperledger-chooses-rocket-chat/cover.jpg
+cover: /images/posts/2018/01/2018-01-05-hyperledger-chooses-rocket-chat/cover.jpg
 ---
 [Hyperledger](https://www.hyperledger.org), a Linux Foundation Project, is a suite of open source blockchain (decentralized public ledger of securely linked records) tools. It is the fastest growing project ever hosted by the foundation and comprises over one-hundred industry leaders including J.P. Morgan, Accenture, Intel, Samsung and Airbus.
 

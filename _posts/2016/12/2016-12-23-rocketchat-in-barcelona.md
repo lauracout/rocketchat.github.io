@@ -6,7 +6,7 @@ categories:
   - News
 date: 2016-12-23 10:51:42
 author: Marcelo Schmidt
-bgImage: /images/posts/2016/12/rocketchat-in-barcelona/cover-barcelona.jpg
+cover: /images/posts/2016/12/rocketchat-in-barcelona/cover-barcelona.jpg
 redirect_from: /blog/rocketchat-in-barcelona
 ---
 Governments around the world are turning to open source software to fulfil their communication, operational and administrative needs.

@@ -5,7 +5,7 @@ link: //www.timecamp.com/blog/2018/08/top-10-chat-software-for-teams/
 hidden: true
 author: Timecamp
 extUrl: https://www.timecamp.com/blog/2018/08/top-10-chat-software-for-teams/
-bgImage: /images/press/timecamp.png
+cover: /images/press/timecamp.png
 bgSize: logo
 bgColor: "ffffff"
 categories:

@@ -5,7 +5,7 @@ link: //www.theregister.co.uk/2016/03/17/no_slack_for_open_sourcers/
 hidden: true
 author: The Register
 extUrl: http://www.theregister.co.uk/2016/03/17/no_slack_for_open_sourcers/
-bgImage: /images/press/theregisterlogo.png
+cover: /images/press/theregisterlogo.png
 bgSize: logo
 bgColor: "fe0000"
 categories:

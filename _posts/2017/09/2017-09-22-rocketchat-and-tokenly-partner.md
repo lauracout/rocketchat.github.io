@@ -5,7 +5,7 @@ categories:
   - Product
 date: 2017-09-22 21:26:41
 author: Sing Li
-bgImage: /images/posts/2017/09/rocketchat-and-tokenly-partner/cover-tokenly.jpg
+cover: /images/posts/2017/09/rocketchat-and-tokenly-partner/cover-tokenly.jpg
 redirect_from: /blog/rocketchat-and-tokenly-partner
 ---
 

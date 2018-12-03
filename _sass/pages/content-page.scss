@@ -40,6 +40,10 @@
     min-height: unset;
     max-height: unset;
     top: -70px;
+
+    &.small {
+      height: 300px;
+    }
   }
 
   &__column {
@@ -79,6 +83,11 @@
       margin: auto;
       width: 25%;
     }
+  }
+
+  .article-image {
+    width: 75%;
+    margin: auto;
   }
 
   &__column-wrapper {

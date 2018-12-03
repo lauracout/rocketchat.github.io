@@ -5,7 +5,7 @@ categories:
   - Product
 date: 2018-02-01 09:00:00
 author: Louise Message
-bgImage: /images/posts/2018/02/2018-02-01-10-ways-to-install-rocket-chat/cover.jpg
+cover: /images/posts/2018/02/2018-02-01-10-ways-to-install-rocket-chat/cover.jpg
 featured: true
 ---
 

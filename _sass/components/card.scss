@@ -173,3 +173,14 @@
   margin: 0;
   display: inline-block;
 }
+
+.card.institutional {
+  padding: 40px;
+
+  img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    margin: auto;
+  }
+}

@@ -49,20 +49,15 @@ theme: dark
     </div>
   </div>
 
-  <div class="flex-grid">
+  <div class="flex-grid grid--wrap">
     {% for partner in TechnoPartners %}
-    <div class="col">
-      <div class="card theme_box--dark-strong">
-        <div class="card__media">
-          <img src="{{ partner.logo }}" alt="{{ partner.name }}" />
+      <a href="{{ partner.website }}" target="_blank" rel="noopener noreferrer" class="col--third">
+        <div class="card institutional theme_box--dark-strong">
+          <div class="card__media">
+            <img src="{{ partner.logo }}" alt="{{ partner.name }}" />
+          </div>
         </div>
-        <div class="card_footer theme_box--dark">
-          <h3 class="display--small theme_type--dark">{{ partner.name }}</h3>
-          <p class="theme_type--grey">{{ partner.description }}</p>
-          <a href="{{ partner.website }}" target="_blank" rel="noopener noreferrer" class="button--link button--with-arrow">Visit Website</a>
-        </div>
-      </div>
-    </div>
+      </a>
   {% endfor %}
   </div>
 
@@ -80,20 +75,15 @@ theme: dark
 
   <div class="space--2"></div>
 
-  <div class="flex-grid grid--justify-around">
+  <div class="flex-grid grid--wrap">
     {% for partner in ValueAddedPartners %}
-    <div class="col--haft">
-      <div class="card theme_box--dark-strong">
-        <div class="card__media">
-          <img src="{{ partner.logo }}" alt="{{ partner.name }}" />
+      <a href="{{ partner.website }}" target="_blank" rel="noopener noreferrer" class="col--third">
+        <div class="card institutional theme_box--dark-strong">
+          <div class="card__media">
+            <img src="{{ partner.logo }}" alt="{{ partner.name }}" />
+          </div>
         </div>
-        <div class="card_footer theme_box--dark">
-          <h3 class="display--small theme_type--dark">{{ partner.name }}</h3>
-          <p class="theme_type--grey">{{ partner.description }}</p>
-          <a href="{{ partner.website }}" target="_blank" rel="noopener noreferrer" class="button--link button--with-arrow">Visit Website</a>
-        </div>
-      </div>
-    </div>
+      </a>
     {% endfor %}
   </div>
 
@@ -110,20 +100,15 @@ theme: dark
 
   <div class="space--2"></div>
 
-  <div class="flex-grid">
+  <div class="flex-grid grid--wrap">
       {% for partner in HostingPartners %}
-      <div class="col">
-        <div class="card theme_box--dark-strong">
-          <div class="card__media">
-            <img src="{{ partner.logo }}" alt="{{ partner.name }}" />
+        <a href="{{ partner.website }}" target="_blank" rel="noopener noreferrer" class="col--third">
+          <div class="card institutional theme_box--dark-strong">
+            <div class="card__media">
+              <img src="{{ partner.logo }}" alt="{{ partner.name }}" />
+            </div>
           </div>
-          <div class="card_footer theme_box--dark">
-            <h3 class="display--small theme_type--dark">{{ partner.name }}</h3>
-            <p class="theme_type--grey">{{ partner.description }}</p>
-            <a href="{{ partner.website }}" target="_blank" rel="noopener noreferrer" class="button--link button--with-arrow">Visit Website</a>
-          </div>
-        </div>
-      </div>
+        </a>
     {% endfor %}
   </div>
 
@@ -141,7 +126,7 @@ theme: dark
   <div class="flex-grid grid--wrap">
     {% for partner in InstitutionalPartners %}
       <a href="{{ partner.website }}" target="_blank" rel="noopener noreferrer" class="col--third">
-        <div class="card theme_box--dark-strong">
+        <div class="card institutional theme_box--dark-strong">
           <div class="card__media">
             <img src="{{ partner.logo }}" alt="{{ partner.name }}" />
           </div>

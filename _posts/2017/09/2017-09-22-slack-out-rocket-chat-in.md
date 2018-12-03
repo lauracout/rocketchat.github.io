@@ -5,7 +5,7 @@ link: //www.the-blockchain.com/2017/09/22/slack-rocket-chat-blockchain-community
 hidden: true
 author: BlockchainNews
 extUrl: https://www.the-blockchain.com/2017/09/22/slack-rocket-chat-blockchain-community-leaders-aragon-lead-industry-exodus-amid-marked-increase-phishing-scams/
-bgImage: /images/press/blockchain-news.png
+cover: /images/press/blockchain-news.png
 bgSize: logo
 bgColor: "ffffff"
 categories:

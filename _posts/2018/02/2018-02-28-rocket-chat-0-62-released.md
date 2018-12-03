@@ -4,7 +4,7 @@ date: 2018-03-06 10:00:00
 category:
   - News
 author: Rodrigo Nascimento
-bgImage: /images/posts/2018/03/2018-03-06-rocket-chat-0-62-released/cover.jpg
+cover: /images/posts/2018/03/2018-03-06-rocket-chat-0-62-released/cover.jpg
 featured: true
 ---
 

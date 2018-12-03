@@ -5,7 +5,7 @@ categories:
   - Product
 date: 2018-08-31 8:00:00
 author: Isabella Russell
-bgImage: /images/posts/2018/08/marketplace-post/Marketplace-cover.png
+cover: /images/posts/2018/08/marketplace-post/Marketplace-cover.png
 featured: true
 ---
 <br/>

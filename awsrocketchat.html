@@ -1,0 +1,127 @@
+---
+layout: en/default
+class: content-page
+title: "AWS and Rocket.Chat"
+description: |
+    AWS Rocket.Chat
+
+permalink: /awsrocketchat
+
+theme: light
+
+redirect_from:
+    /awsrocketchat/
+---
+<section class="hero small">
+        <div class="space--5"></div>
+        <h1 class="display--big theme_type--dark">Rocket.Chat and AWS</h1>
+    </section>
+
+    <div class="space--4"></div>
+
+    <section class="container">
+        <div class="flex-grid grid--justify-around">
+            <div class="col">
+                <h3 class="display align--center">How Rocket.Chat works</h3>
+                <div class="space--3"></div>
+                <p class="theme_type--space half-paragraph">Rocket.Chat is a team chat collaboration platform that allows users to communicate securely in real-time on web, desktop or mobile and to customize their interface with a range of plugins, themes and integrations with other key software.
+                </p>
+                <br/>
+                <img class="article-image" src="/images/aws/rc_diagram.png" alt="how rocket.chat works"/>
+                <div class="space--2"></div>
+                <p class="theme_type--space half-paragraph">Architecturally, the Rocket.Chat server is a middle tier process and, more specifically, a Node.js process running on Linux.  It accepts requests from clients (mobile iOS or Android apps, desktop client, web client, and so on…) and executes them.  Data persistence is achieved through a MongoDB server at the database tier.
+                </p>
+                <br/>
+                <p class="theme_type--space half-paragraph">Rocket.Chat can be scaled by increasing the number of middle tier server instances working on incoming requests, all sharing the same database instance.  In this case, MongoDB acts as both data persistence as well as real-time state synchronizer between the Rocket.Chat server instances.
+                </p>
+                <div class="space--3"></div>
+
+            </div>
+        </div>
+
+<section class="container">
+        <div class="flex-grid grid--justify-around">
+            <div class="col">
+                <h3 class="display align--center">How deployment works</h3>
+                <div class="space--3"></div>
+                <p class="theme_type--space half-paragraph">The helm chart-based deployment starts a Rocket.Chat server container backed by a MongoDB database container, orchestrated by the Kubernetes control pane. <br/>You can scale up the number of Rocket.Chat server containers depending on your workload, and you can also add reverse proxy such as nginx and load balancers.
+                </p>
+                <div class="space--3"></div>
+
+                </div>
+        </div>
+
+<section class="container">
+    <div class="flex-grid grid--justify-around">
+        <div class="col">
+            <h3 class="display align--center">Rocket.Chat Containers for <br/>Community &amp; Enterprise Editions</h3>
+            <div class="space--3"></div>
+            <p class="theme_type--space half-paragraph align--center">Two separate editions of Rocket.Chat are available for instant deployment:</p>
+            <div class="space--3"></div>
+            <h4 class="display--medium align--center"><strong>Community Edition</h4></strong>
+            <div class="space--1"></div>
+            <p class="theme_type--space half-paragraph">The Community edition is free to deploy. It is also a great way to easily try Rocket.Chat for your organization.</p>
+
+            <div class="space--1"></div>
+
+            <p class="theme_type--space half-paragraph">Some of our Community edition features are:</p>
+            <div class="space--2"></div>
+
+            <ul class="theme_type--space unordered-list-half">
+                <li>Unlimited users</li>
+                <li>Unlimited messages</li>
+                <li>Unlimited public and private channels, and the ability broadcast channels</li>
+                <li>Unlimited search history and files</li>
+                <li>Unlimited integrations</li>
+                <li>Support for emojis, reactions, and embedded</li>
+                <li>Audio and video conferencing</li>
+                <li>Custom domain</li>
+                <li>Livechat</li>
+                <li>Read receipt</li>
+                <li>Multi-Factor Authentication</li>
+                <li>Customizable user permissions</li>
+                <li>Free support resources: <a class="button--link" href="https://rocket.chat/docs" target="_blank" rel="noopener noreferrer">Docs</a> & <a class="button--link" href="https://www.youtube.com/channel/UCin9nv7mUjoqrRiwrzS5UVQ" target="_blank" rel="noopener noreferrer">Tutorials</a>, <a class="button--link" href="https://forums.rocket.chat/" target="_blank" rel="noopener noreferrer">Forums</a>, <a class="button--link" href="https://github.com/RocketChat/Rocket.Chat/issues" target="_blank" rel="noopener noreferrer">Features & Bugs</a></li>
+                <li>Support: Monitoring and Alerts</li>
+            </ul>
+            <div class="space--1"></div>
+
+            <p class="theme_type--light half-paragraph align--center">For any assistance with the product or if you would like to purchase professional support for your server please email: <a class="button--link" href="mailto:aws_support@rocket.chat." target="_blank" rel="noopener noreferrer">aws_support@rocket.chat.</a></p>
+
+            <div class="space--4"></div>
+
+            <h4 class="display--medium align--center"><strong>Enterprise Edition</h4></strong>
+            <div class="space--1"></div>
+            <p class="theme_type--space half-paragraph">The Enterprise Edition allows you to easily scale Rocket.Chat for higher numbers of users and would suit larger organizations.</p>
+
+            <div class="space--1"></div>
+
+            <p class="theme_type--space half-paragraph">The Enterprise edition includes all the above features of our Community Edition PLUS:</p>
+            <div class="space--2"></div>
+
+            <ul class="theme_type--space unordered-list-half">
+                <li>Onboarding & Migration assistance, including from Community Edition</li>
+                <li>Social Network Login</li>
+                <li>OmniChannel Integrations</li>
+                <li>Realtime Translation</li>
+                <li>Audio to Text Conversion</li>
+                <li>Hourly Analytics Reporting</li>
+                <li>Real Time Active Directory Sync LDAP</li>
+                <li>Encrypted Push Notifications</li>
+                <li>Engagement Dashboard</li>
+                <li>Access to Product Team</li>
+                <li>Dedicated Conferencing Server</li>
+                <li>24/7 Chat and Phone support, Online Ticket Creation, Email Support, Priority Patches for Updates, Support Monitoring and Alerts</li>
+                <li>Message auditing panel</li>
+                <li>High Scalability Cluster</li>
+            </ul>
+            <div class="space--1"></div>
+            <p class="theme_type--light align--center half-paragraph">Our Enterprise edition requires a purchased license before deployment. Please contact <a class="button--link" href="mailto:aws_enterprise@rocket.chat." target="_blank" rel="noopener noreferrer">aws_enterprise@rocket.chat.</a> for licensing information.</p>
+
+
+            <div class="space--3"></div>
+
+        </div>
+    </div>
+</section>
+
+<div class="space--8"></div>

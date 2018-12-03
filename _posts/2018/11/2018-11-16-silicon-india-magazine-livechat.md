@@ -5,7 +5,7 @@ link: //enterprise-services.siliconindiamagazine.com/ranking/10-most-promising-l
 hidden: true
 author: SiliconIndia Magazine
 extUrl: https://enterprise-services.siliconindiamagazine.com/ranking/10-most-promising-live-chat-support-service-provider-%E2%80%93-2018-rid-482.html
-bgImage: /images/press/silicon-india.png
+cover: /images/press/silicon-india.png
 bgSize: logo
 bgColor: "ffffff"
 categories:

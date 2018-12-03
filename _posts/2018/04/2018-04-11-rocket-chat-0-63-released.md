@@ -4,7 +4,7 @@ categories:
   - News
 date: 2018-04-11 08:00:00
 author: Rocket.Chat Team
-bgImage: /images/posts/2017/08/new-desktop-app-release-available-for-windows-linux-and-macos/cover-desktop-release.jpg
+cover: /images/posts/2017/08/new-desktop-app-release-available-for-windows-linux-and-macos/cover-desktop-release.jpg
 featured: true
 ---
 

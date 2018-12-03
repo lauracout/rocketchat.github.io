@@ -5,7 +5,7 @@ categories:
   - Product
 date: 2016-08-03 12:13:19
 author: Marcelo Schmidt
-bgImage: /images/posts/2016/08/rocketchat-customer-story-radically-open-security/cover-rad-open-security.jpg
+cover: /images/posts/2016/08/rocketchat-customer-story-radically-open-security/cover-rad-open-security.jpg
 redirect_from: /blog/rocketchat-customer-story-radically-open-security
 ---
 

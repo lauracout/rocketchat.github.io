@@ -150,22 +150,22 @@
     return newCardEl
   }
 
-  var createAppListRow = function (apps) {
-    var listEl = $('<li class="flex-grid"></li>')
+  // var createAppListRow = function (apps) {
+  //   var listEl;
 
-    for (var i = 0; i < apps.length; i++) {
-      var current = apps[i]
+  //   for (var i = 0; i < apps.length; i++) {
+  //     var current = apps[i]
 
-      if (current) {
-        var card = createAppCard(current)
-        bindAppCardEvents(card, apps[i])
+  //     if (current) {
+  //       var card = createAppCard(current)
+  //       bindAppCardEvents(card, apps[i])
 
-        listEl.append(card)
-      }
-    }
+  //       listEl.append(card)
+  //     }
+  //   }
 
-    return listEl
-  }
+  //   return listEl
+  // }
 
   var createSearchResult = function (result) {
     var searchResultTemplate = $('#search-result-template').text()
@@ -189,11 +189,14 @@
     var appsListEl = APPS_LIST_EL
     appsListEl.empty()
 
-    for (var i = 0; i < appsData.length; i += 2) {
-      var row = createAppListRow([appsData[i], appsData[i + 1]])
+    appsData.forEach(app => {
+      if (app) {
+        var card = createAppCard(app)
+          bindAppCardEvents(card, app)
 
-      appsListEl.append(row)
-    }
+          appsListEl.append(card)
+      }
+    });
   }
 
   var showFetchError = function () {

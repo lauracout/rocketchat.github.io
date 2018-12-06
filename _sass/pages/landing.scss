@@ -107,10 +107,6 @@
     margin-top: 17px;
   }
 
-  .apps-list {
-    max-width: 682px;
-  }
-
   .app-card {
     display: flex;
     min-height: 176px;
@@ -119,15 +115,9 @@
   }
 
   .apps-list .app-card {
-    max-width: 326px;
     padding: 22px 30px;
-    margin-bottom: 30px;
     background: $grey-bg;
     cursor: pointer;
-
-    &:first-child {
-      margin-right: 30px;
-    }
 
     @media screen and (max-width: $tablet) {
       margin-left: auto;
@@ -141,7 +131,10 @@
   }
 
   .apps-list .content-wrapper {
-    max-width: 216px;
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    justify-content: space-between;
   }
 
   .app-card .name, .search-result .name {
@@ -174,6 +167,15 @@
     margin-bottom: 12px;
     line-height: 1.25;
     font-size: 16px;
+    max-height: 100px;
+    overflow: scroll;
+  }
+
+  .modal-content{
+    .app-card .description {
+      max-height: 300px;
+      overflow: scroll;
+    }
   }
 
   .links-list {
@@ -193,8 +195,14 @@
     color: $brand;
   }
 
+  .categories-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .categories-list-item {
     margin-bottom: 8px;
+    margin-right: 6px;
     min-height: 20px;
     box-sizing: border-box;
     line-height: 1;

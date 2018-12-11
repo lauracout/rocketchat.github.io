@@ -18,6 +18,10 @@
   <meta name="twitter:image" content="{{ site.url }}/images/blog/post.jpg">
   <meta name="twitter:image:alt" content="Rocket.Chat - {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 
+  {% if page.class == "install" %}
+    <meta name="apple-itunes-app" content="app-id=1148741252">
+  {% endif %}
+
   {% if post.cover %}
   <meta property="og:type"  content="article" />
   <meta property="og:image" content="{{ post.cover }}" />

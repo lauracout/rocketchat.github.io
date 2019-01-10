@@ -69,6 +69,7 @@
 - name: Rafael Kellermann Streit
   role: Lead Mobile Engineer
   github_username: rafaelks
+  twitter: rafaelks
   department: Mobile
   username: rafael.kellermann
   photo: yes
@@ -99,14 +100,6 @@
   photo: yes
   country: Brazil
 
-- name: Lucio Maciel
-  role: Android Engineer
-  github_username: luciofm
-  github_uid: 224255
-  department: Mobile
-  username: lucio.maciel
-  country: Brazil
-
 - name: Jonas Friedmann
   role: Support Analyst
   github_username: frdmn
@@ -115,24 +108,6 @@
   username: jonas.friedmann
   photo: yes
   country: Germany
-
-- name: Leonardo Aramaki
-  role: Android Engineer
-  github_username: leonardoaramaki
-  github_uid: 625702
-  department: Mobile
-  username: leonardo.aramaki
-  country: Brazil
-
-- name: Matheus Cardoso
-  role: iOS Engineer
-  github_username: cardoso
-  github_uid: 17324041
-  twitter: cardosodev
-  department: Mobile
-  username: matheus.cardoso
-  photo: yes
-  country: Brazil
 
 - name: Theo Renck
   role: Project Manager
@@ -203,14 +178,6 @@
   github_username: coletti
   department: Sales
   username: leandro.coletti
-  photo: yes
-  country: Brazil
-
-- name: Filipe Alvarenga
-  role: iOS Engineer
-  github_username: filipealva
-  department: Mobile
-  username: filipe.alvarenga
   photo: yes
   country: Brazil
 

@@ -16,7 +16,15 @@
 
 # When updating this file locally you might need to restart the jekyll server or delete the "_site" folder to see the changes on your local site.
 
+- title: "Deployment"
+  isHeader: true
+
 - title: "High Scalability Cluster"
+  community: ""
+  pro: ""
+  enterprise: true
+
+- title: "File Storage Migrate Tool"
   community: ""
   pro: ""
   enterprise: true
@@ -24,29 +32,22 @@
 - title: "Features"
   isHeader: true
 
-- title: "Unlimited Users"
-  bronze: true
-  silver: true
-  gold: true
-  community: true
-  pro: true
-  enterprise: true
+- title: "Users"
+  bronze: "Unlimited"
+  silver: "Unlimited"
+  gold: "Unlimited"
+  community: "1k recommended"
+  pro: "Unlimited"
+  enterprise: "Unlimited"
 
-- title: "Unlimited Messages"
-  bronze: true
-  silver: true
-  gold: true
-  community: true
-  pro: true
-  enterprise: true
 
-- title: "Unlimited Search History"
-  bronze: true
-  silver: true
-  gold: true
-  community: true
-  pro: true
-  enterprise: true
+- title: "Messages History"
+  bronze: "Unlimited"
+  silver: "Unlimited"
+  gold: "Unlimited"
+  community: "Unlimited"
+  pro: "Unlimited"
+  enterprise: "Unlimited"
 
 - title: "Public Channels"
   bronze: true
@@ -173,7 +174,7 @@
   silver: "Unlimited"
   gold: "Unlimited"
   community: "1000"
-  pro: "Unlimited"
+  pro: "10000"
   enterprise: "Unlimited"
 
 - title: "Social Network Login"

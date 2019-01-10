@@ -16,6 +16,11 @@
 
 # When updating this file locally you might need to restart the jekyll server or delete the "_site" folder to see the changes on your local site.
 
+- title: "High Scalability Cluster"
+  community: ""
+  pro: ""
+  enterprise: true
+
 - title: "Features"
   isHeader: true
 
@@ -163,6 +168,14 @@
 - title: "Preconfigured Proxy Servers"
   isHeader: true
 
+- title: "Push Notifications"
+  bronze: "Unlimited"
+  silver: "Unlimited"
+  gold: "Unlimited"
+  community: "1000"
+  pro: "Unlimited"
+  enterprise: "Unlimited"
+
 - title: "Social Network Login"
   bronze: ""
   silver: true
@@ -195,11 +208,6 @@
   pro: ""
   enterprise: true
 
-- title: "High Scalability Cluster"
-  community: ""
-  pro: ""
-  enterprise: true
-
 - title: "Administration"
   isHeader: true
 
@@ -227,22 +235,13 @@
   pro: true
   enterprise: true
 
-- title: "LDAP / Active Directory Real Time Sync"
-  bronze: ""
-  silver: true
-  gold: true
-  community: ""
-  pro: true
-  enterprise: true
-
-- title: "Encrypted Push Notifications"
-  bronze: ""
-  silver: true
-  gold: true
-  community: ""
-  pro: true
-  enterprise: true
-
+- title: "LDAP / Active Directory"
+  bronze: "Basic"
+  silver: "Real Time Sync"
+  gold: "Real Time Sync"
+  community: "Basic"
+  pro: "Real Time Sync"
+  enterprise: "Real Time Sync"
 
 - title: "Engagement Dashboard"
   bronze: ""

@@ -21,12 +21,12 @@
 
 - title: "High Scalability Cluster"
   community: ""
-  pro: ""
+  pro: true
   enterprise: true
 
 - title: "File Storage Migrate Tool"
   community: ""
-  pro: ""
+  pro: true
   enterprise: true
 
 - title: "Features"

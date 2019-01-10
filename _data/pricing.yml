@@ -415,3 +415,11 @@
   community: ""
   pro: ""
   enterprise: true
+
+- title: "Atlassian Integration Apps Bundle"
+  bronze: true
+  silver: true
+  gold: true
+  community: ""
+  pro: true
+  enterprise: true

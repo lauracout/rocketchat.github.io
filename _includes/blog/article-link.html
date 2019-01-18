@@ -28,15 +28,15 @@
                 {% endif %}
               {% endif %}
             </p>
-            <h4 class="display theme_type--dark">
-              {% if include.post.categories contains "Webinars" %}
+            {% if include.post.categories contains "Webinars" %}
+              <h4 class="display theme_type--dark">
                 {% if posttime > nowunix %}
                   {{ include.post.dateEvent | date: "%b %m - %I:%M %P" }}
                 {% else %}
                   {{ include.post.dateEvent | date: "%b %m - %Y" }}
                 {% endif %}
-              {% endif %}
-            </h4>
+              </h4>
+            {% endif %}
             <h3 class=" {% if include.post.categories contains 'Webinars' %} blog__subtitle text theme_type--dark type--nomargin {% else %} card--blog__title theme_type--dark {% endif %}">
             {% if include.post.type %}<strong>{{ include.post.type }}:</strong> {% endif %}
             {{ include.post.title }}</h3>

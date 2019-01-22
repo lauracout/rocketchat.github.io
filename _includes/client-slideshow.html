@@ -1,31 +1,58 @@
+{% assign clientsHome = "" | split: "" %}
+
+{% for client in site.data.client-info %}
+  {% if client.showInHome %}
+    {% assign clientsHome = clientsHome | push: client %}
+  {% endif %}
+{% endfor %}
+
 <div class="slider fade">
   <div class="slider__logo-container">
-    {% for logo in site.data.client-logos limit: 4 %}
-      <img src="/images/client-logos/{{logo}}" alt="logo" />
+    {% for client in clientsHome limit: 4 %}
+      <img src="/images/client-logos/{{client.logo}}" alt="{{client.name}}" />
     {% endfor %}
   </div>
 </div>
 
 <div class="slider fade">
   <div class="slider__logo-container">
-    {% for logo in site.data.client-logos limit: 4 offset: 4 %}
-      <img src="/images/client-logos/{{logo}}" alt="logo" />
+    {% for client in clientsHome limit: 4 offset: 4 %}
+      <img src="/images/client-logos/{{client.logo}}" alt="{{client.name}}" />
     {% endfor %}
     </div>
 </div>
 
 <div class="slider fade">
   <div class="slider__logo-container">
-    {% for logo in site.data.client-logos limit: 4 offset: 8 %}
-      <img src="/images/client-logos/{{logo}}" alt="logo" />
+    {% for client in clientsHome limit: 4 offset: 8 %}
+      <img src="/images/client-logos/{{client.logo}}" alt="{{client.name}}" />
     {% endfor %}
   </div>
 </div>
 
 <div class="slider fade">
   <div class="slider__logo-container">
-    {% for logo in site.data.client-logos limit: 4 offset: 12 %}
-      <img src="/images/client-logos/{{logo}}" alt="logo" />
+    {% for client in clientsHome limit: 4 offset: 12 %}
+      <img src="/images/client-logos/{{client.logo}}" alt="{{client.name}}" />
     {% endfor %}
   </div>
 </div>
+
+<div class="slider fade">
+  <div class="slider__logo-container">
+    {% for client in clientsHome limit: 4 offset: 16 %}
+      <img src="/images/client-logos/{{client.logo}}" alt="{{client.name}}" />
+    {% endfor %}
+  </div>
+</div>
+
+
+<div class="slider fade">
+    <div class="slider__logo-container">
+    {% for client in clientsHome limit: 4 offset: 20 %}
+      <img src="/images/client-logos/{{client.logo}}" alt="{{client.name}}" />
+    {% endfor %}
+  </div>
+</div>
+
+

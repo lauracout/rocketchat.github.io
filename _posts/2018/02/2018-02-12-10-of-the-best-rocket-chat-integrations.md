@@ -69,7 +69,7 @@ Learn how to <a href="https://github.com/FinndropStudios/BitRocket" target="_bla
 
 Sentry is an open source error tracking tool that helps developers track crashes in real time.
 
-This integration works both for Sentry's site and the self-hosted version.
+This integration works both for Sentry's site and the self-managed version.
 
 Learn how to <a href="https://rocket.chat/docs/administrator-guides/integrations/sentry/" target="_blank">integrate Sentry</a>.
 

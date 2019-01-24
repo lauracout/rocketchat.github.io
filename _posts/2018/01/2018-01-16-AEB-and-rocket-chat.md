@@ -8,7 +8,7 @@ author: Louise Message
 cover: /images/posts/2018/01/2018-01-16-AEB-and-rocket-chat/cover.jpg
 ---
 
-The <a target="_blank" href="http://www.aeb.gov.br">Brazilian Space Agency's (AEB)</a> Department of Information Technology moved from Slack to Rocket.Chat over a year ago when they outgrew Slack's free offering and needed a self-hosted open source alternative. Rocket.Chat has now overtaken email as the number-one communication tool in the department.
+The <a target="_blank" href="http://www.aeb.gov.br">Brazilian Space Agency's (AEB)</a> Department of Information Technology moved from Slack to Rocket.Chat over a year ago when they outgrew Slack's free offering and needed a self-managed open source alternative. Rocket.Chat has now overtaken email as the number-one communication tool in the department.
 
 Alongside the growing space exploration, the agency develops technology for domestic purposes such as communications satellites and data collection satellites that map Brazil's diverse terrain and environment and uses Rocket.Chat to communicate with internal team members and external researchers and contributors.
 
@@ -23,7 +23,7 @@ Useful features, like video conferencing and screen sharing, were also unavailab
 
 ## The AEB moves to Rocket.Chat
 
-The department heard that Rocket.Chat was open source, self-hosted (and founded in Brazil) and so decided to switch.
+The department heard that Rocket.Chat was open source, self-managed (and founded in Brazil) and so decided to switch.
 
 According to <a target="_blank" href="https://twitter.com/eduardosan">Eduardo Santos</a>, a Technologist in the department, the team's Rocket.Chat is running well, is stable and has solved a lot of issues the team had with Slack.
 

@@ -12,7 +12,7 @@ featured: true
 
 ### A new partnership and integration
 
-Rocket.Chat, the leading on-premises open source communication platform, and Nextcloud, the most popular self-hosted sync, share and collaboration product, announce a new partnership and an integration between their offering.
+Rocket.Chat, the leading on-premises open source communication platform, and Nextcloud, the most popular self-managed sync, share and collaboration product, announce a new partnership and an integration between their offering.
 
 Over the last few months, engineers at Rocket.Chat and Nextcloud have been collaborating on deep integration of the two solutions, efforts that were first kickstarted by a successful Google Summer of Code project earlier in the year. The integration is now ready and is public from today.
 
@@ -42,7 +42,7 @@ Rocket.Chat and Nextcloud are the perfect combination for those looking for an o
 
 ### About Nextcloud
 
-Nextcloud offers the industry-leading, fully open source, self-hosted Content Collaboration Platform, combining the easy user interface of consumer-grade cloud solutions with the security and compliance measures enterprises need. Nextcloud brings together universal access to data through mobile, desktop and web interfaces with next-generation, on-premise secure communication and collaboration features like real-time document editing, chat and video calls, putting them under direct control of IT and integrated with existing infrastructure. Nextcloud's easy and quick deployment, open, modular architecture and emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing file storage assets within and across the borders of their organization. For more information, visit <https://nextcloud.com> or follow [@Nextclouders](https://twitter.com/Nextclouders) on Twitter.
+Nextcloud offers the industry-leading, fully open source, self-managed Content Collaboration Platform, combining the easy user interface of consumer-grade cloud solutions with the security and compliance measures enterprises need. Nextcloud brings together universal access to data through mobile, desktop and web interfaces with next-generation, on-premise secure communication and collaboration features like real-time document editing, chat and video calls, putting them under direct control of IT and integrated with existing infrastructure. Nextcloud's easy and quick deployment, open, modular architecture and emphasis on security and advanced federation capabilities enable modern enterprises to leverage their existing file storage assets within and across the borders of their organization. For more information, visit <https://nextcloud.com> or follow [@Nextclouders](https://twitter.com/Nextclouders) on Twitter.
 
 ### About Rocket.Chat
 

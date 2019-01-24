@@ -8,7 +8,7 @@ cover: /images/posts/2018/08/2018-08-7-welcome-to-rocketchat/hipchat-rc-cover.jp
 featured: true
 ---
 
-After Slack announced its acquisition and discontinuation of Atlassian HipChat and Stride, HipChat users have voiced their concerns regarding the lack of self-hosted options for team chat and collaboration, as well as some security concerns linked to Cloud versus on-prem options.
+After Slack announced its acquisition and discontinuation of Atlassian HipChat and Stride, HipChat users have voiced their concerns regarding the lack of self-managed options for team chat and collaboration, as well as some security concerns linked to Cloud versus on-prem options.
 
 ![rocket.chat team chat platform](/images/posts/2018/08/2018-08-07-welcome-to-rocketchat/rc_descktop_app.png)
 
@@ -22,7 +22,7 @@ This Migration Bundle includes:
 
 ## About Rocket.Chat
 
-[Rocket.Chat](https://rocket.chat/) is a secure, open source and fully customizable Cloud or Self-Hosted Atlassian HipChat and Slack-alternative that brings all team communication into one place across web, desktop and mobile (Android and iOS).
+[Rocket.Chat](https://rocket.chat/) is a secure, open source and fully customizable Cloud or Self-Managed Atlassian HipChat and Slack-alternative that brings all team communication into one place across web, desktop and mobile (Android and iOS).
 <br/>
 
 ![Rocket.Chat iOS app](/images/posts/2018/08/2018-08-07-welcome-to-rocketchat/ios_apps.png)
@@ -32,4 +32,4 @@ Improve productivity by discussing and sharing ideas, projects and files with re
 
 Communicate securely in Rocket.Chat’s workspace thanks to username restriction and admin transparency. Remove bad actors by adding moderators and provide admins with additional controls. None of the latter are possible with Slack.
 
-We offer both [Self-Hosted](https://rocket.chat/install) and [Cloud](https://rocket.chat/cloud) versions of Rocket.Chat as well an Enterprise version that includes the following: free audio and video conferencing, guest access, screen sharing, file sharing, LiveChat, LDAP Group Sync, two-factor authentication (2FA), E2E encryption, SSO, and dozens of OAuth providers. To discuss how Enterprise and its additional features could be a fit for you and your team, [contact us](https://rocket.chat/contact).
+We offer both [Self-Managed](https://rocket.chat/install) and [Cloud](https://rocket.chat/cloud) versions of Rocket.Chat as well an Enterprise version that includes the following: free audio and video conferencing, guest access, screen sharing, file sharing, LiveChat, LDAP Group Sync, two-factor authentication (2FA), E2E encryption, SSO, and dozens of OAuth providers. To discuss how Enterprise and its additional features could be a fit for you and your team, [contact us](https://rocket.chat/contact).

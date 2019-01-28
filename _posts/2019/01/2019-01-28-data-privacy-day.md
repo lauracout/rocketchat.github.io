@@ -24,5 +24,5 @@ We continue to add security measures, and one of the big features we've added to
 
 Rocket.Chat is proud to announce the addition of an EU region to our Hosted Cloud offering.
 
-The EU region is a new hosting region located in the EU, in Ireland. This is important because of GDPR data regulations as well as a response to customer requirements to have all of their data remain in the region. This means that, for our EU cloud customers, our local servers guarantee that data is secured and never physically leaves the EU.
+The EU region is a new hosting region located in the EU, in Ireland. This is important because of GDPR data regulations as well as a response to customer requirements to have all of their data remain in the region. This means that, for our EU cloud customers, that data is securely stored and never leaves the EU.
 

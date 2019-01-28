@@ -16,7 +16,7 @@ Today we highlight how important users' data privacy is to us, and how we ensure
 
 First and foremost, Rocket.Chat allows users to stay in control of their data by offering a self hosted option as standard.
 
-We also designed Rocket.Chat with privacy in mind, and built it with an open source code which has been independently audited by 100s of contributors.
+We design Rocket.Chat with privacy in mind.  We also build and release as open source which allows our code to be independently audited by 100s of contributors.
 
 We continue to add security measures, and one of the big features we've added to take privacy to the next level is end-to-end encryption.
 

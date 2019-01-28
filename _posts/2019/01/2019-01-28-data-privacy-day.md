@@ -1,0 +1,28 @@
+---
+title: "Data Privacy Day at Rocket.Chat"
+categories:
+- News
+date: 2019-01-28 08:00:00
+author: Isabella Russell
+cover: /images/posts/2019/01/2019-01-28-data-privacy-day/Privacy Day.png
+featured: true
+---
+
+### Happy Data Privacy Day from Rocket.Chat!
+
+Happy Data Privacy Day!
+
+Today we highlight how important users' data privacy is to us, and how we ensure that it remains protected at all times, day in, day out.
+
+First and foremost, Rocket.Chat allows users to stay in control of their data by offering a self hosted option as standard.
+
+We also designed Rocket.Chat with privacy in mind, and built it with an open source code which has been independently audited by 100s of contributors.
+
+We continue to add security measures, and one of the big features we've added to take privacy to the next level is end-to-end encryption.
+
+### Great news: hello EU!
+
+Rocket.Chat is proud to announce the addition of an EU region to our Hosted Cloud offering.
+
+The EU region is a new hosting region located in the EU, in Ireland. This is important because of GDPR data regulations as well as a response to customer requirements to have all of their data remain in the region. This means that, for our EU cloud customers, our local servers guarantee that data is secured and never physically leaves the EU.
+

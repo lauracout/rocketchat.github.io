@@ -15,7 +15,7 @@
         {% if include.post.dateEvent %}
             <p class="blog__event-dayweek label--small theme_type--grey type--nomargin">
               {% if include.post.categories contains "Webinars" %}
-              {{ include.post.dateEvent | date: "%a" }}
+                {{ include.post.dateEvent | date: "%a" }}
               {% if include.post.gmt %} (GMT {{include.post.gmt}}) {% endif %}
               {% if include.post.language %}
               <img class="post-flag" src="/images/flags/{{post.language}}.png" alt="language">
@@ -31,9 +31,9 @@
             {% if include.post.categories contains "Webinars" %}
               <h4 class="display theme_type--dark">
                 {% if posttime > nowunix %}
-                  {{ include.post.dateEvent | date: "%b %m - %I:%M %P" }}
+                  {{ include.post.dateEvent | date: "%b %d - %I:%M %P" }}
                 {% else %}
-                  {{ include.post.dateEvent | date: "%b %m - %Y" }}
+                  {{ include.post.dateEvent | date: "%b %d - %Y" }}
                 {% endif %}
               </h4>
             {% endif %}

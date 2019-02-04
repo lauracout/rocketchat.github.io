@@ -18,7 +18,7 @@
         <div class="webinar-description">
           <p class="blog__event-dayweek label--small theme_type--grey type--nomargin">{{ page.dateEvent | date: "%A" }} (GMT {{page.gmt}}) <img class="post-flag" src="/images/flags/{{page.language}}.png" alt="language"></p>
           <h4 class="display theme_type--dark">
-            {{ page.dateEvent | date: "%m %b - %I:%M %P" }}
+            {{ page.dateEvent | date: "%d %b - %I:%M %P" }}
           </h4>
           <p class="desc">{{ page.description }}</p>
             {% if page.hosts %}

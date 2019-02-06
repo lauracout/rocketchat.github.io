@@ -14,5 +14,3 @@ cover: /images/posts/2018/11/2018-11-28-rocket-chat-launches-on-aws-marketplace/
 categories:
   - Webinars
 ---
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/U3ePJR0V0L0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

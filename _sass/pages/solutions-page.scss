@@ -1,0 +1,268 @@
+body.solutions-page {
+    .hero {
+        display: flex;
+        text-align: left;
+        padding-top: 90px;
+        height: 607px;
+
+        &__image {
+            height: 70%;
+            flex-shrink: 0;
+            margin-left: 48px;
+        }
+
+        &__text {
+            display: flex;
+            flex-direction: column;
+            max-width: 635px;
+
+            .button {
+                width: 159px;
+            }
+        }
+    }
+
+    .features {
+        background-color: #fff;
+        padding: 80px 0 172px;
+        margin-bottom: 80px;
+
+        &__title {
+            text-align: center;
+            width: 736px;
+            margin: auto;
+        }
+
+        &__icons {
+            margin-top: 70px;
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            grid-template-rows: repeat(3, auto);
+            grid-gap: 32px;
+
+            .feature {
+                max-width: 256px;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                justify-self: center;
+
+                &__image {
+                    width: 64px;
+                    height: 64px;
+                    margin: 0 auto;
+                    margin-bottom: 14px;
+                }
+
+                &__title {
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin-bottom: 4px;
+                    color: $space-b
+                }
+            }
+        }
+
+        &__integrations {
+            margin-top: 200px;
+            display: flex;
+
+            .integrations {
+                &__image {
+                    margin-right: 40px;
+                }
+
+                &__content {
+                    .title {
+                        font-weight: bold;
+                        font-size: 32px;
+                        margin-bottom: 16px;
+                        color: $space-b;
+                    }
+
+                    .desc {
+                        margin-bottom: 32px;
+                        font-weight: 500;
+                    }
+
+                    .text {
+                        margin-bottom: 16px;
+                        font-weight: bold;
+                        color: $grey;
+                    }
+
+                    .icons {
+                        display: flex;
+                        margin-bottom: 52px;
+
+                        a {
+                            &:not(:last-child) {
+                                margin-right: 24px;
+                            }
+                            img {
+                                height: 32px;
+                            }
+                        }
+                    }
+
+                    .atlassian-logos {
+                        display: flex;
+
+                        img {
+                            height: 16px;
+
+                            &:not(:last-child) {
+                                margin-right: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .testimonials {
+        padding: 160px 0 172px;
+
+        &__title {
+            text-align: center;
+            width: 736px;
+            margin: auto;
+        }
+
+        &__cards {
+            // Hiding while we wait for the testimonials
+            display: none !important;
+            margin-top: 61px;
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            grid-gap: 32px;
+
+            .testimonial {
+                i {
+                    color: #fff;
+                }
+            }
+
+            .writer {
+                display: flex;
+                margin-top: 32px;
+
+                &__image {
+                    flex-shrink: 0;
+                    margin-right: 16px;
+                    height: 44px;
+                    width: 44px;
+                }
+
+                &__info {
+                    .name {
+                        font-weight: 500;
+                    }
+
+                    .name,.role {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .solutions-box {
+        display: flex;
+        overflow: hidden;
+        margin-top: 200px;
+        padding: 24px 80px;
+        align-items: center;
+        justify-content: space-between;
+
+        &__content {
+            width: 45%;
+            h3 {
+                font-weight: bold;
+                font-size: 32px;
+                color: #fff;
+                margin-bottom: 24px;
+            }
+
+            .button--ghost {
+                background: #fff;
+                color: $brand;
+                padding: 18px 24px;
+            }
+        }
+
+        &__image {
+            margin-right: -80px;
+
+            img {
+                height: 384px;
+                width: auto;
+                max-width: unset;
+            }
+        }
+
+
+
+    }
+
+    .featherlight:last-of-type {
+        background: rgba(3,12,26,.8);
+    }
+    .featherlight-content {
+        background-color: $space;
+
+        #solution-form {
+            display: block;
+            margin: 64px 96px;
+        }
+
+        #solution-form__after-box {
+            display: block;
+            margin: 10px 30px;
+            h3 {
+                font-weight: bold;
+                font-size: 32px;
+                color: #fff;
+                margin-bottom: 24px;
+            }
+        }
+
+
+        .featherlight-close-icon {
+            background: none;
+            color: #fff;
+            font-size: 36px;
+            height: 40px;
+            width: 40px;
+        }
+    }
+
+    #solution-form__after-box {
+        display: none;
+    }
+
+    #solution-form {
+        display: none;
+
+        #companySize, #inquiry {
+            width: 100%;
+            height: 44px;
+            color: #fff;
+            padding-left: 10px;
+        }
+    }
+
+    .card.theme_box--light-strong.clients {
+        margin-top: 80px;
+    }
+
+    .slider__logo-container {
+        height: 46px;
+
+        img {
+            opacity: 0.7;
+        }
+    }
+}
+

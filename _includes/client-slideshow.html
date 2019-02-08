@@ -6,6 +6,7 @@
   {% endif %}
 {% endfor %}
 
+{% unless include.client-type %}
 <div class="slider fade">
   <div class="slider__logo-container">
     {% for client in clientsHome limit: 4 %}
@@ -55,4 +56,17 @@
   </div>
 </div>
 
+{% endunless %}
+
+{% if include.client-type %}
+<div class="slider fixed">
+  <div class="slider__logo-container">
+  {% for client in site.data.client-info%}
+    {% if client.solution == include.client-type %}
+      <img src="/images/client-logos/{{client.logo}}" alt="{{client.name}}" />
+    {% endif %}
+  {% endfor %}
+  </div>
+</div>
+{% endif %}
 

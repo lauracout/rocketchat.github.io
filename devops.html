@@ -1,0 +1,63 @@
+---
+layout: en/default
+class: solutions-page
+title: "DevOps"
+description: |
+  devops
+
+permalink: /devops
+
+theme: dark
+
+redirect_from:
+  - /atlassian/
+---
+
+{% assign solution = site.data.solutions-data["devops"] %}
+{% include solutions-top.html solution=solution %}
+
+<section class="testimonials">
+  <div class="container">
+      <div class="testimonials__title">
+          <h2 class="display theme_type--dark">You’re in good company</h2>
+          <p class="theme_type--grey display--small">Some text on how important the technology partners are to Rocket.Chat and the open-source community.</p>
+      </div>
+
+      <div class="testimonials__cards">
+          {% for testimonial in solution.testimonials %}
+              <div class="card theme_box--dark">
+                  <p class="theme-type--dark testimonial"><i>{{testimonial.text}}</i></p>
+                  <div class="writer">
+                      <img class="writer__image" src="/images/solutions/devops/{{testimonial.image}}">
+                      <div class="writer__info">
+                          <p class="name theme_type--dark">{{testimonial.name}}</p>
+                          <p class="role">{{testimonial.role}}</p>
+                      </div>
+                  </div>
+              </div>
+          {% endfor %}
+      </div>
+
+      <div class="card theme_box--light-strong clients">
+        <p class="label theme_type--grey align--center">We are trusted over thousand companies across 150 countries</p>
+        {% include client-slideshow.html client-type="DevOps" %}
+      </div>
+
+      <div class="card theme_box--brand card--shadow solutions-box">
+        <div class="solutions-box__content">
+          <h3 class="display theme_type--dark">Increase your developer process with Rocket.Chat</h3>
+          <p class="theme_type--dark">Besides chat and many integrations, you can still count with: audit trail, unlimited history, scalability and more special features.</p>
+          <a href="#" class="button--ghost" data-featherlight="#solution-form">Contact Us</a>
+        </div>
+        <span class="solutions-box__image"><img src="/images/solutions/devices.png" alt="screens" />
+      </div>
+    </div>
+</section>
+
+
+<div id="solution-form__after-box">
+  <h3>You’ll be in great company! </h3>
+  <p>We are trusted over thousand companies across 150 countries <br><br> We’ll contact you soon!</p>
+</div>
+
+<script src="/solutionsForm.js"></script>

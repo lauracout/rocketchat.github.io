@@ -1,0 +1,129 @@
+<section class="container hero">
+    <div class="hero__text">
+        <h1 class="display--big theme_type--dark">{{include.solution.hero-title}}</h1>
+        <p class="display--small theme_type--grey">{{include.solution.hero-desc}}</p>
+        <a class="button" data-featherlight="#solution-form" href="#">Contact Us</a>
+    </div>
+    <img class="hero__image" alt="devops" src="/images/solutions/{{include.solution.hero-image}}">
+</section>
+
+<section class="features">
+    <div class="container">
+        <div class="features__title">
+            <p class="label theme_type--light">Tailored to your Developer Team </p>
+            <h2 class="display">All your tools at the center of the conversation</h2>
+            <p class="theme_type--light display--small">The open nature of our platform guarantees the possibility of new and powerful integrations, regardless of your choice of vendors.</p>
+        </div>
+        <div class="features__icons">
+            {% for feature in include.solution.tools %}
+                <div class="feature">
+                    <img class="feature__image" alt="{{feature.title}}" src="/images/solutions/{{feature.image}}">
+                    <h3 class="feature__title">{{feature.title}}</h3>
+                    <p class="feature__text">{{feature.text}}</p>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="features__integrations">
+            <img class="integrations__image" alt="integrations" src="/images/solutions/easy-integrations.png">
+            <div class="integrations__content">
+                <h3 class="title">Easy Integrations</h3>
+                <p class="desc">Improve developer process. Rocket.Chat moves between your team and apps automatically, so you can focus on your most important work.</p>
+                <p class="text">Many integrations avaliable and counting...</p>
+                <div class="icons">
+                    <a href="https://rocket.chat/docs/administrator-guides/integrations/github/" rel="noopener noreferrer">
+                        <img alt="github integration" src="/images/solutions/github.svg">
+                    </a>
+                    <a href="https://rocket.chat/atlassian" rel="noopener noreferrer">
+                        <img alt="atlassian integration" src="/images/solutions/atlassian.svg">
+                    </a>
+                    <a href="https://rocket.chat/docs/administrator-guides/integrations/zapier/using-zaps/" rel="noopener noreferrer">
+                        <img alt="zapier integration" src="/images/solutions/zapier.svg">
+                    </a>
+
+                    <a href="https://rocket.chat/docs/administrator-guides/integrations/gitlab/" rel="noopener noreferrer">
+                        <img alt="gitlab integration" src="/images/solutions/gitlab.svg">
+                    </a>
+
+                    <a href="https://rocket.chat/docs/installation/paas-deployments/aws/" rel="noopener noreferrer">
+                        <img alt="aws integration" src="/images/solutions/aws.svg">
+                    </a>
+                </div>
+
+                <p class="text">Moving from Atlassian? <a class="button--link" href="https://rocket.chat/atlassian" rel="noopener noreferrer">Learn more</a></p>
+
+                <div class="atlassian-logos">
+                    <img src="/images/atlassian/jira.svg">
+                    <img src="/images/atlassian/confluence.svg">
+                    <img src="/images/atlassian/bitbucket.svg">
+                    <img src="/images/atlassian/trello.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="solution-form">
+    <h3 class="display--small theme_type--dark"><bold>Contact Us</bold></h3>
+    <div class="space--2"></div>
+    <form class="form-validate" data-validate>
+        <fieldset>
+            <label class="label--small theme_type--grey" for="firstName">Full Name</label>
+            <input required minlength="3" maxlength="100" class="input input--dark input--icon-user" type="text" id="fullName" name="fullName" placeholder="Type your full name" />
+        </fieldset>
+
+        <fieldset>
+            <label class="label--small theme_type--grey" for="email">Email Address</label>
+            <input required minlength="3" maxlength="100" class="input input--dark input--icon-email" type="email" id="email" name="email" placeholder="Type your email address" />
+        </fieldset>
+
+        <fieldset>
+            <label class="label--small theme_type--grey" for="company">Company</label>
+            <input minlength="3" maxlength="100" class="input input--dark" type="text" id="company" name="company" placeholder="Type your company" />
+        </fieldset>
+
+        <fieldset>
+          <label class="label--small theme_type--grey" for="companySize">Company Size</label>
+            <select required id="companySize" name="companySize" class="select select--theme-dark">
+              <option selected disabled value="">Select</option>
+              <option value="50">Less than 50</option>
+              <option value="100">Up to 100</option>
+              <option value="up to 500">Up to 500</option>
+              <option value="up to 1000">Up to 1000</option>
+              <option value="more than 1000">More than 1000</option>
+            </select>
+         </fieldset>
+
+         <fieldset>
+            <label class="label--small theme_type--grey" for="inquiry">What is your inquiry about?</label>
+            <select required id="companySize" name="inquiry" class="select select--theme-dark">
+                <option selected disabled value="">Select</option>
+                <option value="learn more">Learn More</option>
+                <option value="service manage">Service Manager</option>
+                <option value="help desk">Help Desk</option>
+                <option value="process automation">Process Automation</option>
+                <option value="chatbots">Chatbots</option>
+                <option value="monitoring">Monitoring</option>
+                <option value="external communication">External Communication</option>
+                <option value="internal communication">Internal Communication</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <label class="label--small theme_type--grey" for="message">Message</label>
+            <textarea required rows="7" class="input input--dark" name="message" id="message" placeholder="Type your message"></textarea>
+        </fieldset>
+
+        <fieldset disabled style="display: none">
+            <label class="label--small theme_type--grey" for="recipient">Department</label>
+            <div class="select select--theme-dark">
+            <select name="recipient" id="recipient">
+                <option value="sales">Sales</option>
+            </select>
+            </div>
+        </fieldset>
+
+        <div class="space--2"></div>
+        <button type="submit" class="button">Send message</button>
+        <div class="space--4"></div>
+        </form>
+</div>

@@ -1,0 +1,37 @@
+devops:
+  hero-title: "Collaboration and integration for continuous delivery."
+  hero-image: devops-hero.svg
+  hero-desc: "Increase your productivity of your DevOps Team has the ideal tool for the integration of processes and tools, ensuring continuous delivery and collaboration through all development steps."
+  logos-category: devops
+  tools:
+    - title: "Collaboration"
+      image: "collaboration.svg"
+      text: Collaborate with the entire development team
+    - title: "Flexibilty"
+      image: "flexibilty.svg"
+      text: Install locally or in the cloud
+    - title: "Integrations"
+      image: "integrations.svg"
+      text: Integrate with bots and automate tasks
+    - title: "Connectivity"
+      image: "connectivity.svg"
+      text: Connect the platform with your project management, version control, and monitoring systems
+    - title: "Securty & Privacity"
+      image: "security.svg"
+      text: Store your information with security and privacy
+    - title: "Scalability"
+      image: "scalability.svg"
+      text: A scale according to your needs
+  testimonials:
+    - name: "Testimonial 1"
+      role: "Developer at Rocket.Chat"
+      image: "Testimonial-1.png"
+      text: “If you think you've found a bug or would like to request a feature for Rocket.Chat, join GitHub and search through the existing issues or create a new one if one doesn't exist.”
+    - name: "Testimonial 2"
+      role: "Dude at Rocket.Chat"
+      image: "Testimonial-2.png"
+      text: “If you think you've found a bug or would like to request a feature for Rocket.Chat, join GitHub and search through the existing issues or create a new one if one doesn't exist.”
+    - name: "Testimonial 3"
+      role: "Worker at Rocket.Chat"
+      image: "Testimonial-3.png"
+      text: “If you think you've found a bug or would like to request a feature for Rocket.Chat, join GitHub and search through the existing issues or create a new one if one doesn't exist.”

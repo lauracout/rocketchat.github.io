@@ -582,6 +582,10 @@ body.index .featherlight .featherlight-content {
       width: 100%;
       left: 0;
     }
+
+    &.fixed {
+      opacity: 1;
+    }
   }
 
   .slider__logo-container {

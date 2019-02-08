@@ -453,7 +453,7 @@ showSlides();
 
 function showSlides() {
   var i;
-  var slides = document.getElementsByClassName("slider");
+  var slides = document.getElementsByClassName("fade");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.opacity = "0";
     // slides[i].style.display = "none";

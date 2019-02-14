@@ -18,8 +18,10 @@
             {% for feature in include.solution.tools %}
                 <div class="feature">
                     <img class="feature__image" alt="{{feature.title}}" src="/images/solutions/{{feature.image}}">
-                    <h3 class="feature__title">{{feature.title}}</h3>
-                    <p class="feature__text">{{feature.text}}</p>
+                    <div class="feature__container">
+                        <h3 class="feature__title">{{feature.title}}</h3>
+                        <p class="feature__text">{{feature.text}}</p>
+                    </div>
                 </div>
             {% endfor %}
         </div>
@@ -28,6 +30,8 @@
             <div class="integrations__content">
                 <h3 class="title">Easy Integrations</h3>
                 <p class="desc">Improve developer process. Rocket.Chat moves between your team and apps automatically so you can focus on your most important work.</p>
+                <img class="integrations__image mobile" alt="integrations" src="/images/solutions/easy-integrations-mobile2.png">
+                <img class="integrations__image mobile" alt="integrations" src="/images/solutions/easy-integrations-mobile.png">
                 <p class="label theme_type--light">Many integrations available and counting...</p>
                 <div class="icons">
                     <a href="https://rocket.chat/docs/administrator-guides/integrations/github/" rel="noopener noreferrer">

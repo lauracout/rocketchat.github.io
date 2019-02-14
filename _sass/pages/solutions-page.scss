@@ -30,7 +30,8 @@ body.solutions-page {
 
         @media screen and (max-width: $tablet) {
             flex-direction: column-reverse;
-            margin-top: 78px;
+            margin-top: 180px;
+            padding-bottom: 64px;
 
             &__image {
                 margin-bottom: 46px;
@@ -38,8 +39,8 @@ body.solutions-page {
             }
 
             &__text {
-                text-align: center;
-                align-items: center;
+                text-align: left;
+                align-items: left;
             }
         }
     }
@@ -93,6 +94,15 @@ body.solutions-page {
                 &__image {
                     margin-right: 40px;
                     height: 367px;
+                    &.mobile {
+                        display: none;
+                        &:first-child {
+                            margin-top: 36px;
+                        }
+                        &:nth-child(2) {
+                            margin-bottom: 36px;
+                        }
+                    }
                 }
 
                 &__content {
@@ -144,13 +154,71 @@ body.solutions-page {
         }
 
         @media screen and (max-width: $tablet) {
+            padding: 64px 0 64px;
+            text-align: left;
+            align-items: left;
+
             &__title {
                 width:100%;
+                text-align: left;
             }
 
             &__icons {
                 grid-template-columns: repeat(1, auto);
                 grid-template-rows: repeat(6, auto);
+
+                .feature {
+                    flex-direction: row;
+                    text-align: left;
+                    max-width: unset;
+                    width: 100%;
+                    padding: 0px 16px;
+
+                    &__image {
+                        margin: 0 18px 0 0;
+                    }
+                }
+            }
+
+            &__integrations {
+                flex-direction: column-reverse;
+
+                .integrations {
+                    &__content {
+                        .label {
+                            text-align: center;
+                            margin-top: 64px;
+                        }
+
+                        .icons {
+                            justify-content: center;
+                            margin-top: 24px;
+                            margin-bottom: 64px;
+                        }
+
+                        .atlassian-logos {
+
+                            width: 100%;
+                            flex-wrap: wrap;
+                            justify-content: center;
+                            height: 65px;
+                        }
+
+                        .text {
+                            text-align: center;
+                            margin-bottom: 24px;
+                        }
+                    }
+
+                    &__image {
+                        display: none;
+                        &.mobile {
+                            display: block;
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                }
             }
         }
     }
@@ -202,8 +270,10 @@ body.solutions-page {
         }
 
         @media screen and (max-width: $tablet) {
+            padding: 64px 0 64px;
+
             &__title {
-                width: 736px;
+                width: 100%;
                 margin: auto;
             }
         }
@@ -247,10 +317,30 @@ body.solutions-page {
                 height: 384px;
                 width: auto;
                 max-width: unset;
+                &.mobile {
+                    display: none;
+                }
             }
         }
 
+        @media screen and (max-width: $tablet) {
+            flex-direction: column;
+            padding: 46px 16px;
 
+            &__content {
+                width: 100%;
+            }
+        }
+
+        &__image {
+            margin-right: 0;
+            width: 100%;
+            margin-top: 46px;
+            display: none;
+            &.mobile {
+                display: block;
+            }
+        }
 
     }
 

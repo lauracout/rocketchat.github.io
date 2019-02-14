@@ -7,8 +7,8 @@ devops:
     - title: "Collaboration"
       image: "collaboration.svg"
       text: Collaborate with the entire development team
-    - title: "Flexibilty"
-      image: "flexibilty.svg"
+    - title: "Flexibility"
+      image: "Flexibility.svg"
       text: Install locally or in the cloud
     - title: "Integrations"
       image: "integrations.svg"
@@ -16,7 +16,7 @@ devops:
     - title: "Connectivity"
       image: "connectivity.svg"
       text: Connect the platform with your project management, version control, and monitoring systems
-    - title: "Securty & Privacity"
+    - title: "Security & Privacy"
       image: "security.svg"
       text: Store your information with security and privacy
     - title: "Scalability"

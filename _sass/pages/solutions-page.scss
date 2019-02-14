@@ -335,8 +335,9 @@ body.solutions-page {
                 display: none;
                 &.mobile {
                     display: block;
+                    height: auto;
                     width: auto;
-                    height: 100%;
+                    max-width: 80%;
                 }
             }
         }

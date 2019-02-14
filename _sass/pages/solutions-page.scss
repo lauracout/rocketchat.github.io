@@ -312,14 +312,11 @@ body.solutions-page {
 
         &__image {
             margin-right: -80px;
-
-            img {
-                height: 384px;
-                width: auto;
-                max-width: unset;
-                &.mobile {
-                    display: none;
-                }
+            height: 384px;
+            width: auto;
+            max-width: unset;
+            &.mobile {
+                display: none;
             }
         }
 
@@ -330,17 +327,20 @@ body.solutions-page {
             &__content {
                 width: 100%;
             }
-        }
 
-        &__image {
-            margin-right: 0;
-            width: 100%;
-            margin-top: 46px;
-            display: none;
-            &.mobile {
-                display: block;
+            &__image {
+                margin-right: 0;
+                width: 100%;
+                margin-top: 46px;
+                display: none;
+                &.mobile {
+                    display: block;
+                    width: auto;
+                    height: 100%;
+                }
             }
         }
+
 
     }
 

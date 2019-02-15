@@ -225,7 +225,7 @@ body.solutions-page {
     }
 
     .testimonials {
-        padding: 460px 0 172px;
+        padding: 410px 0 172px;
 
         &__title {
             text-align: center;
@@ -414,9 +414,15 @@ body.solutions-page {
     }
 
     .atlassian-summit {
-        margin-bottom: -500px;
+        margin-bottom: -450px;
         margin-top: 160px;
         text-align: center;
+
+        @media screen and (max-width: $tablet) {
+            margin-bottom: -170px;
+            text-align: left;
+            margin-top: 64px;
+        }
 
         h3 {
             margin: auto;
@@ -427,5 +433,6 @@ body.solutions-page {
             margin:auto;
             margin-bottom: 36px;
         }
+
     }
 }

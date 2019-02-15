@@ -30,7 +30,8 @@ body.solutions-page {
 
         @media screen and (max-width: $tablet) {
             flex-direction: column-reverse;
-            margin-top: 180px;
+            height: unset;
+            padding-top: 0;
             padding-bottom: 64px;
 
             &__image {

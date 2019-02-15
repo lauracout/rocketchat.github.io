@@ -28,7 +28,7 @@ body.solutions-page {
             }
         }
 
-        @media screen and (max-width: $tablet) {
+        @media screen and (max-width: $mobile) {
             flex-direction: column-reverse;
             height: unset;
             padding-top: 0;
@@ -154,7 +154,7 @@ body.solutions-page {
             }
         }
 
-        @media screen and (max-width: $tablet) {
+        @media screen and (max-width: $mobile) {
             padding: 64px 0 64px;
             text-align: left;
             align-items: left;
@@ -270,7 +270,7 @@ body.solutions-page {
             }
         }
 
-        @media screen and (max-width: $tablet) {
+        @media screen and (max-width: $mobile) {
             padding: 64px 0 64px;
 
             &__title {
@@ -322,7 +322,7 @@ body.solutions-page {
             }
         }
 
-        @media screen and (max-width: $tablet) {
+        @media screen and (max-width: $mobile) {
             flex-direction: column;
             padding: 46px 16px;
 
@@ -418,7 +418,7 @@ body.solutions-page {
         margin-top: 160px;
         text-align: center;
 
-        @media screen and (max-width: $tablet) {
+        @media screen and (max-width: $mobile) {
             margin-bottom: -170px;
             text-align: left;
             margin-top: 64px;

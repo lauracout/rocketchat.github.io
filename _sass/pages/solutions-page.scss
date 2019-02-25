@@ -371,9 +371,19 @@ body.solutions-page {
         width: 544px;
         padding: 0;
 
+        @media screen and (max-width: $tablet) {
+            width: auto;
+        }
+
         #solution-form {
             display: block;
             margin: 64px 96px;
+
+            @media screen and (max-width: $tablet) {
+                margin: 64px 32px;
+            }
+
+
         }
 
         h3 {

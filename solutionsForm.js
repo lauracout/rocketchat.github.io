@@ -5,6 +5,9 @@ $(document).on('submit', '.featherlight .form-validate', function(event){
         obj[item.name] = item.value;
         return obj;
     }, {});
+
+    data['solution'] = 'devops';
+
     return submit(data);
 });
 

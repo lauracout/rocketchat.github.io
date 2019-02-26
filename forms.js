@@ -551,6 +551,10 @@ var formHelpers = {
 			jsonData[input.name] = input.value;
 		}
 
+		if (jsonData.recipient === 'support') {
+			finalEndpoint = this.url + '/support';
+		}
+
 		http.open('POST', finalEndpoint, true);
 		http.setRequestHeader('Content-type', 'application/json');
 		http.onload = function() {

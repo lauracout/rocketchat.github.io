@@ -157,14 +157,6 @@
   photo: yes
   country: Brazil
 
-- name: Isabella Russell
-  role: Marketing Lead
-  department: Marketing
-  username: isabella.russell
-  github_username: isabellarussell
-  photo: yes
-  country: United Kingdom
-
 - name: Pierre Lehnen
   role: Software Engineer
   github_username: Hudell

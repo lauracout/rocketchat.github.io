@@ -13,10 +13,12 @@ $(document).on('submit', '.featherlight .form-validate', function(event){
 
 submit = function(data) {
     var http = new XMLHttpRequest();
-    var finalEndpoint = '//contactmailer.rocket.chat/solution';
+    var finalEndpoint = '//contactmailer.rocket.chat/solutions';
 
     http.open('POST', finalEndpoint, true);
     http.setRequestHeader('Content-type', 'application/json');
+
+    console.log(this.response);
     http.onload = function() {
         var response = JSON.parse(this.response);
         if (response.message === 'success') {

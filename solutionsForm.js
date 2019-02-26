@@ -18,16 +18,6 @@ submit = function(data) {
     http.open('POST', finalEndpoint, true);
     http.setRequestHeader('Content-type', 'application/json');
 
-    console.log(this.response);
-    http.onload = function() {
-        var response = JSON.parse(this.response);
-        if (response.message === 'success') {
-            formHelpers.toggleModal();
-        } else {
-            console.error(response.message);
-        }
-    };
-
     http.send(JSON.stringify(data));
 
     var current = $.featherlight.current();

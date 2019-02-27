@@ -22,13 +22,16 @@ body.solutions-page {
                 font-size: 18px;
                 margin: 0;
                 margin-top: 32px;
-                width: 159px;
                 height: 60px;
+                width: 159px;
                 align-items: center;
                 @media screen and (max-width: $mobile) {
                     width: 106px;
                     height: 45px;
                     padding: 0;
+                    font-size: 14px;
+                    width: 117px;
+                    font-weight: 500
                 }
             }
         }
@@ -36,8 +39,7 @@ body.solutions-page {
         @media screen and (max-width: $tablet) {
             flex-direction: column-reverse;
             height: unset;
-            padding-top: 0;
-            padding-bottom: 64px;
+            padding: 0 16px 64px;
 
             &__image {
                 margin: auto;
@@ -179,7 +181,6 @@ body.solutions-page {
                     text-align: left;
                     max-width: unset;
                     width: 100%;
-                    padding: 0px 16px;
 
                     &__image {
                         margin: 0 18px 0 0;
@@ -189,6 +190,7 @@ body.solutions-page {
 
             &__integrations {
                 flex-direction: column-reverse;
+                margin-top: 64px;
 
                 .integrations {
                     &__content {
@@ -324,6 +326,9 @@ body.solutions-page {
                     width: 106px;
                     height: 45px;
                     padding: 0;
+                    font-size: 14px;
+                    width: 117px;
+                    font-weight: 500
                 }
             }
         }
@@ -340,7 +345,7 @@ body.solutions-page {
 
         @media screen and (max-width: $tablet) {
             flex-direction: column;
-            padding: 46px 16px;
+            padding: 36px 16px;
 
             &__content {
                 width: 100%;
@@ -364,7 +369,7 @@ body.solutions-page {
     }
 
     .featherlight:last-of-type {
-        background: rgba(3,12,26,.8);
+        background: rgba(3,12,26,.85);
     }
     .featherlight-content {
         background-color: $space-b;
@@ -407,7 +412,7 @@ body.solutions-page {
         .featherlight-close-icon {
             background: none;
             color: $grey;
-            font-size: 24px;
+            font-size: 1.2em;
             margin-right: 32px;
             margin-top: 32px;
         }

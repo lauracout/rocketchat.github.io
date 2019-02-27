@@ -367,9 +367,10 @@ body.solutions-page {
         background: rgba(3,12,26,.8);
     }
     .featherlight-content {
-        background-color: $space;
+        background-color: $space-b;
         width: 544px;
         padding: 0;
+        box-shadow:  0 2px 16px 0 rgba(0, 0, 0, 0.5);
 
         @media screen and (max-width: $tablet) {
             width: auto;
@@ -378,6 +379,7 @@ body.solutions-page {
         #solution-form {
             display: block;
             margin: 64px 96px;
+            margin-bottom: 32px;
 
             @media screen and (max-width: $tablet) {
                 margin: 64px 32px;

@@ -294,14 +294,6 @@
 - title: "Support"
   isHeader: true
 
-- title: "Updates"
-  community: "Regular Releases"
-  pro: "Priority Patches"
-  enterprise: "Priority Patches"
-  bronze: "Automatic"
-  silver: "Automatic"
-  gold: "Automatic"
-
 - title: "SLA - Monthly Uptime"
   bronze: ""
   silver: "99.99%"

@@ -7,7 +7,7 @@ paginate: 8
 future: true
 
 # bump if alterting styles
-version: 118
+version: 119
 # read speed
 wpm: 160
 

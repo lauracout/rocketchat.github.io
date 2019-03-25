@@ -99,6 +99,23 @@ body.solutions-page {
             margin-top: 160px;
             display: flex;
 
+            &.livechat {
+                flex-direction: row-reverse;
+                padding: 51px;
+
+                .integrations__image {
+                    margin-right: 0;
+                    margin-left: 51px;
+                    height: 476px;
+                }
+
+                .integrations__content {
+                    justify-content: center;
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+
             .integrations {
                 &__image {
                     margin-right: 40px;

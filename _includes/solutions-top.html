@@ -4,7 +4,7 @@
         <p class="display--small theme_type--grey">{{include.solution.hero-desc}}</p>
         <a class="button" data-featherlight="#solution-form" href="#">Contact Us</a>
     </div>
-    <img class="hero__image" alt="devops" src="/images/solutions/{{include.solution.hero-image}}">
+    <img class="hero__image" alt="hero-image" src="/images/solutions/{{include.solution.hero-image}}">
 </section>
 
 <section class="features">
@@ -25,44 +25,9 @@
                 </div>
             {% endfor %}
         </div>
-        <div class="features__integrations">
-            <img class="integrations__image" alt="integrations" src="/images/solutions/easy-integrations.png">
-            <div class="integrations__content">
-                <h3 class="title">Easy Integrations</h3>
-                <p class="desc">Improve developer process. Rocket.Chat moves between your team and apps automatically so you can focus on your most important work.</p>
-                <img class="integrations__image mobile" alt="integrations" src="/images/solutions/easy-integrations-mobile2.png">
-                <img class="integrations__image mobile" alt="integrations" src="/images/solutions/easy-integrations-mobile.png">
-                <p class="label theme_type--light">Many integrations available and counting...</p>
-                <div class="icons">
-                    <a href="https://rocket.chat/docs/administrator-guides/integrations/github/" rel="noopener noreferrer">
-                        <img alt="github integration" src="/images/solutions/github.svg">
-                    </a>
-                    <a href="https://rocket.chat/atlassian" rel="noopener noreferrer">
-                        <img alt="atlassian integration" src="/images/solutions/atlassian.svg">
-                    </a>
-                    <a href="https://rocket.chat/docs/administrator-guides/integrations/zapier/using-zaps/" rel="noopener noreferrer">
-                        <img alt="zapier integration" src="/images/solutions/zapier.svg">
-                    </a>
 
-                    <a href="https://rocket.chat/docs/administrator-guides/integrations/gitlab/" rel="noopener noreferrer">
-                        <img alt="gitlab integration" src="/images/solutions/gitlab.svg">
-                    </a>
+        {% include {{ include.solution.card-location }} %}
 
-                    <a href="https://rocket.chat/docs/installation/paas-deployments/aws/" rel="noopener noreferrer">
-                        <img alt="aws integration" src="/images/solutions/aws.svg">
-                    </a>
-                </div>
-
-                <p class="text">Moving from Atlassian? <a class="button--link" href="https://rocket.chat/atlassian" rel="noopener noreferrer">Learn more</a></p>
-
-                <div class="atlassian-logos">
-                    <img src="/images/atlassian/jira.svg">
-                    <img src="/images/atlassian/confluence.svg">
-                    <img src="/images/atlassian/bitbucket.svg">
-                    <img src="/images/atlassian/trello.svg">
-                </div>
-            </div>
-        </div>
         <div class="atlassian-summit">
             <h3 class="display">We are proudly sponsoring the Atlassian Summit 2019</h3>
             <a class="button--link" href="https://www.atlassian.com/ro/company/events/summit" rel="noopener noreferrer">Learn more</a>

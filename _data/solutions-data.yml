@@ -48,22 +48,22 @@ livechat:
   tools:
     - title: "Collaboration"
       image: "collaboration.svg"
-      text: Collaborate with the entire development team
+      text: Proactive help your customer find what they are looking for at your website.
     - title: "Historic"
       image: "historic.svg"
-      text: Install locally or in the cloud
+      text: Customer history is an important asset of the company, do not miss it.
     - title: "Integrations"
       image: "integrations.svg"
-      text: Integrate with bots and automate tasks
+      text: Proactive help your customer find what they are looking for at your website.
     - title: "Agility"
       image: "agility.svg"
-      text: Connect the platform with your project management, version control, and monitoring systems
+      text: The fastest way to help your customers. Start chatting with visitors who need your help.
     - title: "Security & Privacy"
       image: "security.svg"
       text: Store your information with security and privacy
     - title: "Scalability"
       image: "scalability.svg"
-      text: Scale according to your needs
+      text: Gives agents, bots and team the toolset needed to ensure the seamless management.
   testimonials:
     - name: "Testimonial 1"
       role: "Developer at Rocket.Chat"

@@ -2,6 +2,7 @@ devops:
   hero-title: "Collaboration and integration for continuous delivery."
   hero-image: devops-hero.svg
   hero-desc: "Increase the productivity of your DevOps Team with the ideal tool for integration of processes and tools, ensuring continuous delivery and collaboration through all development steps."
+  features-uptitle: Tailored to your Developer Team
   logos-category: devops
   card-location: solutions/devops-card.html
 
@@ -44,12 +45,13 @@ livechat:
   hero-image: livechat-hero.svg
   hero-desc: "Do not miss business opportunities, let your customers, partners and external users talk to your team on the channel they prefer: website, email, SMS, social networks with chatbot automatization and all at the same place."
   logos-category: livechat
+  features-uptitle: Tailored to best attend your customers
   card-location: solutions/livechat-card.html
   tools:
     - title: "Collaboration"
       image: "collaboration.svg"
       text: Proactive help your customer find what they are looking for at your website.
-    - title: "Historic"
+    - title: "Historiy"
       image: "historic.svg"
       text: Customer history is an important asset of the company, do not miss it.
     - title: "Integrations"

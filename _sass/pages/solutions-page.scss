@@ -106,7 +106,7 @@ body.solutions-page {
                 .integrations__image {
                     margin-right: 0;
                     margin-left: 51px;
-                    height: 502px;
+                    height: 532px;
 
                     @media screen and (max-width: $tablet) {
                         margin-left: 0;
@@ -119,6 +119,13 @@ body.solutions-page {
                     justify-content: center;
                     display: flex;
                     flex-direction: column;
+
+                    .desc {
+                        width: 80%;
+                        @media screen and (max-width: $tablet) {
+                            width: 100%
+                        }
+                    }
                 }
 
                 @media screen and (max-width: $tablet) {

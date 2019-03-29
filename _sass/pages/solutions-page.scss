@@ -133,6 +133,38 @@ body.solutions-page {
                 }
             }
 
+            &.collab {
+                padding: 51px;
+
+                .integrations__image {
+                    margin-right: 100px;
+                    height: 375px;
+
+                    @media screen and (max-width: $tablet) {
+                        margin-left: 0;
+                        margin-bottom: 16px;
+                        height: unset;
+                    }
+                }
+
+                .integrations__content {
+                    justify-content: center;
+                    display: flex;
+                    flex-direction: column;
+
+                    .desc {
+                        width: 80%;
+                        @media screen and (max-width: $tablet) {
+                            width: 100%
+                        }
+                    }
+                }
+
+                @media screen and (max-width: $tablet) {
+                    flex-direction: column-reverse;
+                }
+            }
+
             .integrations {
                 &__image {
                     margin-right: 40px;

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84" height="84" viewBox="0 0 84 84">
+    <defs>
+        <circle id="a" cx="32" cy="32" r="32"/>
+        <path id="b" d="M7.244 36.895c0 .477.14.945.404 1.343l1.289 1.95a2.408 2.408 0 0 0 2.009 1.083h4.653c.808 0 1.562-.407 2.01-1.084l1.288-1.95a2.44 2.44 0 0 0 .404-1.342l.003-5.321H7.24l.004 5.321z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <use fill="#A3B4CC" transform="translate(10 10)" xlink:href="#a"/>
+        <g transform="translate(29 22)">
+            <path fill="#FFF" d="M13.23 0C5.539.024 0 6.297 0 13.358c0 3.368 1.24 6.44 3.285 8.788 1.246 1.43 3.204 6.847 3.947 9.369l.008.059 12.056.059.008-.06c.743-2.52 2.71-7.997 3.956-9.427a13.333 13.333 0 0 0 3.284-8.788C26.544 5.966 20.58-.022 13.231 0z"/>
+            <path fill="#CFD8E6" fill-rule="nonzero" d="M11.533 6.786c-2.641 0-4.79 2.164-4.79 4.822a.961.961 0 0 1-.959.965.961.961 0 0 1-.958-.965c0-3.722 3.009-6.75 6.707-6.75.53 0 .959.431.959.964a.961.961 0 0 1-.959.964z"/>
+            <mask id="c" fill="#fff">
+                <use xlink:href="#b"/>
+            </mask>
+            <use fill="#1D74F5" xlink:href="#b"/>
+            <path fill="#4F96FF" d="M14.5 37h5a.5.5 0 1 1 0 1h-5a.5.5 0 1 1 0-1zm0-2h5a.5.5 0 1 1 0 1h-5a.5.5 0 1 1 0-1zm0-2h5a.5.5 0 1 1 0 1h-5a.5.5 0 1 1 0-1z" mask="url(#c)"/>
+        </g>
+        <rect width="2" height="12" x="41" y="7" fill="#1D74F5" rx="1"/>
+        <rect width="2" height="7" x="50.368" y="14.643" fill="#F3F5F8" rx="1" transform="rotate(24.635 51.368 18.143)"/>
+        <g transform="matrix(-1 0 0 1 35.41 13.87)">
+            <rect width="2" height="7" x="1.958" y=".772" fill="#F3F5F8" rx="1" transform="rotate(24.635 2.958 4.272)"/>
+            <rect width="2" height="13" x="10.942" y=".185" fill="#1D74F5" rx="1" transform="rotate(45.728 11.942 6.685)"/>
+        </g>
+        <rect width="2" height="13" x="59.352" y="14.055" fill="#1D74F5" rx="1" transform="rotate(45.728 60.352 20.555)"/>
+    </g>
+</svg>

@@ -5,7 +5,6 @@ devops:
   features-uptitle: Tailored to your Developer Team
   logos-category: devops
   card-location: solutions/devops-card.html
-
   tools:
     - title: "Collaboration"
       image: "collaboration.svg"
@@ -39,7 +38,6 @@ devops:
       image: "Testimonial-3.png"
       text: “If you think you've found a bug or would like to request a feature for Rocket.Chat, join GitHub and search through the existing issues or create a new one if one doesn't exist.”
 
-
 livechat:
   hero-title: "The customer messaging platform for all channels"
   hero-image: livechat-hero.svg
@@ -66,6 +64,46 @@ livechat:
     - title: "Scalability"
       image: "scalability.svg"
       text: Gives agents, bots and team the toolset needed to ensure the seamless management.
+  testimonials:
+    - name: "Testimonial 1"
+      role: "Developer at Rocket.Chat"
+      image: "Testimonial-1.png"
+      text: “If you think you've found a bug or would like to request a feature for Rocket.Chat, join GitHub and search through the existing issues or create a new one if one doesn't exist.”
+    - name: "Testimonial 2"
+      role: "Dude at Rocket.Chat"
+      image: "Testimonial-2.png"
+      text: “If you think you've found a bug or would like to request a feature for Rocket.Chat, join GitHub and search through the existing issues or create a new one if one doesn't exist.”
+    - name: "Testimonial 3"
+      role: "Worker at Rocket.Chat"
+      image: "Testimonial-3.png"
+      text: “If you think you've found a bug or would like to request a feature for Rocket.Chat, join GitHub and search through the existing issues or create a new one if one doesn't exist.”
+
+collab:
+  hero-title: "Real-time communication for teams to collaborate from any location"
+  hero-image: collab-hero.svg
+  hero-desc: "Put an end to crowded email inboxes and try out a new way of communicating with your team."
+  logos-category: team-collab
+  features-uptitle: Tailored to best attend your team
+  card-location: solutions/collab-card.html
+  tools:
+    - title: "Communicate"
+      image: "collaboration.svg"
+      text: Connect with all the teams in your company.
+    - title: "Install"
+      image: "install.svg"
+      text: Host on your own server or on our cloud.
+    - title: "Personalize"
+      image: "integrations.svg"
+      text: Customize your platform, integrate with bots and automate tasks.
+    - title: "Security & Privacy"
+      image: "security.svg"
+      text: The data with maximum security and privacy, including E2E encrytion and 2-factor authentication.
+    - title: "Improve & Reinvent"
+      image: "reinvent.svg"
+      text: Reinvent your workflow to drive organization success.
+    - title: "Save time & Money"
+      image: "time-money.svg"
+      text: Compare with other enterprise corporate chats.
   testimonials:
     - name: "Testimonial 1"
       role: "Developer at Rocket.Chat"

@@ -83,7 +83,7 @@ collab:
   hero-image: collab-hero.svg
   hero-desc: "Put an end to crowded email inboxes and try out a new way of communicating with your team."
   logos-category: team-collab
-  features-uptitle: Tailored to best attend your team
+  features-uptitle: Tailored to best fit your team
   card-location: solutions/collab-card.html
   tools:
     - title: "Communicate"
@@ -97,7 +97,7 @@ collab:
       text: Customize your platform, integrate with bots and automate tasks.
     - title: "Security & Privacy"
       image: "security.svg"
-      text: The data with maximum security and privacy, including E2E encrytion and 2-factor authentication.
+      text: The data with maximum security and privacy, including E2E encryption and 2-factor authentication.
     - title: "Improve & Reinvent"
       image: "reinvent.svg"
       text: Reinvent your workflow to drive organization success.

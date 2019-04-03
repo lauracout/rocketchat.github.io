@@ -10,8 +10,6 @@
   var APPS_MESSAGE_CONTAINER = $('.apps-message-container')
   var APPS = []
 
-  var clipboard
-
   var getAppsData = function () {
     return fetch('https://marketplace.rocket.chat/v1/apps', {
       headers: {
@@ -358,14 +356,11 @@
 
     MODAL_WRAPPER_EL.html(content)
 
-    clipboard = new ClipboardJS(MODAL_WRAPPER_EL.find('.copy-url-button')[0])
-
     bindModalEvents(app)
   }
 
   var closeModal = function () {
     MODAL_WRAPPER_EL.addClass('display-none')
-    clipboard.destroy()
 
     unbindModalEvents()
     $("html").css({

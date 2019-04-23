@@ -144,7 +144,7 @@ security:
       text: Secure user identities with multifactor-authentication, federation & SAML support
     - title: "Access Control"
       image: "access.svg"
-      text: Need2Know access via public and private channels and granular user permissions
+      text: Need to know access via public and private channels and granular user permissions
     - title: "Your Data"
       image: "data.svg"
       text: No ads, no trackers. You own your data. You control your data

@@ -57,7 +57,6 @@ body.solutions-page {
     .features {
         background-color: #fff;
         padding: 160px 0 172px;
-        margin-bottom: 80px;
 
         &__title {
             text-align: center;
@@ -162,6 +161,25 @@ body.solutions-page {
 
                 @media screen and (max-width: $tablet) {
                     flex-direction: column-reverse;
+                }
+            }
+
+            &.security {
+                h3 {
+                    width: 543px;
+                    height: 112px;
+                    font-size: 44px;
+                    font-weight: bold;
+                    flex-shrink: 0;
+                    margin-right: 32px;
+                    margin-bottom: 0;
+                }
+
+                p.desc {
+                    height: 96px;
+                    font-size: 16px;
+                    margin-top: 16px;
+                    margin-bottom: 0;
                 }
             }
 
@@ -305,7 +323,7 @@ body.solutions-page {
     }
 
     .testimonials {
-        padding: 315px 0 172px;
+        padding: 160px 0 172px;
 
         &__title {
             text-align: center;

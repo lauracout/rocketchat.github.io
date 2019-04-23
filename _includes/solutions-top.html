@@ -11,8 +11,8 @@
     <div class="container">
         <div class="features__title">
             <p class="label theme_type--light">{{include.solution.features-uptitle}}</p>
-            <h2 class="display">All your tools at the center of the conversation</h2>
-            <p class="theme_type--light display--small">The open nature of our platform guarantees the possibility of new and powerful integrations, regardless of your choice of vendors.</p>
+            <h2 class="display">{{include.solution.features-title}}</h2>
+            <p class="theme_type--light display--small">{{include.solution.features-subtitle}}</p>
         </div>
         <div class="features__icons">
             {% for feature in include.solution.tools %}
@@ -27,12 +27,6 @@
         </div>
 
         {% include {{ include.solution.card-location }} %}
-
-        <div class="atlassian-summit">
-            <h3 class="display">We are proudly sponsoring the Atlassian Summit 2019</h3>
-            <a class="button--link" href="https://www.atlassian.com/ro/company/events/summit" rel="noopener noreferrer">Learn more</a>
-            <a href="https://www.atlassian.com/ro/company/events/summit"><img class="atlassian-summit__img" src="/images/solutions/atlassian-summit.png" alt="atlassian-summit" /></a>
-        </div>
     </div>
 </section>
 

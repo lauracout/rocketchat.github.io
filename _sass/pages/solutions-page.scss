@@ -165,21 +165,67 @@ body.solutions-page {
             }
 
             &.security {
+                flex-direction: column;
+                text-align: center;
+
+                .points {
+                    display: flex;
+                    justify-content: center;
+
+                    @media screen and (max-width: $tablet) {
+                        flex-direction: column;
+
+                        .point {
+                            width: 100% !important;
+                            display: flex;
+                            text-align: left;
+
+                            h4 {
+                                margin-top: 12px !important;
+                            }
+
+                            img {
+                                flex-shrink: 0;
+                                margin-right: 18px !important;
+                            }
+
+                        }
+                    }
+
+                    .point {
+                        width: 256px;
+
+                        &:first-child {
+                            margin-right: 80px;
+                        }
+
+                        h4 {
+                            font-weight: bold;
+                            color: #000;
+                        }
+
+                        img {
+                            margin: auto;
+                        }
+                    }
+
+                }
+
                 h3 {
-                    width: 543px;
-                    height: 112px;
-                    font-size: 44px;
+                    font-size: 32px;
                     font-weight: bold;
-                    flex-shrink: 0;
-                    margin-right: 32px;
-                    margin-bottom: 0;
                 }
 
                 p.desc {
-                    height: 96px;
+                    width: 736px;
                     font-size: 16px;
+                    margin: auto;
                     margin-top: 16px;
-                    margin-bottom: 0;
+                    margin-bottom: 64px;
+
+                    @media screen and (max-width: $tablet) {
+                        width: 100%
+                    }
                 }
             }
 

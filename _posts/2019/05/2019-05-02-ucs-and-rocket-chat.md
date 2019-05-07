@@ -4,7 +4,7 @@ categories:
 - Case Studies
 date: 2019-05-02 12:00:00
 author: Nico Gulden
-cover: /images/posts/2019/05/ucs/ucs2.png
+cover: /images/posts/2019/05/ucs/cover.jpg
 featured: true
 ---
 

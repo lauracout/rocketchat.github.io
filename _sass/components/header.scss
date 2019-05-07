@@ -73,12 +73,15 @@
     color: #fff;
     margin-bottom: 1em;
     display: block;
+    font-weight: 500;
 
     @media screen and (min-width: $tablet) {
       margin-left: 0.8em;
       margin-bottom: 0;
       display: inline-block;
     }
+
+
 
     @media screen and (min-width: 60em) {
       margin-left: 2em;
@@ -214,7 +217,7 @@
     color: #fff;
 
     &:hover {
-      color: $grey-light;
+      color: $brand;
     }
   }
 
@@ -292,4 +295,48 @@
       background: $space;
     }
   }
+}
+
+.solutions{
+  display: block;
+  transition-duration: 0.5s;
+
+   &:hover {
+     cursor: pointer;
+   }
+
+    .dropdown {
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+      transition: all 0.5s ease;
+      background: $space-b;
+      padding: 16px;
+      padding-top: 12px;
+      width: 195px;
+      margin-left: -16px;
+      display: none;
+      flex-direction: column;
+   }
+
+   &:hover > ul,
+   .dropdown:hover {
+     visibility: visible;
+     opacity: 1;
+     display: flex;
+   }
+
+   .dropdown li{
+    clear: both;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    &:not(:last-child){
+      margin-bottom: 16px;
+    }
+
+    &:hover{
+      color: $brand;
+    }
+   }
 }

@@ -66,15 +66,6 @@
   photo: yes
   country: USA
 
-- name: Rafael Kellermann Streit
-  role: Lead Mobile Engineer
-  github_username: rafaelks
-  twitter: rafaelks
-  department: Mobile
-  username: rafael.kellermann
-  photo: yes
-  country: Brazil
-
 - name: Martin Schoeler
   role: Full Stack Engineer &amp; Technical Writer
   github_username: MartinSchoeler

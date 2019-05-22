@@ -164,14 +164,6 @@
   photo: yes
   country: Brazil
 
-- name: Thiago Sanchez
-  role: Head of Product Design
-  github_username: thiagosanchz
-  department: Design
-  username: thiago.sanchez
-  photo: yes
-  country: Brazil
-
 - name: Bruno Quadros
   role: Product Designer
   github_username: brunosquadros

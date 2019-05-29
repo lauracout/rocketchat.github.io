@@ -320,14 +320,6 @@
   pro: true
   enterprise: true
 
-- title: "24/7 Chat"
-  bronze: ""
-  silver: ""
-  gold: true
-  community: ""
-  pro: true
-  enterprise: true
-
 - title: "24/7 Phone"
   bronze: ""
   silver: "High Only"

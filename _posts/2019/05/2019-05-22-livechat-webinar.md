@@ -1,7 +1,7 @@
 ---
 description: In this webinar, we will talk about the important enhancements we made on our Livechat solution. The new Livechat widget was totally rewritten, providing great improvements on performance and UX.
 webinarID: 009
-webinarURL: https://www.youtube.com/watch?v=-C_k1sRFV9g
+webinarURL: https://www.youtube.com/embed/-C_k1sRFV9g
 dateEvent: 2019-05-22 14:00:00
 bgSize: cover
 bgColor: 030c1a

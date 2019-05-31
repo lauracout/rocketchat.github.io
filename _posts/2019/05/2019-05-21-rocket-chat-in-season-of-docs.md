@@ -18,7 +18,7 @@ Spend three months working closely with Rocket.Chat’s mentors and community. B
 
 ## Calling all tech writers: Join Today!
 
-You can start engaging and contributing now! Proposal submission for projects open May 29th (see [timeline](https://developers.google.com/season-of-docs/docs/timeline).
+You can start engaging and contributing now! Proposal submission for projects open May 29th (see [timeline](https://developers.google.com/season-of-docs/docs/timeline)).
 
 See our lineup of exciting projects on our [Project ideas list](https://rocket.chat/docs/contributing/google-season-of-docs-2019/#project-ideas). Pick a fun idea and write that winning proposal.
 

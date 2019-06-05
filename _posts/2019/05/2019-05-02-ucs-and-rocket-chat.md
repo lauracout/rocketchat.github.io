@@ -10,7 +10,7 @@ featured: true
 
 _This blog is created by our guest blogger from [Univention](https://www.univention.com/), Nico Gulden._
 
-For this reason I was especially happy to establish a business contact between Univention and Rocket.Chat to bring Rocket.Chat as an app in our Univention App Center. My path crossed Rocket.Chat over a year ago. And since we use it in our company for messaging and closed our internal IRC, I am an excited user of Rocket.Chat. I like how it helps me to cut down communication overhead.
+My path crossed Rocket.Chat over a year ago. And since we use it in our company for messaging and closed our internal IRC, I am an excited user of Rocket.Chat. I like how it helps me to cut down communication overhead. For this reason I was especially happy to establish a business contact between Univention and Rocket.Chat to bring Rocket.Chat as an app in our Univention App Center.
 
 Similar to  Rocket.Chat, Univention is a global company with [several active open source projects](https://github.com/univention). Univention arose around the need for an open alternative to Microsoft Active Directory and central identity management in on-premise environments.
 

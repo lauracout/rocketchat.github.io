@@ -7,7 +7,7 @@ bgSize: cover
 bgColor: 030c1a
 hosts:
     - Bruno Raymundo
-    - Caronlina Freitas
+    - Carolina Freitas
 language: USA
 gmt: -3
 cover: /images/posts/2019/06/webinar/webinar-ama.png

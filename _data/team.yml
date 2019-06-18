@@ -213,19 +213,11 @@
   country: Brazil
 
 - name: Douglas Gubert
-  role: Software Engineer
-  department: Back-end
+  role: Rocket.Chat Apps Lead
+  department: Rocket.Chat Apps
   github_username: d-gubert
   username: douglas.gubert
   twitter: d_gubert
-  photo: yes
-  country: Brazil
-
-- name: Bruno Raymundo
-  role: Support Lead
-  department: Support
-  github_username: braymundo
-  username: bruno.raymundo
   photo: yes
   country: Brazil
   

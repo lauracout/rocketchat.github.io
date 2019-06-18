@@ -59,6 +59,10 @@
   transition: all 0.3s ease;
   white-space: nowrap;
 
+  @media screen and (max-width: $mobile) {
+    overflow: hidden;
+  }
+
   @media screen and (min-width: $tablet) {
     @include flexbox();
     @include justify-content(space-between);

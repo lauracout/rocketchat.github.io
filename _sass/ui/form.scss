@@ -18,7 +18,7 @@ fieldset {
   margin-bottom: 1em;
 
   border-radius: 2px;
-  border: 1.5px solid $grey-smoke;
+  border: 1px solid $grey-smoke;
 
   transition: border $tranitions;
   @include placeholder($grey);
@@ -83,6 +83,10 @@ fieldset {
   background-position: 1em center;
   background-repeat: no-repeat;
   padding-left: 3em;
+  &-light {
+    background-image: url(../images/contact/user--light.svg);
+
+  }
 }
 
 .input--icon-email {
@@ -90,6 +94,9 @@ fieldset {
   background-position: 1em center;
   background-repeat: no-repeat;
   padding-left: 3em;
+  &-light {
+    background-image: url(../images/contact/email--light.svg);
+  }
 }
 
 .input--icon-search {

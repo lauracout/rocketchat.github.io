@@ -467,3 +467,7 @@ function showSlides() {
   // slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 4000);
 }
+
+$('.pricing .button.trial.contact').on('click', function (e) {
+  setTimeout(function(){ $('.pricing .featherlight #solution').attr('value', `Pricing ${e.target.dataset.label}`); }, 500);
+});

@@ -1,0 +1,74 @@
+<div id="pricing-form">
+        <h3 class="display--small theme_type--light"><bold>Contact Us</bold></h3>
+        <div class="space--1"></div>
+        <form class="form-validate" data-validate>
+            <fieldset>
+                <label class="label--small theme_type--light" for="firstName">Full Name</label>
+                <input required minlength="3" maxlength="100" class="input input--light input--icon-user input--icon-user-light" type="text" id="fullName" name="fullName" placeholder="Type your full name" />
+            </fieldset>
+
+            <fieldset>
+                <label class="label--small theme_type--light" for="email">Email Address</label>
+                <input required minlength="3" maxlength="100" class="input input--light input--icon-email input--icon-email-light" type="email" id="email" name="email" placeholder="Type your email address" />
+            </fieldset>
+
+            <fieldset>
+                <label class="label--small theme_type--light" for="company">Company</label>
+                <input minlength="3" maxlength="100" class="input input--light" type="text" id="company" name="company" placeholder="Type your company" />
+            </fieldset>
+
+            <fieldset>
+              <label class="label--small theme_type--light" for="companySize">Company Size</label>
+                <select required id="companySize" name="companySize" class="select select--theme-light">
+                  <option selected disabled hidden value="">Select</option>
+                  <option value="50">Less than 50</option>
+                  <option value="100">Up to 100</option>
+                  <option value="up to 500">Up to 500</option>
+                  <option value="up to 1000">Up to 1000</option>
+                  <option value="more than 1000">More than 1000</option>
+                </select>
+             </fieldset>
+
+             <fieldset>
+                <label class="label--small theme_type--light" for="inquiry">What is your inquiry about?</label>
+                <select required id="inquiry" name="inquiry" class="select select--theme-light">
+                    <option selected disabled hidden value="">Select</option>
+                    <option value="learn more">Learn More</option>
+                    <option value="service manage">Service Manager</option>
+                    <option value="help desk">Help Desk</option>
+                    <option value="process automation">Process Automation</option>
+                    <option value="chatbots">Chatbots</option>
+                    <option value="monitoring">Monitoring</option>
+                    <option value="external communication">External Communication</option>
+                    <option value="internal communication">Internal Communication</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <label class="label--small theme_type--light" for="message">Message</label>
+                <textarea required rows="7" class="input input--light" name="message" id="message" placeholder="Type your message"></textarea>
+            </fieldset>
+
+            <fieldset style="display: none">
+                <label class="label--small theme_type--light" for="recipient">Department</label>
+                <div class="select select--theme-light">
+                <select name="recipient" id="recipient">
+                    <option value="sales">Sales</option>
+                </select>
+                </div>
+            </fieldset>
+
+            <fieldset style="display: none">
+                <label class="label--small theme_type--grey"  for="company">Solution</label>
+                <input minlength="3" maxlength="100" class="input input--dark" value="" type="text" id="solution" name="solution" placeholder="" />
+            </fieldset>
+
+            <div class="space--2"></div>
+            <button type="submit" class="button">Send message</button>
+            </form>
+    </div>
+
+    <div id="pricing-form__after-box">
+        <h3>You’ll be in great company! </h3>
+        <p>We are trusted over thousand companies across 150 countries <br><br> We’ll contact you soon!</p>
+    </div>

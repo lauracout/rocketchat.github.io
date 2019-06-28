@@ -1,12 +1,9 @@
 $(document).on('submit', '.featherlight .form-validate', function(event){
     event.preventDefault();
-    event.preventDefault();
     var data = $('.featherlight .form-validate').serializeArray().reduce(function(obj, item) {
         obj[item.name] = item.value;
         return obj;
     }, {});
-
-    data['solution'] = 'devops';
 
     return submit(data);
 });
@@ -22,8 +19,11 @@ submit = function(data) {
 
     var current = $.featherlight.current();
     current.close();
-
-    $.featherlight($('#solution-form__after-box'), {});
+    if (data.solution.includes('Pricing')){
+        $.featherlight($('#pricing-form__after-box'), {});
+    } else {
+        $.featherlight($('#solution-form__after-box'), {});
+    }
 }
 
 

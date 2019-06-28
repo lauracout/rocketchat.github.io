@@ -75,7 +75,12 @@ body.light {
 
 // Selects
 .select--theme-light {
-  border: 1px solid $grey-smoke;
+  border: 1px solid $grey;
+  color: $space;
+
+  &::placeholder {
+    color: $grey
+  }
 
   &:after {
     border-top: 1.5px solid $space;
@@ -134,11 +139,47 @@ body.light {
   }
 }
 
+.input--light,
+.input-child--light input {
+  @include placeholder($grey-light);
+  color: $space;
+  border: 1.5px solid $grey;
+  background-color: #fff;
+
+  input {
+    @include placeholder($grey);
+  }
+
+  &[disabled],
+  &.disabled {
+    background: $grey-bg;
+    color: $grey-smoke-dark;
+    @include placeholder($grey-smoke-dark);
+  }
+
+  &:hover,
+  &:focus {
+    border-color: $brand;
+  }
+
+  &.error {
+    border-color: $warning;
+  }
+}
+
 .input-child--dark[data-prefix] {
   &:before {
     background: $space-grey;
     color: #fff;
     border-right: 1.5px solid $grey-dark;
+  }
+}
+
+.input-child--light[data-prefix] {
+  &:before {
+    background: $space-grey;
+    color: $space;
+    border-right: 1.5px solid $grey;
   }
 }
 

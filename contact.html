@@ -10,12 +10,12 @@ theme: dark
 <div class="container">
   <div class="flex-grid">
     <div class="col--third contant-form">
-      <div class="space--4"></div>
+      <div class="space--2"></div>
 
       <h1 class="display theme_type--dark">Contact Rocket.Chat</h1>
       <p class="theme_type--grey display--small">Request a feature, report bugs or share your Rocket.Chat story with us</p>
 
-      <div class="space--4"></div>
+      <div class="space--1"></div>
 
       <form class="form-validate" data-validate>
         <fieldset>
@@ -45,23 +45,18 @@ theme: dark
         </fieldset>
 
         <fieldset>
-          <label class="label--small theme_type--grey" for="company">Company</label>
-          <input minlength="3" maxlength="100" class="input input--dark" type="text" id="company" name="company" placeholder="Type your company" />
+          <label class="label--small theme_type--grey" for="company">Company/Community</label>
+          <input required minlength="3" maxlength="100" class="input input--dark" type="text" id="company" name="company" placeholder="Type your company or community name" />
         </fieldset>
 
-        <fieldset>
-          <label class="label--small theme_type--grey" for="title">Job title</label>
-          <input required minlength="3" class="input input--dark" type="text" id="title" name="title" placeholder="Type your job title" />
-        </fieldset>
-
-        <fieldset>
+        <fieldset style="display: none">
           <label class="label--small theme_type--grey" for="subject">Subject</label>
-          <input required minlength="3" maxlength="100" class="input input--dark" type="text" id="subject" name="subject" placeholder="Type the subject" />
+          <input disabled value="Contact form query" minlength="3" maxlength="100" class="input input--dark" type="text" id="subject" name="subject" placeholder="Type the subject" />
         </fieldset>
 
         <fieldset>
-          <label class="label--small theme_type--grey" for="message">Message</label>
-          <textarea required rows="7" class="input input--dark" name="message" id="message" placeholder="Type your message"></textarea>
+          <label class="label--small theme_type--grey" for="message">Question</label>
+          <textarea required rows="7" class="input input--dark question" name="message" id="message" placeholder="Type your Question"></textarea>
         </fieldset>
 
         <div class="space--2"></div>

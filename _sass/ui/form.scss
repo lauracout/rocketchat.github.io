@@ -38,6 +38,10 @@ fieldset {
   &:focus {
     border-color: $grey-light;
   }
+
+  &.question {
+    height: 100px;
+  }
 }
 
 .input-child {

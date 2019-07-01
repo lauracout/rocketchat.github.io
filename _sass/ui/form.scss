@@ -186,3 +186,13 @@ fieldset {
     margin-bottom: 1em;
   }
 }
+
+.required-field {
+  color: $warning;
+  font-size: 16px;
+  margin-left: 2px;
+}
+
+.terms {
+  margin: 0;
+}

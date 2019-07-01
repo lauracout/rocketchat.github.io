@@ -242,8 +242,8 @@
 
   #pricing-form {
     display: block;
-    margin: 48px;
-    margin-bottom: 32px;
+    margin: 34px 48px;
+    margin-bottom: 0;
 
     @media screen and (max-width: $tablet) {
       margin: 64px 32px;

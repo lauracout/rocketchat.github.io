@@ -3,50 +3,47 @@
         <div class="space--1"></div>
         <form class="form-validate" data-validate>
             <fieldset>
-                <label class="label--small theme_type--light" for="firstName">Full Name</label>
+                <label class="label--small theme_type--light" for="firstName">Full Name<span class="required-field">*</span></label>
                 <input required minlength="3" maxlength="100" class="input input--light input--icon-user input--icon-user-light" type="text" id="fullName" name="fullName" placeholder="Type your full name" />
             </fieldset>
 
             <fieldset>
-                <label class="label--small theme_type--light" for="email">Email Address</label>
+                <label class="label--small theme_type--light" for="email">Email Address<span class="required-field">*</span></label>
                 <input required minlength="3" maxlength="100" class="input input--light input--icon-email input--icon-email-light" type="email" id="email" name="email" placeholder="Type your email address" />
             </fieldset>
 
             <fieldset>
-                <label class="label--small theme_type--light" for="company">Company</label>
-                <input minlength="3" maxlength="100" class="input input--light" type="text" id="company" name="company" placeholder="Type your company" />
+                <label class="label--small theme_type--light" for="company">Company<span class="required-field">*</span></label>
+                <input required minlength="3" maxlength="100" class="input input--light" type="text" id="company" name="company" placeholder="Type your company" />
             </fieldset>
 
             <fieldset>
-              <label class="label--small theme_type--light" for="companySize">Company Size</label>
-                <select required id="companySize" name="companySize" class="select select--theme-light">
+              <label class="label--small theme_type--light" for="companySize">Company Size<span class="required-field">*</span></label>
+                <select required id="companySize" name="companySize" class="select select--theme-light chevron">
                   <option selected disabled hidden value="">Select</option>
-                  <option value="50">Less than 50</option>
-                  <option value="100">Up to 100</option>
-                  <option value="up to 500">Up to 500</option>
+                  <option value="less than 200">Less than 200</option>
                   <option value="up to 1000">Up to 1000</option>
-                  <option value="more than 1000">More than 1000</option>
+                  <option value="up to 5000">Up to 5000</option>
+                  <option value="more than 5000">More than 5000</option>
                 </select>
              </fieldset>
 
              <fieldset>
-                <label class="label--small theme_type--light" for="inquiry">What is your inquiry about?</label>
-                <select required id="inquiry" name="inquiry" class="select select--theme-light">
+                <label class="label--small theme_type--light" for="inquiry">What is your main interest?</label>
+                <select id="inquiry" name="inquiry" class="select select--theme-light chevron">
                     <option selected disabled hidden value="">Select</option>
-                    <option value="learn more">Learn More</option>
-                    <option value="service manage">Service Manager</option>
-                    <option value="help desk">Help Desk</option>
-                    <option value="process automation">Process Automation</option>
-                    <option value="chatbots">Chatbots</option>
-                    <option value="monitoring">Monitoring</option>
-                    <option value="external communication">External Communication</option>
-                    <option value="internal communication">Internal Communication</option>
+                    <option value="Omnichannel/Customer Services/External Communication">Omnichannel/Customer Services/External Communication</option>
+                    <option value="Team Collaboration/Internal Communication">Team Collaboration/Internal Communication</option>
+                    <option value="ChatOps/DevOps">Help Desk</option>
+                    <option value="ISV/OEM Model">ISV/OEM Model</option>
+                    <option value="Partnership/Reseller">Partnership/Reseller</option>
+                    <option value="Pricing">Pricing</option>
                 </select>
             </fieldset>
 
             <fieldset>
-                <label class="label--small theme_type--light" for="message">Message</label>
-                <textarea required rows="7" class="input input--light" name="message" id="message" placeholder="Type your message"></textarea>
+                <label class="label--small theme_type--light" for="message">Tell us more about how can we help you?</label>
+                <textarea rows="7" class="input input--light" name="message" id="message" placeholder="For example, what are the problems you want to solve? What features are you looking for in Rocket.Chat?"></textarea>
             </fieldset>
 
             <fieldset style="display: none">
@@ -62,6 +59,7 @@
                 <label class="label--small theme_type--grey"  for="company">Solution</label>
                 <input minlength="3" maxlength="100" class="input input--dark" value="" type="text" id="solution" name="solution" placeholder="" />
             </fieldset>
+            <p class="terms">By submitting this form, you are confirming you have read and agree to our <a class="button--link" href="https://rocket.chat/terms">Terms</a> and <a class="button--link" href="https://rocket.chat/privacy">Privacy Statement</a>.</p>
 
             <div class="space--2"></div>
             <button type="submit" class="button">Send message</button>

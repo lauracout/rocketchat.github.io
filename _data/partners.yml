@@ -112,3 +112,8 @@
   website: http://unicomm.pro/
   logo: /images/partners/logos/unicomm.png
   type: technology
+
+- name: bugsnag
+  website: http://unicomm.pro/
+  logo: /images/partners/logos/bugsnag.svg
+  type: institutional

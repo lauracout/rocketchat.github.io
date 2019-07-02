@@ -35,7 +35,7 @@
 <div id="solution-form">
     <h3 class="display--small theme_type--dark"><bold>Contact Us</bold></h3>
     <div class="space--2"></div>
-    <form class="form-validate" data-validate data-source="{{page.solution}}">
+    <form id="{{ page.solution }}-form" class="form-validate" data-validate data-source="{{page.solution}}">
         <fieldset>
             <label class="label--small theme_type--grey" for="firstName">Full Name</label>
             <input required minlength="3" maxlength="100" class="input input--dark input--icon-user" type="text" id="fullName" name="fullName" placeholder="Type your full name" />

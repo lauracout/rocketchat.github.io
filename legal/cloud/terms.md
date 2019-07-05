@@ -21,7 +21,7 @@ These Customer Terms form a part of a binding "Contract" between Customer and us
 
 **Customer Data**
 
-When a User (including you) submits content or information to the Services, such as messages or files (“User Data”), you acknowledge and agree that the Customer Data is owned by Rocket.Chat he retains ownership of any intellectual property rights in that content. 
+When a User (including you) submits content or information to the Services, such as messages or files (“User Data”), he retains ownership of any intellectual property rights in that content. 
 
 With regards to Services operated directly by Rocket.Chat:
 

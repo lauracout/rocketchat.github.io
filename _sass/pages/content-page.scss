@@ -1,38 +1,4 @@
 .content-page {
-  .headroom--top {
-    &.app-header_wrap {
-      background: none !important;
-
-      &:after {
-        opacity: 0.2;
-      }
-    }
-
-    .app-header_install,
-    .app-header_menu li {
-      color: #fff;
-
-      &:hover {
-        color: $grey-light;
-      }
-    }
-
-    .app-header_menu {
-      background: none !important;
-    }
-
-    .current-page {
-      color: rgba(255, 255, 255, 0.6);
-    }
-
-    .app-header_logo .dark {
-      opacity: 0;
-    }
-
-    #handle-menu:checked ~ .app-header_menu {
-      background: #327dd8;
-    }
-  }
 
   .hero {
     background-color: $brand;

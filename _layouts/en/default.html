@@ -3,8 +3,8 @@ layout: default
 theme: light
 ---
 
-<div class="app-header {% if page.theme == 'light' %}app-header--light{% else %}app-header--black{% endif %}">
-  <header class="app-header_wrap headroom--top">
+<div class="app-header {% if page.class == 'pricing' %} {% elsif page.theme == 'light'%}app-header--light{% else %}app-header--black{% endif %} {% if page.class == 'pricing' %}top{% endif %}">
+  <header class="app-header_wrap">
     <div class="container">
       <h1 class="app-header_logo">
         <a href="/">

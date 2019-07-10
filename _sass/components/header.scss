@@ -7,12 +7,9 @@
   top: 0;
   left: 0;
   right: 0;
-  transition: all 0.4s ease;
+  transition: all 0.3s ease;
   z-index: 9999;
-
-  &.headroom--unpinned {
-    transform: translateY(-100%);
-  }
+  background-color: $space;
 
   .container {
     @include flexbox();
@@ -180,27 +177,12 @@
 
 // Dark version
 .app-header--black {
-  .headroom--not-top {
-    background: $space;
-
-    .app-header_wrap,
-    .app-header_menu {
-      background: $space;
-    }
-  }
 
   // only IE
   @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     background: $space;
 
-    .app-header_wrap,
-    .app-header_menu {
-      background: $space;
-    }
-  }
-
-  .app-header_menu {
-    @media screen and (max-width: $tablet) {
+    .app-header_wrap{
       background: $space;
     }
   }
@@ -247,10 +229,8 @@
 
 // Light version
 .app-header--light {
-  background: #fff;
 
-  .app-header_wrap,
-  .app-header_menu {
+  .app-header_wrap {
     background: #fff;
   }
 
@@ -302,7 +282,7 @@
 
 .solutions{
   display: block;
-  transition-duration: 0.5s;
+  transition-duration: 0.3s;
 
    &:hover {
      cursor: pointer;

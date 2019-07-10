@@ -228,3 +228,12 @@
   username: otavio.torres
   photo: yes
   country: Brazil
+
+- name: Marina Vdovkina
+  role: Support Analyst
+  department: Operations
+  github_username: mar-v
+  github_uid: 47217833
+  username: marina.vdovkina
+  photo: yes
+  country: Ukraine

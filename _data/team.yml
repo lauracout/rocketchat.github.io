@@ -221,6 +221,14 @@
   photo: yes
   country: Brazil
   
+- name: Markus Kirsch
+  role: Lead Security Researcher and Developer
+  department: Security
+  github_username: makibras
+  username: markus.kirsch
+  photo: yes
+  country: Brazil
+  
 - name: Otávio Torres
   role: Head of People
   department: Operations

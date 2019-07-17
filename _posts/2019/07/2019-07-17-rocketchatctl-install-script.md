@@ -1,7 +1,7 @@
 ---
 description: Join us for an introduction and demo on rocketchatctl, the new tool to easily install RocketChat server on supported Linux distributions. rocketchatctl handles dependency installation and configuration, and optionally installs a loadbalancer/proxy with auto SSL provided by Let's Encrypt.
 webinarID: 011
-webinarURL: https://open.rocket.chat/channel/webinars
+webinarURL: https://www.youtube.com/embed/fY593awNrKk
 dateEvent: 2019-07-17 13:00:00
 bgSize: cover
 bgColor: 030c1a

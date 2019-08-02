@@ -7,8 +7,12 @@
     <div class="webinar-content">
       <div class="webinar-info">
         <div class="webinar-box">
-            <a class="youtube-image-link webinar" style="background-image: url({{ page.cover }})" data-featherlight="#youtube-link"><img class="youtube-play" src="/images/default/play-circle.svg" alt="play"></a>
-            <div id="youtube-link"><iframe class="youtube-video"src="{{ page.webinarURL }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            {% if page.webinarURL %}
+              <a class="youtube-image-link webinar" style="background-image: url({{ page.cover }})" data-featherlight="#youtube-link"><img class="youtube-play" src="/images/default/play-circle.svg" alt="play"></a>
+              <div id="youtube-link"><iframe class="youtube-video"src="{{ page.webinarURL }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+            {% else %}
+              <a disabled class="youtube-image-link webinar" style="background-image: url({{ page.cover }})"></a>
+            {% endif %}
         </div>
 
         <div class="webinar-description">

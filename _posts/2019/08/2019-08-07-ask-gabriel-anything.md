@@ -7,7 +7,7 @@ bgSize: cover
 bgColor: 030c1a
 hosts:
     - Gabriel Engel
-    - Carolina Freitas
+    - Douglas Gubert
 language: USA
 gmt: -3
 cover: /images/posts/2019/08/webinar-ama.png

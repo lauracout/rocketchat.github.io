@@ -123,10 +123,3 @@
   tags:
     - Official
     - PaaS
-
-- title: Sandstorm.io
-  image: /images/install/sandstorm.png
-  link: https://rocket.chat/docs/installation/paas-deployments/sandstorm-io/
-  tags:
-    - Official
-    - PaaS

@@ -58,6 +58,7 @@
 
   @media screen and (max-width: $tablet) {
     overflow: hidden;
+    background-color: $space;
   }
 
   @media screen and (min-width: $tablet) {
@@ -322,4 +323,14 @@
       color: $brand;
     }
    }
+}
+
+.pricing {
+  .app-header_handle-menu {
+    &:before,
+    &:after,
+    span {
+      background: $space !important;
+    }
+  }
 }

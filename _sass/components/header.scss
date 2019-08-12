@@ -260,6 +260,12 @@
     }
   }
 
+  .app-header_menu {
+    @media screen and (max-width: $tablet) {
+      background-color: #fff;
+    }
+  }
+
   .app-header_install {
     border-top: 1px solid #e7ebf2;
 

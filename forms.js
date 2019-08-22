@@ -558,6 +558,9 @@ var formHelpers = {
 				case 'Lead Source':
 					jsonData['recipient'] = input.value;
 					break;
+				case 'Email':
+					jsonData['email'] = input.value;
+					break;
 				case 'CONTACTCF30':
 					jsonData['company'] = input.value;
 				case 'Description':
@@ -585,7 +588,6 @@ var formHelpers = {
 		};
 
 		http.send(JSON.stringify(jsonData));
-		debugger
 	},
 	toggleModal: function(hide) {
 		var element = document.querySelector('.modal');

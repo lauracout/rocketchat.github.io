@@ -616,6 +616,12 @@ body.solutions-page.jobs.dark {
         background: #fff;
     }
 
+    .feature {
+        @media screen and (max-width: $tablet) {
+            align-items: center;
+        }
+    }
+
     .img-row{
         display: flex;
         div {
@@ -628,7 +634,7 @@ body.solutions-page.jobs.dark {
 
     .solutions-box {
         padding: 64px 96px;
-        @media screen and (max-width: $tablet) {
+        @media screen and (max-width: $mobile) {
             margin-top: -300px;
             padding: 24px;
         }
@@ -644,7 +650,7 @@ body.solutions-page.jobs.dark {
                 padding: 0;
             }
             h3 {
-                margin: 0 !important;
+                margin: 0;
                 width: 448px;
                 height: 126px;
                 font-size: 32px;
@@ -696,6 +702,17 @@ body.solutions-page.jobs.dark {
             margin: 0;
             width: 398px;
             height: 300px;
+        }
+        @media screen and (max-width: $tablet) {
+            align-items: center;
+
+            &__text {
+                text-align: center;
+            }
+            .display--small {
+                margin: auto;
+            }
+
         }
     }
     .hero__text .button-wrap {

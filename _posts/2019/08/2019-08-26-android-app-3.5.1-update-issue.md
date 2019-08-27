@@ -1,5 +1,5 @@
 ---
-title: "Post Mortem - Android native app update 3.5.1"
+title: "Android native app upgrading failed on Google Play?"
 categories:
 - News
 date: 2019-08-26 12:00:00
@@ -8,10 +8,23 @@ cover: /images/posts/2019/08/postmortem-android-3.5.1.png
 featured: true
 ---
 
+Android native app users on Google Play may encounter failure when upgrading from 3.5 to 3.5.1.  
+
+This problem is [widely reported](https://github.com/RocketChat/Rocket.Chat.Android/issues/2461).
+
 ### 3.5.1 Android Native app is up and running
 
-Starting from the upside, we are glad to announce that the application is now operational and no damage is done.
-However, we have to ask all our Android users to reinstall the app and re-log in to their servers, as many of you have done by this time. So far no major issues have been detected with the latest app version. If you still experience any interruptions, please reach out to us at <mailto:support@rocket.chat> for help.
+First the good news, we are pleased to announce that the Android native app 3.5.1 is fully functional and no damage is done.
+
+Unfortunately, we have to ask all our Android native app users to:
+
+*  uninstall the app
+*  reinstall the app 
+*  re-login to their servers
+
+By this time, we know that many of you have already done this.
+
+So far no major issues have been detected with the latest app version. If you still experience any interruptions, please reach out to us at <mailto:support@rocket.chat> for help.
 
 ### What happened with the update?
 

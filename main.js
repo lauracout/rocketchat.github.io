@@ -161,6 +161,12 @@ $(document).ready(function() {
       $('.self-managed__container').css("display","none");
     }
   }
+
+  if(window.location.hash.substring(1) === 'thank-you' && $.featherlight) {
+    $.featherlight($('#solution-form__after-box'));
+  } else {
+    // Fragment doesn't exist
+  }
 })
 
 $('.switch').on('click', function () {

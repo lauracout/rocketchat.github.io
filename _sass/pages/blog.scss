@@ -666,6 +666,7 @@ body.post .featherlight .featherlight-content {
   padding: 0;
   margin: 0;
   bottom: 0;
+  width: unset;
   max-height: 100%;
   border: 0;
   background: rgba(0, 0, 0, 0);
@@ -674,52 +675,4 @@ body.post .featherlight .featherlight-content {
 .youtube-image-link.webinar {
   width: 100%;
   padding: 29% 0;
-}
-
-// Override for css that comes from agile CRM
-body.post form.agile-form-transparent fieldset {
-
-  .agile-group {
-    margin-left: 0;
-
-    .agile-field {
-      width: 100%;
-
-      input, select {
-        border-radius: 2px !important;
-        height: 44px;
-        background: #0B182B !important;
-        border: 1.5px solid #384A66 !important;
-
-        &::placeholder {
-          color: #A3B4CC !important;
-          font-weight: 500;
-        }
-      }
-
-      &.agile-button-field {
-        text-align: left;
-      }
-      button {
-        width: 108px;
-        height: 44px;
-        background: #1D74F5;
-        border-radius: 2px 2px 2px 2px;
-        border: none;
-      }
-    }
-  }
-
-  .agile-label {
-    padding: 7px 0 4px 0;
-    font-size: 10px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    line-height: 16px;
-  }
-
-  .agile-group label, .agile-form-transparent label.i-checks {
-    color: #A3B4CC !important;
-  }
 }

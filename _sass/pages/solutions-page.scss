@@ -444,55 +444,6 @@ body.solutions-page {
     .featherlight:last-of-type {
         background: rgba(3,12,26,.85);
     }
-    .featherlight-content {
-        background-color: $space-b;
-        width: 544px;
-        padding: 0;
-        box-shadow:  0 2px 16px 0 rgba(0, 0, 0, 0.5);
-
-        @media screen and (max-width: $tablet) {
-            width: auto;
-        }
-
-        #solution-form {
-            display: block;
-            margin: 64px 96px;
-            margin-bottom: 32px;
-
-            @media screen and (max-width: $tablet) {
-                margin: 64px 32px;
-            }
-
-
-        }
-
-        h3 {
-            font-weight: bold;
-        }
-
-        #solution-form__after-box {
-            display: block;
-            margin: 10px 30px;
-            h3 {
-                font-weight: bold;
-                font-size: 32px;
-                color: #fff;
-                margin-bottom: 24px;
-            }
-        }
-
-
-        .featherlight-close-icon {
-            background: none;
-            color: $grey;
-            font-size: 1.2em;
-            margin-right: 32px;
-            margin-top: 32px;
-        }
-    }
-    #solution-form__after-box {
-        display: none;
-    }
 
     #solution-form {
         display: none;
@@ -678,4 +629,54 @@ body.solutions-page.jobs.dark {
         }
     }
 
+}
+
+body .featherlight .featherlight-content {
+    background-color: $space-b;
+    width: 544px;
+    padding: 0;
+    box-shadow:  0 2px 16px 0 rgba(0, 0, 0, 0.5);
+
+    @media screen and (max-width: $tablet) {
+        width: auto;
+    }
+
+    #solution-form {
+        display: block;
+        margin: 64px 96px;
+        margin-bottom: 32px;
+
+        @media screen and (max-width: $tablet) {
+            margin: 64px 32px;
+        }
+
+
+    }
+
+    h3 {
+        font-weight: bold;
+    }
+
+    #solution-form__after-box {
+        display: block;
+        margin: 10px 30px;
+        h3 {
+            font-weight: bold;
+            font-size: 32px;
+            color: #fff;
+            margin-bottom: 24px;
+        }
+    }
+
+
+    .featherlight-close-icon {
+        background: none;
+        color: $grey;
+        font-size: 1.2em;
+        margin-right: 32px;
+        margin-top: 32px;
+    }
+}
+#solution-form__after-box {
+    display: none;
 }

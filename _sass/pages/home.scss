@@ -485,6 +485,7 @@ body.index .featherlight .featherlight-content {
     max-height: 100%;
     border: 0;
     background: rgba(0, 0, 0, 0);
+    width: unset;
 }
 
 .youtube-video {
@@ -538,7 +539,7 @@ body.index .featherlight .featherlight-content {
   }
 }
 
-.featherlight-content > #youtube-link {
+body.index .featherlight .featherlight-content > #youtube-link {
   display: block;
   width: 70vw;
   height: 90vh;

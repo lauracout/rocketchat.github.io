@@ -66,8 +66,9 @@
 
   var createCategoriesList = function (categories) {
     var list = ''
+    var length = categories.length < 2 ? categories.length : 2;
 
-    for (var i = 0; i < categories.length; i++) {
+    for (var i = 0; i < length; i++) {
       list += '<li class="categories-list-item"><span class="app-category">' + categories[i] + '</span></li>'
     }
 

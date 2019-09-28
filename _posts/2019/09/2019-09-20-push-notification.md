@@ -3,7 +3,7 @@ title: "Changes to notification behavior"
 categories:
 - News
 - Product
-date: 2019-09-20 12:00:00
+date: 2019-09-27 21:50:00
 author: Diego Sampaio
 cover: /images/posts/2019/09/push/bell.jpg
 featured: true

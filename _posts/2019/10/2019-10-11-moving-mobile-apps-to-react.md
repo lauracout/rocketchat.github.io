@@ -5,7 +5,7 @@ categories:
 - Product
 date: 2019-10-11 21:50:00
 author: Rodrigo Nascimento
-cover: /images/posts/2019/10/2019-10-11-monving-mobile-apps-to-react.png
+cover: /images/posts/2019/10/2019-10-11-moving-mobile-apps-to-react.png
 featured: true
 ---
 

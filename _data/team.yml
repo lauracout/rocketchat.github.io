@@ -83,15 +83,6 @@
   photo: yes
   country: Brazil
 
-- name: Filipe Brito
-  role: Android Engineer
-  github_username: filipedelimabrito
-  github_uid: 11776825
-  department: Development
-  username: filipe.brito
-  photo: yes
-  country: Brazil
-
 - name: Jonas Friedmann
   role: Support Analyst
   github_username: frdmn

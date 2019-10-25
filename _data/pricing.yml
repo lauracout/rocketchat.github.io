@@ -355,8 +355,8 @@
 
 - title: "SLA - Monthly Uptime"
   bronze: ""
-  silver: "99.99%"
-  gold: "99.99%"
+  silver: "99.9%"
+  gold: "99.9%"
 
 - title: "Backups"
   bronze: "Daily"

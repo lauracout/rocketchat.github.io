@@ -631,8 +631,15 @@ body.solutions-page.jobs.dark {
 
 }
 
-body .featherlight .featherlight-content {
+body.solutions-page .featherlight .featherlight-content {
     background-color: $space-b;
+}
+
+body.pricing .featherlight .featherlight-content {
+    background-color: #fff;
+}
+
+body .featherlight .featherlight-content {
     width: 544px;
     padding: 0;
     box-shadow:  0 2px 16px 0 rgba(0, 0, 0, 0.5);

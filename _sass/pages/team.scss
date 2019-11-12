@@ -79,6 +79,10 @@
     .team-map__profile {
       animation: 1s 1.2s appearsBox forwards;
       transform: translate(1.5em, -2em);
+
+      &:after {
+        left: -10px;
+      }
     }
   }
 
@@ -159,6 +163,10 @@
     .team-map__profile {
       animation: 1s 1.7s appearsBox forwards;
       transform: translate(1.5em, -2em);
+
+      &:after {
+        left: -9px;
+      }
     }
   }
 
@@ -172,7 +180,6 @@
       transform: translate(1.5em, -2em);
 
       &:after {
-        top: calc(50% - 0.38em);
         left: -10px;
       }
     }

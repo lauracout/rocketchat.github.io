@@ -161,6 +161,22 @@
       transform: translate(1.5em, -2em);
     }
   }
+
+  &.china {
+    top: 58.0%;
+    left: 78.2%;
+    animation: 1s 1s appears forwards;
+
+    .team-map__profile {
+      animation: 1s 1.8s appearsBox forwards;
+      transform: translate(1.5em, -2em);
+
+      &:after {
+        top: calc(50% - 0.38em);
+        left: -10px;
+      }
+    }
+  }
 }
 
 @include keyframes(appears) {

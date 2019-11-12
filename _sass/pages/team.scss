@@ -79,6 +79,10 @@
     .team-map__profile {
       animation: 1s 1.2s appearsBox forwards;
       transform: translate(1.5em, -2em);
+
+      &:after {
+        left: -10px;
+      }
     }
   }
 
@@ -159,6 +163,25 @@
     .team-map__profile {
       animation: 1s 1.7s appearsBox forwards;
       transform: translate(1.5em, -2em);
+
+      &:after {
+        left: -9px;
+      }
+    }
+  }
+
+  &.china {
+    top: 58.0%;
+    left: 78.2%;
+    animation: 1s 1s appears forwards;
+
+    .team-map__profile {
+      animation: 1s 1.8s appearsBox forwards;
+      transform: translate(1.5em, -2em);
+
+      &:after {
+        left: -10px;
+      }
     }
   }
 }

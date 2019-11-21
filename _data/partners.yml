@@ -126,7 +126,7 @@
 - name: Fairkom
   website: https://www.fairkom.eu/en/rocketchat
   logo: /images/partners/logos/fairkom.png
-  type: value added
+  type: isv
 
 - name: FreightWaves
   website: https://www.freightwaves.com/

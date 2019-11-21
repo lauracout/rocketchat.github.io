@@ -29,7 +29,6 @@ theme: dark
     <div class="col--third">
       <h3 class="display--small theme_type--dark">Features</h3>
       <p class="theme_type--grey">Rocket.Chat has supported bots since the beginning, with our internal Hubot and adapter, enabling chat-ops workflows with multi-channel, multi-user, public and private interactions.</p>
-      <p class="theme_type--grey">Our roadmap has a bunch of new headline features and plenty of priority issues that will unlock the potential for community contributions.</p>
     </div>
   </div>
 
@@ -51,7 +50,7 @@ theme: dark
       </p>
     </div>
     <div class="col--third">
-      <h3 class="display--small theme_type--dark">Roadmap</h3>
+    <p class="theme_type--grey">Rocket.Chat has a bunch of new headline features and plenty of priority issues that will unlock the potential for community contributions.</p>
       <ul class="theme_type--grey list">
         <li><a class="button--link" target="_blank" href="//github.com/RocketChat/hubot-natural">Hubot Natural bringing NLP to Rocket.Chat</a></li>
         <li><a class="button--link" target="_blank" href="//github.com/RocketChat/Rocket.Chat/issues/6786#issuecomment-381461138">Rich messages and payloads for buttons and cards</a></li>

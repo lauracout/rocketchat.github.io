@@ -28,7 +28,7 @@ theme: dark
     </div>
     <div class="col--third">
       <h3 class="display--small theme_type--dark">Features</h3>
-      <p class="theme_type--grey">Rocket.Chat has supported bots since the beginning, with our internal Hubot and adapter, enabling chat-ops workflows with multi-channel, multi-user, public and private interactions.</p>
+      <p class="theme_type--grey">Rocket.Chat has supported bots since the beginning, enabling chat-ops workflows with multi-channel, multi-user, public and private interactions.</p>
     </div>
   </div>
 
@@ -50,15 +50,8 @@ theme: dark
       </p>
     </div>
     <div class="col--third">
-    <p class="theme_type--grey">Rocket.Chat has a bunch of new headline features and plenty of priority issues that will unlock the potential for community contributions.</p>
-      <ul class="theme_type--grey list">
-        <li><a class="button--link" target="_blank" href="//github.com/RocketChat/hubot-natural">Hubot Natural bringing NLP to Rocket.Chat</a></li>
-        <li><a class="button--link" target="_blank" href="//github.com/RocketChat/Rocket.Chat/issues/6786#issuecomment-381461138">Rich messages and payloads for buttons and cards</a></li>
-        <li><a class="button--link" target="_blank" href="//github.com/RocketChat/Rocket.Chat/issues/7125#issuecomment-381473953">Bot user creation and management view</a></li>
-        <li><a class="button--link" target="_blank" href="//github.com/RocketChat/Rocket.Chat/issues/10459">Improve rooms list with separation of bots</a></li>
-        <li><a class="button--link" target="_blank" href="//github.com/RocketChat/Rocket.Chat/issues/10458">Rocket.Chat Apps boilerplate bot to replace internal Hubot</a></li>
-      </ul>
-      <p class="theme_type--grey"> See our <a class="button--link" target="_blank" href="https://github.com/RocketChat/Rocket.Chat/projects/16">Bots project issues</a> to contribute or follow progress.</p>
+    <p class="theme_type--grey">Rocket.Chat continues to develop new features that enhance the BOT creator's experience and extend their capabilities. For example, <a class="button--link" target="_blank" href="//github.com/RocketChat/Rocket.Chat/issues/6786#issuecomment-381461138">Rich messages and payloads for buttons and cards</a></p>
+    <p class="theme_type--grey"> See our <a class="button--link" target="_blank" href="https://github.com/RocketChat/Rocket.Chat/projects/16">Bots project issues</a> for more information.</p>
     </div>
   </div>
 </section>

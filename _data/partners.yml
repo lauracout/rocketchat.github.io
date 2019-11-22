@@ -123,6 +123,11 @@
   logo: /images/partners/logos/bugsnag.svg
   type: institutional
 
+- name: LingoHub
+  website: https://www.lingohub.com/
+  logo: /images/partners/logos/lingohub.svg
+  type: institutional
+
 - name: Fairkom
   website: https://www.fairkom.eu/en/rocketchat
   logo: /images/partners/logos/fairkom.png

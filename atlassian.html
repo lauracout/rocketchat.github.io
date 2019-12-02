@@ -8,6 +8,7 @@ description: |
 permalink: /atlassian
 
 theme: light
+lang: en
 
 redirect_from:
   - /atlassian/
@@ -81,52 +82,7 @@ redirect_from:
 <section class="container">
     <div class="flex-grid grid--justify-around">
         <div class="col">
-            <div class="container home-enterprise content-page__features">
-                <div class="theme_box--brand card--shadow">
-                    <div class="home-box">
-                        <div class="home-box__wrap">
-                        <p class="label theme_type--kinda-white">Unlimited &amp; open source</p>
-                        <h2 class="display theme_type--dark">Features</h2>
-                        <p class="theme_type--kinda-white">Audio and video conferencing, guest access, screen sharing, file sharing, LiveChat, LDAP Group Sync, two-factor authentication (2FA), E2E encryption, SSO, and dozens of OAuth providers.</p>
-                        <p class="theme_type--dark">Also includes unlimited:</p>
-
-                        <div class="list flex-grid">
-                            <div class="col">
-                            <p class="theme_type--dark flex-grid--nobreak">
-                                <span class="list-img"><img src="/images/index/users.svg" alt="Users" /> </span>
-                                <span>Users</span>
-                            </p>
-                            <p class="theme_type--dark flex-grid--nobreak">
-                                <span class="list-img"><img src="/images/index/channels.svg" alt="Channels" /> </span>
-                                <span>Channels</span>
-                            </p>
-                            <p class="theme_type--dark flex-grid--nobreak">
-                                <span class="list-img"><img src="/images/index/searches.svg" alt="Searches" /> </span>
-                                <span>Searches</span>
-                            </p>
-                            </div>
-
-                            <div class="col">
-                            <p class="theme_type--dark flex-grid--nobreak">
-                                <span class="list-img"><img src="/images/index/messages.svg" alt="Messages" /> </span>
-                                <span>Messages</span>
-                            </p>
-                            <p class="theme_type--dark flex-grid--nobreak">
-                                <span class="list-img"><img src="/images/index/guests.svg" alt="Guests" /> </span>
-                                <span>Guests</span>
-                            </p>
-                            <p class="theme_type--dark flex-grid--nobreak">
-                                <span class="list-img"><img src="/images/index/upload.svg" alt="File uploads" /> </span>
-                                <span>File uploads</span>
-                            </p>
-                            </div>
-                        </div>
-                        </div>
-
-                        <img class="home-box__image" src="/images/index/enterprise.svg" />
-                    </div>
-                </div>
-            </div>
+            {% include components/features-box.html lang=include.lang class="content-page__features" %}
         </div>
     </div>
 </section>

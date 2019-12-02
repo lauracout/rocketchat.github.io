@@ -1,0 +1,22 @@
+en:
+  enterprise_label: Unlimited & Open Source
+  enterprise_title: Features
+  enterprise_description: Free audio and video conferencing, guest access, screen sharing, file sharing, LiveChat, LDAP Group Sync, two-factor authentication (2FA), E2E encryption, SSO, and dozens of OAuth providers.
+  enterprise_description2: "Also includes unlimited:"
+  users: Users
+  channels: Channels
+  searches: Searches
+  messages: Messages
+  guests: Guests
+  file-uploads: File Uploads
+pt:
+  enterprise_label: Ilimitado & Open Source
+  enterprise_title: Funcionalidades
+  enterprise_description: Conferência de áudio e vídeo gratuita, acesso de convidado, compartilhamento de tela, compartilhamento de arquivos, LiveChat, LDAP Group Sync, autenticação de dois fatores (2FA), criptografia E2E, SSO e dezenas de provedores OAuth.
+  enterprise_description2: "Também inclui ilimitado:"
+  users: Usuários
+  channels: Canais
+  searches: Pesquisas
+  messages: Mensagens
+  guests: Convidados
+  file-uploads: Uploads de arquivos

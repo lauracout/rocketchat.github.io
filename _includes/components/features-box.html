@@ -1,0 +1,50 @@
+{% assign tf = site.data.i18n-features-box[include.lang] %}
+{% assign tg = site.data.i18n-general[include.lang] %}
+
+
+<section class="container home-enterprise {{include.class}}">
+    <div class="theme_box--brand card--shadow">
+      <div class="home-box">
+        <div class="home-box__wrap">
+          <p class="label theme_type--kinda-white">{{tf.enterprise_label}}</p>
+          <h2 class="display theme_type--dark">{{tf.enterprise_title}}</h2>
+          <p class="theme_type--kinda-white">{{tf.enterprise_description}}</p>
+          <p class="theme_type--dark">{{tf.enterprise_description2}}</p>
+
+          <div class="list flex-grid">
+            <div class="col">
+              <p class="theme_type--dark flex-grid--nobreak">
+                <span class="list-img"><img src="/images/index/users.svg" alt="Users" /> </span>
+                <span>{{tf.users}}</span>
+              </p>
+              <p class="theme_type--dark flex-grid--nobreak">
+                <span class="list-img"><img src="/images/index/channels.svg" alt="Channels" /> </span>
+                <span>{{tf.channels}}</span>
+              </p>
+              <p class="theme_type--dark flex-grid--nobreak">
+                <span class="list-img"><img src="/images/index/searches.svg" alt="Searches" /> </span>
+                <span>{{tf.searches}}</span>
+              </p>
+            </div>
+
+            <div class="col">
+              <p class="theme_type--dark flex-grid--nobreak">
+                <span class="list-img"><img src="/images/index/messages.svg" alt="Messages" /> </span>
+                <span>{{tf.messages}}</span>
+              </p>
+              <p class="theme_type--dark flex-grid--nobreak">
+                <span class="list-img"><img src="/images/index/guests.svg" alt="Guests" /> </span>
+                <span>{{tf.guests}}</span>
+              </p>
+              <p class="theme_type--dark flex-grid--nobreak">
+                <span class="list-img"><img src="/images/index/upload.svg" alt="File uploads" /> </span>
+                <span>{{tf.file-uploads}}</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <img class="home-box__image" src="/images/index/enterprise.svg" />
+      </div>
+    </div>
+  </section>

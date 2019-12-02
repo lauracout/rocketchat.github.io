@@ -1,0 +1,301 @@
+
+
+{% assign th = site.data.i18n-home[include.lang] %}
+{% assign tg = site.data.i18n-general[include.lang] %}
+
+<div class="home-backgrounds">
+    <div class="home-landingpage__stars"></div>
+    <div class="home-landingpage__planets"></div>
+
+    <section class="banner container">
+      <div class="col">
+        <div class="banner_wrap align--center {% if page.theme == 'light' %}card theme_box--light{% else %}card theme_box--dark-strong{% endif %}">
+        <div  class="{% if page.theme == 'dark' %}theme_type--grey{% endif %}"> Moving from Atlassian Hipchat? 🚀 <a id="atlassian-home-link" target="_blank" href="https://rocket.chat/atlassian" rel="noopener noreferrer"> <strong>Welcome to Rocket.Chat!</strong></a>
+        </div>
+      </div>
+    </section>
+
+    <div class=" home-hero">
+      <section class="container">
+        <div class="home-hero_wrap home-landingpage">
+          <h1 class="display--big theme_type--dark">{{th.home-hero_title}}</h1>
+          <p class="display--small theme_type--grey">{{th.home-hero_description}}</p>
+          <div class="install-buttons">
+            <a href="//cloud.rocket.chat/trial/bronze" rel="noopener noreferrer" class="button">{{th.home-hero_trial_button}}</a>
+            <a href="/install" class="button button--ghost">{{th.home-hero_install_button}}</a>
+          </div>
+        </div>
+
+        <img
+          class="home-hero_image"
+          src="/images/index/devices.png" alt="Rocket Chat apps"
+        />
+      </section>
+    </div>
+
+    <div class="space--8"></div>
+
+    <section class="container" style="z-index:1000">
+        <div class="card theme_box--light-strong clients">
+          <p class="label theme_type--grey align--center">{{th.clients_trusted_by}}</p>
+          {% include client-slideshow.html %}
+        </div>
+      </section>
+
+    <div class="space--8"></div>
+    <div class="space--8"></div>
+
+    <div class="container home-landingpage">
+      <div class="flex-grid grid--justify-around grid--reverse">
+        <div class="col--third">
+          <h2 class="display theme_type--dark">{{th.home-landingpage_title}}</h2>
+          <p class="theme_type--grey">{{th.home-landingpage_description_1}}</p>
+          <p class="theme_type--grey">{{th.home-landingpage_description_2}}</p>
+        </div>
+
+        <div class="col--third">
+          <img class="home-landingpage__mail" src="/images/index/landingpage-mail.svg" alt="Our mission Replace Email" />
+        </div>
+      </div>
+    </div>
+
+    <div class="space--8"></div>
+
+    <div class="container home-landingpage">
+      <div class="flex-grid grid--justify-around">
+        <div class="col--third">
+          <h2 class="display theme_type--dark">{{th.home-landingpage2_title}}</h2>
+          <p class="theme_type--grey">{{th.home-landingpage2_description_1}}</p>
+          <p class="theme_type--grey">{{th.home-landingpage2_description_2}}</p>
+        </div>
+
+        <div class="col--third">
+          <img class="home-landingpage__chat" src="/images/index/landingpage-teamchat.svg" alt="Our mission Team Chat" />
+        </div>
+      </div>
+    </div>
+
+    <div class="space--8"></div>
+
+    <div class="container home-landingpage">
+        <div class="flex-grid grid--justify-around grid--reverse">
+          <div class="col--third">
+            <h2 class="display theme_type--dark">{{th.home-landingpage3_title}}</h2>
+            <p class="theme_type--grey">{{th.home-landingpage3_description_1}}</p>
+            <p class="theme_type--grey">{{th.home-landingpage3_description_2}}</p>
+            <p class="theme_type--grey"> {{th.home-landingpage3_watch_now}}<br> <a class="button--link youtube-text-link" data-featherlight="#youtube-link">{{tg.english}}</a> {{tg.or}} <a class="button--link youtube-text-link pt" data-featherlight="#youtube-link">{{tg.portuguese}}</a></p>
+          </div>
+
+          <div class="col">
+            <a class="youtube-image-link" data-featherlight="#youtube-link"><img class="youtube-play" src="/images/default/play-circle.svg" alt="play"></a>
+            <div id="youtube-link"><iframe class="youtube-video"src="https://www.youtube.com/embed/IzJ11kvM-P8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="space--8"></div>
+
+    <section class="container">
+      <div class="home-box home-community">
+        <div class="home-box__wrap">
+          <p class="label theme_type--grey">{{th.home-community_label}}</p>
+          <h2 class="display theme_type--dark">{{th.home-community_title}}</h2>
+          <p class="theme_type--grey">{{th.home-community_description}}</p>
+          <p class="theme_type--grey">{{th.home-community_description2}}<a class="button--link" href="//open.rocket.chat/" target="_blank" rel="noopener noreferrer">open.rocket.chat</a></p>
+          <a class="home-community_github" target="_blank" rel="noopener noreferrer" href="//github.com/RocketChat/Rocket.Chat/stargazers">
+            <span><img style="top: 0.1em;"src="/images/default/star.svg" alt="GitHub Stars">Star</span>
+            <span class="star-count">{{site.stars}}K</span>
+          </a>
+          <a class="home-community_github" target="_blank" rel="noopener noreferrer" href="//github.com/RocketChat/Rocket.Chat/fork">
+            <span><img src="/images/default/fork.svg" alt="GitHub forks">Fork</span>
+            <span class="fork-count">{{site.forks}}K</span>
+          </a>
+          <a class="home-community_github-link" target="_blank" rel="noopener noreferrer" href="//github.com/RocketChat/Rocket.Chat">
+            <span><img src="/images/default/github.svg" alt="GitHub"></span>
+            {{tg.open_on_github}}
+          </a>
+        </div>
+      </div>
+
+      <div class="space--8"></div>
+
+      <div class="flex-grid grid--justify-around">
+        <div class="col--third">
+          <h3 class="theme_type--dark display--small"><strong>{{th.secure-conversation_title}}</strong></h3>
+          <p class="theme_type--grey">{{th.secure-conversation_description}}</p>
+        </div>
+
+        <div class="col--third">
+          <h3 class="theme_type--dark display--small"><strong>{{th.blockchain_title}}</strong></h3>
+          <p class="theme_type--grey">{{th.blockchain_description}}<a class="button--link" href="//rocket.chat/docs/administrator-guides/import/slack//" target="_blank" rel="noopener noreferrer">Slack Importer</a> {{tg.and}} <a class="button--link" href="//rocket.chat/docs/administrator-guides/import/slack/slackbridge/" target="_blank" rel="noopener noreferrer">Slack Bridge</a>.</p>
+          <p class="theme_type--grey">{{th.migrating_from}} <a class="button--link" href="//rocket.chat/atlassian/" target="_blank" rel="noopener noreferrer">Atlassian?</a> {{th.choose_from}} <a class="button--link" href="//rocket.chat/docs/administrator-guides/import/hipchat/" target="_blank" rel="noopener noreferrer">{{th.hipchat_importers}}</a>.</p>
+          <p><a href="//rocket.chat/docs/administrator-guides/import/" class="button--link button--with-arrow">{{th.learn_about_importing}}</a></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="space--6"></div>
+  </div>
+
+  {% include components/features-box.html lang=include.lang %}
+
+  <section class="theme_box--white">
+    <div class="container">
+      <div class="flex-grid grid--justify-around grid--reverse">
+        <div class="col--third">
+          <div class="space--2"></div>
+          <p class="label theme_type--light">{{tg.feature}}</p>
+          <h2 class="display">LiveChat</h2>
+          <p class="theme_type--light">{{th.livechat_description1}}</p>
+          <p class="theme_type--light">{{th.livechat_description2}}</p>
+        </div>
+
+        <div class="col--third">
+          <img src="/images/index/live-chat.svg" alt="Live Chat"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="space--4"></div>
+
+    <div class="container">
+      <div class="flex-grid grid--justify-around">
+        <div class="col--third">
+          <div class="space--2"></div>
+          <p class="label theme_type--light">{{tg.feature}}</p>
+          <h2 class="display">{{th.realtime_title}}</h2>
+          <p class="theme_type--light">{{th.realtime_description1}}</p>
+          <p class="theme_type--light">{{th.realtime_description2}}</p>
+        </div>
+
+        <div class="col--third">
+          <img src="/images/index/translate.svg" alt="translate translation"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="space--4"></div>
+
+    <div class="container">
+      <div class="card theme_box--brand home-install">
+        <div class="wrap">
+          <p class="label theme_type--kinda-white">Web, Desktop &amp; Mobile</p>
+          <h2 class="display theme_type--dark">{{th.home-install_title}}</h2>
+          <p class="theme_type--kinda-white">{{th.home-install_description}}</p>
+
+          <div class="home-install__icons">
+            <img src="/images/install/windows.svg" alt="Rocket.Chat for Windows" />
+            <img src="/images/install/macos.svg" alt="Rocket.Chat for MacOS" />
+            <img src="/images/install/linux.png" alt="Rocket.Chat for Linux" />
+            <img src="/images/install/ios.svg" alt="Rocket.Chat for iOS" />
+            <img src="/images/install/android.svg" alt="Rocket.Chat for Android" />
+          </div>
+
+          <div class="space--2"></div>
+
+          <div class="home-install__button">
+            <a href="/install" class="button--blank theme_type--brand" title="install">
+              <span class="button--icon"><img src="/images/default/install.svg" alt="Install"></span>
+              <span>{{tg.install}}</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="space--4"></div>
+
+    <div class="container">
+      <div class="flex-grid grid--justify-around align--center">
+        <div class="col--haft no-gutter">
+          <p class="label theme_type--light">{{tg.feature}}</p>
+          <h2 class="display">{{th.customization_title}}</h2>
+          <p class="theme_type--light type--nomargin">{{th.customization_description}}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="space--4"></div>
+
+    <div class="container home-endless">
+      <div class="flex-grid grid--justify-around">
+        <div class="col--three-quarter align--center">
+          <div class="flex-grid">
+            <div class="col">
+              <img width="70px" src="/images/index/icon__integrations.png" alt="Integrations" />
+              <div class="space--075"></div>
+              <h2 class="theme_type--space"><strong>{{th.integrations_title}}</strong></h2>
+              <p class="theme_type--light">{{th.integrations_description}}</p>
+            </div>
+            <div class="col">
+              <img width="70px" src="/images/index/icon__plugins.png" alt="Plugins" />
+              <div class="space--075"></div>
+              <h2 class="theme_type--space"><strong>{{th.plugins_title}}</strong></h2>
+              <p class="theme_type--light">{{th.plugins_description}}</p>
+            </div>
+            <div class="col">
+              <img width="70px" src="/images/index/icon__themes.png" alt="Themes" />
+              <div class="space--075"></div>
+              <h2 class="theme_type--space"><strong>{{th.themes_title}}</strong></h2>
+              <p class="theme_type--light">{{th.themes_description}}</p>
+            </div>
+          </div>
+
+          <div class="flex-grid">
+            <div class="col">
+              <img width="70px" src="/images/index/icon__api.png" alt="Powerful APIs" />
+              <div class="space--075"></div>
+              <h2 class="theme_type--space"><strong>{{th.api_title}}</strong></h2>
+              <p class="theme_type--light">{{th.api_description}}</p>
+            </div>
+            <div class="col">
+              <img width="70px" src="/images/index/icon__import.png" alt="Data Importers" />
+              <div class="space--075"></div>
+              <h2 class="theme_type--space"><strong>{{th.importers_title}}</strong></h2>
+              <p class="theme_type--light">{{th.importers_description}}</p>
+            </div>
+            <div class="col">
+              <img width="70px" src="/images/index/icon__market.png" alt="Marketplace" />
+              <div class="space--075"></div>
+              <h2 class="theme_type--space"><strong>{{th.marketplace_title}}</strong></h2>
+              <p class="theme_type--light">{{th.marketplace_description}}</p>
+              <a target="_blank" href="/marketplace" rel="noopener noreferrer">Find apps now!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="home-customization">
+      <div class="home-customization__scroll-view">
+        <img
+          srcset="/images/index/sidebars@1x.png, /images/index/sidebars@2x.png 2x, /images/index/sidebars@3x.png 3x"
+          src="/images/index/sidebars@1x.png" alt="Endless Customization"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+
+    <div class="space--6"></div>
+
+    <section class="container">
+      <div class="card theme_box--dark-strong partner-box">
+        <div class="wrap">
+          <p class="label theme_type--grey">Become a partner</p>
+          <h2 class="display theme_type--dark">Join the Rocket.Chat ecosystem and become a partner</h2>
+          <p class="theme_type--grey">Contact us to find out  how you could become an approved Rocket.Chat partner</p>
+          <a class="button" href="/become-partner">Become Partner</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="flex-grid grid--justify-around align--center">
+      <div class="col--haft no-gutter">
+      </div>
+    </div>
+
+    <div class="space--2"></div>
+
+  </section>

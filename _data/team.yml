@@ -264,3 +264,11 @@
   username: eduardo.pereira
   photo: no
   country: USA
+
+- name: Rogerio Saboia
+  role: Support Engineer
+  department: Operations
+  github_username: rsjr
+  username: rogerio.saboia
+  photo: no
+  country: Brazil

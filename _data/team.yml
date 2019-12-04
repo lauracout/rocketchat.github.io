@@ -265,6 +265,14 @@
   photo: no
   country: USA
 
+- name: Alexandre Fornes
+  role: Business Development Manager - Latam
+  department: Sales
+  github_username: alexandrefornes75
+  username: alexandre.fornes
+  photo: yes
+  country: Brazil
+  
 - name: Rogerio Saboia
   role: Support Engineer
   department: Operations

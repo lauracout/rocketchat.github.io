@@ -273,19 +273,19 @@
   photo: yes
   country: Brazil
   
+- name: William Valle
+  role: Inside Sales Representative
+  department: Sales
+  github_username: williamcvalle
+  username: william.valle
+  photo: yes
+  country: Brazil
+  
 - name: Rogerio Saboia
   role: Support Engineer
   department: Operations
   github_username: rsjr
   username: rogerio.saboia
   photo: yes
-  country: Brazil
-  
-  - name: William Valle
-  role: Inside Sales Representative
-  department: Sales
-  github_username: williamcvalle
-  username: william.valle
-  photo: no
   country: Brazil
 

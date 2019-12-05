@@ -247,15 +247,6 @@
   username: djorkaeff.alexandre
   photo: no
   country: Brazil
-
-- name: Shiqi Mei
-  role: Rocket.Chat Apps Developer
-  department: Rocket.Chat Apps
-  github_username: lolimay
-  github_uid: 32427260
-  username: shiqi.mei
-  photo: no
-  country: China
   
 - name: Eduardo Pereira
   role: Head of Sales North America
@@ -280,6 +271,15 @@
   username: william.valle
   photo: yes
   country: Brazil
+  
+- name: Shiqi Mei
+  role: Rocket.Chat Apps Developer
+  department: Rocket.Chat Apps
+  github_username: lolimay
+  github_uid: 32427260
+  username: shiqi.mei
+  photo: yes
+  country: China
   
 - name: Rogerio Saboia
   role: Support Engineer

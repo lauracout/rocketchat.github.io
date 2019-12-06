@@ -281,12 +281,12 @@
   photo: yes
   country: China
   
-  - name: Rogerio Saboia
-  role: Support Engineer
+  - name: Laura Coutinho
+  role: Talent Acquisition
   department: Operations
-  github_username: rsjr
-  username: rogerio.saboia
-  photo: yes
+  github_username: lauracout
+  username: laura.coutinho
+  photo: no
   country: Brazil
 
 - name: Rogerio Saboia

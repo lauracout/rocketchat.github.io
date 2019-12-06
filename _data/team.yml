@@ -280,7 +280,15 @@
   username: shiqi.mei
   photo: yes
   country: China
-  
+ 
+- name: Laura Coutinho
+  role: Talent Acquisition
+  department: Operations
+  github_username: lauracout
+  username: laura.coutinho
+  photo: no
+  country: Brazil
+
 - name: Rogerio Saboia
   role: Support Engineer
   department: Operations

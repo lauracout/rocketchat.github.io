@@ -281,6 +281,14 @@
   photo: yes
   country: China
   
+  - name: Rogerio Saboia
+  role: Support Engineer
+  department: Operations
+  github_username: rsjr
+  username: rogerio.saboia
+  photo: yes
+  country: Brazil
+
 - name: Rogerio Saboia
   role: Support Engineer
   department: Operations
